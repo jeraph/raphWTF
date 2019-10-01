@@ -1,0 +1,80 @@
+VER 3 0000000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=target/6 Seal of the Crusader, Judgement, Seal of Righteousness
+END
+VER 3 0000000000000010 " " "132152"
+#showtooltip Attack
+/petattack
+END
+VER 3 0000000000000019 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Attack
+/castsequence reset=2 !Shoot, null
+END
+VER 3 000000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/run SetRaidTarget("target",6)
+/cast Polymorph
+END
+VER 3 0000000000000008 " " "136081"
+#showtooltip Rejuvenation
+/stopcasting
+/cast Rejuvenation
+END
+VER 3 000000000000000D " /follow" "132144"
+/target party1
+/follow
+/train
+END
+VER 3 000000000000001B " Accept" "136210"
+/click StaticPopup1Button1
+END
+VER 3 000000000000001A " Decline" "136190"
+/click StaticPopup1Button2
+END
+VER 3 0000000000000001 "/assist p1" "132092"
+/target party1
+/assist
+END
+VER 3 0000000000000002 "/assist p2" "132092"
+/target party2
+/assist
+END
+VER 3 0000000000000018 "/camp" "INV_MISC_QUESTIONMARK"
+/camp
+END
+VER 3 0000000000000006 "/cheer" "135818"
+/cheer
+END
+VER 3 0000000000000005 "/clap" "136188"
+/clap
+END
+VER 3 000000000000001C "/follow2" "132144"
+/target party2
+/follow
+END
+VER 3 000000000000000A "/laugh" "132103"
+/laugh
+END
+VER 3 000000000000000B "/thanks" "132165"
+/thanks
+END
+VER 3 0000000000000009 "/train" "132161"
+/train
+END
+VER 3 0000000000000011 "MOUSE" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/cast [target=mouseover] Polymorph
+/run SetRaidTarget("target",6)
+END
+VER 3 0000000000000003 "P3" "132092"
+/target party3
+/assist
+END
+VER 3 0000000000000004 "P4" "132092"
+/target party4
+/assist
+END
+VER 3 0000000000000015 "WAIT" "136144"
+/wait
+END

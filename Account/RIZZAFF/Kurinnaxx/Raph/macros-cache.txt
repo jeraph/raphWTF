@@ -1,0 +1,10 @@
+VER 3 0000000001000002 "intFrost" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [@player] reset=3 Arcane Intellect, Frost Armor
+END
+VER 3 0000000001000001 "tarPoly" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/run SetRaidTarget("mouseover", 8)
+/stopcasting
+/cast [target=mouseover] Polymorph
+END

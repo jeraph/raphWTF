@@ -1,0 +1,26 @@
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount
+/cancelform [noform:3]
+/cast !Cat Form
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] Moonfire; Rejuvenation
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] Wrath; Healing Touch
+END
+VER 3 0000000001000002 " MO" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,help][@player] Rejuvenation
+END
+VER 3 0000000001000005 " MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [@target,help][@mouseover,help][@player] reset=3/target Thorns, Mark of the Wild
+END
+VER 3 0000000001000003 " MO" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,help][@player] Healing Touch
+END

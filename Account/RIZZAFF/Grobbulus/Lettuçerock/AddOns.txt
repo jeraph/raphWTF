@@ -1,0 +1,3 @@
+WeakAurasCompanion: enabled
+AllyRoute: disabled
+WeaponSwingTimer: disabled

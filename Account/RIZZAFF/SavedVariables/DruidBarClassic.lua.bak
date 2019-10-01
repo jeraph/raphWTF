@@ -1,0 +1,57 @@
+
+DruidBarKey = {
+	["bgcolor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.5, -- [4]
+	},
+	["color"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["DontShiftBack"] = false,
+	["Minimap"] = true,
+	["subtractmana"] = 0,
+	["int"] = 0,
+	["currentmana"] = 0,
+	["BearMessage"] = {
+		"ROAR! ROAR I SAY! I guess there's no denyin'...", -- [1]
+		"SAY", -- [2]
+	},
+	["Enabled"] = true,
+	["OOMMessage"] = {
+		"IMMA CHARGIN' MAH LAZOR", -- [1]
+		"SAY", -- [2]
+	},
+	["barstrata"] = 2,
+	["tempW"] = 170,
+	["tempH"] = 18,
+	["maxmana"] = 10,
+	["bordercolor"] = {
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["borderstrata"] = "BACKGROUND",
+	["AquaMessage"] = {
+		"Thrust vectoring owns the seas!", -- [1]
+		"SAY", -- [2]
+	},
+	["CatMessage"] = {
+		"Nyao.", -- [1]
+		"SAY", -- [2]
+	},
+	["bgstrata"] = "BORDER",
+	["Graphics"] = true,
+	["extra"] = 0,
+	["bordertexture"] = "Interface\\Tooltips\\UI-StatusBar-Border",
+	["TravMessage"] = {
+		"Multi-cat drifting!", -- [1]
+		"SAY", -- [2]
+	},
+	["manatexture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+}

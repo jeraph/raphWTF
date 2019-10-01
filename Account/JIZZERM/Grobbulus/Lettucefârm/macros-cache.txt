@@ -1,0 +1,12 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] Wrath; Healing Touch
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm] Moonfire; Rejuvenation
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [btn:1] Mark of the Wild; [btn:2] Thorns
+END

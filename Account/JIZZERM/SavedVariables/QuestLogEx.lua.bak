@@ -1,0 +1,15 @@
+
+QuestLogExDB = {
+	["profileKeys"] = {
+		["Lettucefârm - Grobbulus"] = "Lettucefârm - Grobbulus",
+		["Odrálaga - Grobbulus"] = "Odrálaga - Grobbulus",
+		["Lettucestoçk - Grobbulus"] = "Lettucestoçk - Grobbulus",
+		["Lettuceroçk - Grobbulus"] = "Lettuceroçk - Grobbulus",
+	},
+	["profiles"] = {
+		["Odrálaga - Grobbulus"] = {
+		},
+		["Lettucefârm - Grobbulus"] = {
+		},
+	},
+}

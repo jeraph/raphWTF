@@ -1,0 +1,10 @@
+AllyRoute: disabled
+WeakAuras: disabled
+WeaponSwingTimer: disabled
+RingMenu: disabled
+MoveAnything: disabled
+Mapster: disabled
+OneBag3: enabled
+Prat-3.0: enabled
+Prat-3.0_Libraries: enabled
+ssoss_mobileLook: disabled

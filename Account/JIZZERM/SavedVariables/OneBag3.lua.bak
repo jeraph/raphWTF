@@ -1,0 +1,110 @@
+
+OneBag3DB = {
+	["namespaces"] = {
+		["SimpleSort"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jemz - Kurinnaxx"] = "Jemz - Kurinnaxx",
+		["Cuivre - Kurinnaxx"] = "Cuivre - Kurinnaxx",
+		["Lettuceloçk - Kurinnaxx"] = "Lettuceloçk - Kurinnaxx",
+		["Lettucefârm - Grobbulus"] = "Lettucefârm - Grobbulus",
+		["Jemz - Grobbulus"] = "Jemz - Grobbulus",
+		["Odrálaga - Grobbulus"] = "Odrálaga - Grobbulus",
+		["Lettuceroçk - Grobbulus"] = "Lettuceroçk - Grobbulus",
+		["Gaismunënas - Grobbulus"] = "Gaismunënas - Grobbulus",
+		["Iettuce - Kurinnaxx"] = "Iettuce - Kurinnaxx",
+		["Lettucestoçk - Grobbulus"] = "Lettucestoçk - Grobbulus",
+		["Jermz - Kurinnaxx"] = "Jermz - Kurinnaxx",
+	},
+	["profiles"] = {
+		["Jemz - Kurinnaxx"] = {
+			["position"] = {
+				["top"] = 693.000183105469,
+				["left"] = 1173.00061035156,
+			},
+			["moved"] = true,
+		},
+		["Cuivre - Kurinnaxx"] = {
+			["position"] = {
+				["top"] = 681.95556640625,
+				["left"] = 856.511596679688,
+			},
+			["moved"] = true,
+		},
+		["Lettuceloçk - Kurinnaxx"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 734,
+				["left"] = 725,
+			},
+		},
+		["Lettucefârm - Grobbulus"] = {
+			["position"] = {
+				["top"] = 598.755554199219,
+				["left"] = 773.733215332031,
+			},
+			["moved"] = true,
+		},
+		["Jemz - Grobbulus"] = {
+		},
+		["Odrálaga - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 860.931457519531,
+				["left"] = 769.942443847656,
+			},
+		},
+		["Lettuceroçk - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 898.778076171875,
+				["left"] = 820.541381835938,
+			},
+		},
+		["Gaismunënas - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 1034.4443359375,
+				["left"] = 834.444152832031,
+			},
+		},
+		["Iettuce - Kurinnaxx"] = {
+			["moved"] = true,
+			["appearance"] = {
+				["scale"] = 1.04,
+				["cols"] = 8,
+			},
+			["colors"] = {
+				["mouseover"] = {
+					["g"] = 0,
+					["r"] = 0.349019607843137,
+				},
+				["background"] = {
+					["a"] = 1,
+					["b"] = 0.125490196078431,
+					["g"] = 0.0901960784313726,
+					["r"] = 0.113725490196078,
+				},
+			},
+			["position"] = {
+				["top"] = 884.500854492188,
+				["left"] = 890.193908691406,
+			},
+		},
+		["Lettucestoçk - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 730.192810058594,
+				["left"] = 680.824035644531,
+			},
+		},
+		["Jermz - Kurinnaxx"] = {
+			["position"] = {
+				["top"] = 913,
+				["left"] = 780.000427246094,
+			},
+			["moved"] = true,
+		},
+	},
+}

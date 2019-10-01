@@ -1,0 +1,21 @@
+
+GatherLiteConfigCharacter = {
+	["herbalism"] = true,
+	["worldmapOpacity"] = 1,
+	["artifacts"] = true,
+	["fish"] = true,
+	["treasure"] = true,
+	["worldmapLoot"] = false,
+	["shareGuild"] = false,
+	["minimapLoot"] = true,
+	["mining"] = true,
+	["worldmapIconSize"] = 12,
+	["debugging"] = false,
+	["minimapOpacity"] = 1,
+	["shareParty"] = false,
+	["showOnMinimap"] = true,
+	["showOnWorldMap"] = false,
+	["enabled"] = true,
+	["MiniMapPosition"] = 85.5431157827258,
+	["minimapIconSize"] = 12,
+}

@@ -1,0 +1,65 @@
+
+DruidBarKey = {
+	["OOMMessage"] = {
+		"IMMA CHARGIN' MAH LAZOR", -- [1]
+		"SAY", -- [2]
+	},
+	["Percent"] = 0,
+	["bgcolor"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.5, -- [4]
+	},
+	["bgstrata"] = "BORDER",
+	["yvar"] = 18,
+	["DontShiftBack"] = false,
+	["xvar"] = 170,
+	["Minimap"] = false,
+	["subtractmana"] = 0,
+	["AquaMessage"] = {
+		"Thrust vectoring owns the seas!", -- [1]
+		"SAY", -- [2]
+	},
+	["int"] = 28,
+	["Lock"] = true,
+	["Replace"] = true,
+	["tempW"] = 170,
+	["tempH"] = 18,
+	["BearMessage"] = {
+		"ROAR! ROAR I SAY! I guess there's no denyin'...", -- [1]
+		"SAY", -- [2]
+	},
+	["Enabled"] = false,
+	["bordertexture"] = "Interface\\Tooltips\\UI-StatusBar-Border",
+	["barstrata"] = 2,
+	["CatMessage"] = {
+		"Nyao.", -- [1]
+		"SAY", -- [2]
+	},
+	["extra"] = 0,
+	["maxmana"] = 260,
+	["bordercolor"] = {
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["borderstrata"] = "BACKGROUND",
+	["Text"] = 0,
+	["Player"] = false,
+	["Custom"] = false,
+	["Graphics"] = true,
+	["currentmana"] = 260,
+	["color"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+	},
+	["TravMessage"] = {
+		"Multi-cat drifting!", -- [1]
+		"SAY", -- [2]
+	},
+	["manatexture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+}

@@ -1,0 +1,5 @@
+WorldQuestTracker: enabled
+Mapster: disabled
+WeaponSwingTimer: disabled
+MoveAnything: disabled
+WeakAurasCompanion: enabled

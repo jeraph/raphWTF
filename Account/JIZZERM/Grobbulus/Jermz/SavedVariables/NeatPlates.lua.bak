@@ -1,0 +1,18 @@
+
+NeatPlatesOptions = {
+	["HealthFrequent"] = true,
+	["SecondSpecProfile"] = "Default",
+	["FriendlyAutomation"] = "No Automation",
+	["EnemyAutomation"] = "No Automation",
+	["NameplateClickableWidth"] = 1,
+	["FourthSpecProfile"] = "Default",
+	["ThirdSpecProfile"] = "Default",
+	["OverrideOutline"] = 1,
+	["ForceBlizzardFont"] = false,
+	["EnforceRequiredCVars"] = true,
+	["BlizzardScaling"] = false,
+	["DisableCastBars"] = false,
+	["NameplateClickableHeight"] = 1,
+	["WelcomeShown"] = false,
+	["FirstSpecProfile"] = "Default",
+}

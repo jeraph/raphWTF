@@ -1,0 +1,37 @@
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+/startattack
+/cast Lightning Bolt
+#tooltipdesc Lightening Bolt^Start Attack first, then cast lightning bolt
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target party1
+/assist
+/cast Healing Wave
+/target party1
+/follow
+/assist
+#tooltipdesc Target/Hea/followl^Target Part1, assist, heal, follow, assists
+END
+VER 3 0000000001000004 "BOX/follow" "132144"
+/target party1
+/follow
+/assist
+#tooltipdesc Box/follow^ Target party1 Follow Assist
+END
+VER 3 0000000001000003 "BOXflameShock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target party1
+/follow
+/assist
+/cast Flame Shock
+/startattack
+#tooltipdesc Box/FlameShock^ Target Party1, Follow, Assist, FlamShock, Attack.
+END
+VER 3 0000000001000002 "BOXheal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target party1
+/follow
+/cast Healing Wave
+#tooltipdesc Target/Heal^Target Part1, Follow, Heal
+END

@@ -1,0 +1,2 @@
+WeakAurasCompanion: enabled
+CustomTooltips_LibActionButton: disabled

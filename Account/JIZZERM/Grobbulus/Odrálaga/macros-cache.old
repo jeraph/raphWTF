@@ -1,0 +1,45 @@
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Verog
+/cast Flame Shock
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Earth Shock
+/startattack
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Flame Shock
+/startattack
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Lightning Bolt
+/startattack
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Attack
+/startattack
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Healing Wave
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+/startattack
+#showtooltip
+/cast [target=mouseover] Flame Shock
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [target=mouseover] Earth Shock(Rank 1)
+END
+VER 3 0000000001000007 "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Healing Wave(Rank 2)
+END

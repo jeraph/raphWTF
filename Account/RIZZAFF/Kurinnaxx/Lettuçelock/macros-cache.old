@@ -1,0 +1,17 @@
+VER 3 0000000001000004 "fear" "136183"
+#showtooltip Fear
+/run SetRaidTarget("mouseover", 8)
+/cast [target=mouseover] Fear
+END
+VER 3 0000000001000001 "pAttack" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/petattack
+/castsequence reset=6/target Curse of Agony, Corruption, Immolate, !Shoot
+END
+VER 3 0000000001000002 "pFollow" "132328"
+/petfollow
+/petpassive
+END
+VER 3 0000000001000003 "pStay" "136106"
+/petstay
+END

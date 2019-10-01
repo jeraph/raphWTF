@@ -1,0 +1,60 @@
+VER 3 0000000000000012 "camp" "135769"
+/camp
+#tooltipdesc Camp^Log your fucking ass out real fast.
+END
+VER 3 0000000000000002 "cheer" "INV_MISC_QUESTIONMARK"
+/cheer
+END
+VER 3 0000000000000001 "clap" "INV_MISC_QUESTIONMARK"
+/clap
+END
+VER 3 0000000000000014 "dance" "INV_MISC_QUESTIONMARK"
+/dance
+END
+VER 3 0000000000000004 "lol" "INV_MISC_QUESTIONMARK"
+/lol
+END
+VER 3 000000000000000A "no" "INV_MISC_QUESTIONMARK"
+/no
+END
+VER 3 000000000000000B "party 1 assist" "132104"
+/target party1
+/assist
+#tooltipdesc Party1-Assist^Party1-Assist
+END
+VER 3 000000000000000D "party 1 follow" "132089"
+/target party1
+/follow
+#tooltipdesc Party1-Follow^Party1-Follow
+END
+VER 3 0000000000000010 "shoot" "132147"
+/cast !Shoot
+END
+VER 3 0000000000000008 "target" "132185"
+/target Sunscale Scyt
+/run SetRaidTarget("target",1)
+/cast Flame Shock
+#tooltipdesc target^Target and add icon
+END
+VER 3 000000000000000E "thanks" "INV_MISC_QUESTIONMARK"
+/thanks
+END
+VER 3 000000000000000F "trade" "INV_MISC_QUESTIONMARK"
+/trade
+END
+VER 3 0000000000000003 "train" "INV_MISC_QUESTIONMARK"
+/train
+END
+VER 3 0000000000000013 "up" "INV_MISC_QUESTIONMARK"
+/use conjured fresh water
+/use conjured bread
+END
+VER 3 0000000000000011 "wait" "INV_MISC_QUESTIONMARK"
+/wait
+END
+VER 3 0000000000000009 "yes" "INV_MISC_QUESTIONMARK"
+/yes
+END
+VER 3 0000000000000015 "zzzquestcheck" "INV_MISC_QUESTIONMARK"
+/script print(IsQuestFlaggedCompleted(894))
+END

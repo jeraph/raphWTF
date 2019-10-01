@@ -1,0 +1,70 @@
+
+OneBag3DB = {
+	["namespaces"] = {
+		["SimpleSort"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
+		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
+		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
+		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
+	},
+	["profiles"] = {
+		["Lettuçelock - Kurinnaxx"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 688.000305175781,
+				["left"] = 1481.00219726563,
+			},
+		},
+		["Lettuçestock - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 1003.65087890625,
+				["left"] = 832.635070800781,
+			},
+		},
+		["Lettucefarm - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 886.761901855469,
+				["left"] = 668.697937011719,
+			},
+		},
+		["Lettuçerock - Grobbulus"] = {
+			["position"] = {
+				["top"] = 802.222534179688,
+				["left"] = 892.698547363281,
+			},
+			["moved"] = true,
+		},
+		["Raph - Kurinnaxx"] = {
+			["position"] = {
+				["top"] = 853.999877929688,
+				["left"] = 1409.00158691406,
+			},
+			["moved"] = true,
+		},
+		["Notraph - Kurinnaxx"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 841.000122070313,
+				["left"] = 1409.00085449219,
+			},
+		},
+		["Odràlaga - Grobbulus"] = {
+			["moved"] = true,
+			["position"] = {
+				["top"] = 748.66650390625,
+				["left"] = 1179.04772949219,
+			},
+		},
+		["Meistar - Grobbulus"] = {
+		},
+	},
+}
