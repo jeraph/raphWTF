@@ -1,4 +1,11 @@
 Version: 1
+Frame: TodoChecklister
+FrameLevel: 1
+Anchor: CENTER
+X: 322
+Y: 64
+W: 300
+H: 300
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER

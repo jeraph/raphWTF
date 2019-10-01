@@ -18,6 +18,15 @@ Bagnon_Sets = {
 	},
 	["gemColor"] = {
 	},
+	["enchantColor"] = {
+	},
+	["glowAlpha"] = 0.5,
+	["normalColor"] = {
+	},
+	["profiles"] = {
+	},
+	["mineColor"] = {
+	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -53,18 +62,18 @@ Bagnon_Sets = {
 			["borderColor"] = {
 			},
 			["reverseBags"] = true,
-			["hiddenRules"] = {
-			},
+			["scale"] = 1,
 			["itemScale"] = 1.51,
-			["alpha"] = 1,
 			["bagBreak"] = false,
+			["y"] = 119.495101928711,
 			["x"] = 135.832382202148,
-			["broker"] = false,
+			["brokerObject"] = "BagnonLauncher",
 			["showBags"] = true,
 			["reverseSlots"] = true,
-			["brokerObject"] = "BagnonLauncher",
-			["y"] = 119.495101928711,
-			["scale"] = 1,
+			["broker"] = false,
+			["alpha"] = 1,
+			["hiddenRules"] = {
+			},
 		},
 		["vault"] = {
 			["rules"] = {
@@ -141,14 +150,14 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["alpha"] = 1,
-			["scale"] = 1.02,
+			["showBags"] = true,
 			["y"] = -213.491566146219,
 			["x"] = 386.943969726563,
+			["broker"] = false,
 			["borderColor"] = {
 			},
-			["showBags"] = true,
 			["reverseSlots"] = true,
-			["broker"] = false,
+			["scale"] = 1.02,
 			["itemScale"] = 1.51,
 			["rules"] = {
 				"all", -- [1]
@@ -175,15 +184,6 @@ Bagnon_Sets = {
 				"equip/ammo", -- [22]
 			},
 		},
-	},
-	["glowAlpha"] = 0.5,
-	["normalColor"] = {
-	},
-	["profiles"] = {
-	},
-	["mineColor"] = {
-	},
-	["enchantColor"] = {
 	},
 	["refrigeColor"] = {
 	},

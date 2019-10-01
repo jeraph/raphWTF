@@ -332,13 +332,13 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 2,
 					},
-					["|cffffffff|Hitem:2835::::::::9:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 3,
-					},
 					["|cffffffff|Hitem:2770::::::::9:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::9:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
+						["count"] = 3,
 					},
 					["|cffffffff|Hitem:2770::::::::11:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
@@ -1208,17 +1208,17 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 2,
 					},
-					["|cff1eff00|Hitem:1210::::::::13:::::::|h[Shadowgem]|h|r"] = {
-						["name"] = "Shadowgem",
-						["count"] = 1,
+					["|cffffffff|Hitem:2770::::::::11:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 4,
 					},
 					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
 					},
-					["|cffffffff|Hitem:2770::::::::11:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 4,
+					["|cff1eff00|Hitem:1210::::::::13:::::::|h[Shadowgem]|h|r"] = {
+						["name"] = "Shadowgem",
+						["count"] = 1,
 					},
 				},
 				["icon"] = 134566,
@@ -1452,12 +1452,12 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
+						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
 						["count"] = 4,
 					},
 				},
@@ -1486,13 +1486,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 2,
-					},
 					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
+						["count"] = 2,
 					},
 				},
 				["icon"] = 134566,
@@ -1520,13 +1520,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 5,
-					},
 					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
 						["name"] = "Rough Stone",
 						["count"] = 3,
+					},
+					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 5,
 					},
 				},
 				["icon"] = 134566,
@@ -1554,13 +1554,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
 						["name"] = "Rough Stone",
 						["count"] = 2,
+					},
+					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 4,
 					},
 				},
 				["icon"] = 134566,
@@ -1618,14 +1618,14 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
+					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
 						["count"] = 3,
 					},
 					["|cffffffff|Hitem:::::::::13:::::::|h[]|h|r"] = {
 					},
-					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
+					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
 						["count"] = 3,
 					},
 				},
@@ -1784,13 +1784,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::14:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 3,
-					},
 					["|cffffffff|Hitem:2770::::::::14:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 2,
+					},
+					["|cffffffff|Hitem:2835::::::::14:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
+						["count"] = 3,
 					},
 				},
 				["icon"] = "134566",
@@ -1982,13 +1982,13 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 5,
 					},
-					["|cffffffff|Hitem:2770::::::::15:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:5075::::::::15:::::::|h[Blood Shard]|h|r"] = {
 						["name"] = "Blood Shard",
 						["count"] = 3,
+					},
+					["|cffffffff|Hitem:2770::::::::15:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 4,
 					},
 				},
 				["icon"] = 134566,
@@ -2020,12 +2020,12 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 4,
 					},
-					["|cffffffff|Hitem:2770::::::::15:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:5075::::::::15:::::::|h[Blood Shard]|h|r"] = {
 						["name"] = "Blood Shard",
+						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2770::::::::15:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
 						["count"] = 4,
 					},
 				},
@@ -3042,13 +3042,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "food crate",
 				["loot"] = {
-					["|cffffffff|Hitem:4592::::::::15:::::::|h[Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Longjaw Mud Snapper",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:4537::::::::15:::::::|h[Tel'Abim Banana]|h|r"] = {
 						["name"] = "Tel'Abim Banana",
 						["count"] = 3,
+					},
+					["|cffffffff|Hitem:4592::::::::15:::::::|h[Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Longjaw Mud Snapper",
+						["count"] = 4,
 					},
 				},
 				["icon"] = 132594,

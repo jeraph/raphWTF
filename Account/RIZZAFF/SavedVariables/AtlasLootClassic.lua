@@ -1,17 +1,17 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
-		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
-		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
-		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
-		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
-		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
-		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
-	},
 	["global"] = {
 		["__addonrevision"] = 99999999,
+	},
+	["profileKeys"] = {
+		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
+		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
+		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
+		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
 	},
 	["profiles"] = {
 		["Lettuçelock - Kurinnaxx"] = {
@@ -25,22 +25,25 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Meistar - Grobbulus"] = {
-		},
 		["Lettucefarm - Grobbulus"] = {
 		},
-		["Odràlaga - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 198.596658748335,
-			},
+		["Lettuçestock - Grobbulus"] = {
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
-					"WailingCaverns", -- [2]
+					"Ragefire", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
+			},
+		},
+		["Lettuçerock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 210.480219753921,
 			},
 		},
 		["Raph - Kurinnaxx"] = {
@@ -63,24 +66,21 @@ AtlasLootClassicDB = {
 		},
 		["Notraph - Kurinnaxx"] = {
 		},
-		["Lettuçerock - Grobbulus"] = {
+		["Odràlaga - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 210.480219753921,
-			},
-		},
-		["Lettuçestock - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
+				["minimapPos"] = 198.596658748335,
 			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
-					"Ragefire", -- [2]
+					"WailingCaverns", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
+		},
+		["Meistar - Grobbulus"] = {
 		},
 	},
 }
