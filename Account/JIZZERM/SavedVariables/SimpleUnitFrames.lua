@@ -1,45 +1,49 @@
 
 SimpleUnitFramesDB = {
-	["profileKeys"] = {
-		["Jemz - Kurinnaxx"] = "Jemz - Kurinnaxx",
-		["Lettuceloçk - Kurinnaxx"] = "main",
-		["Jermz - Grobbulus"] = "Jermz - Kurinnaxx",
-		["Sneéki - Kurinnaxx"] = "Sneéki - Kurinnaxx",
-		["Lettucestoçk - Grobbulus"] = "main",
-		["Lettucefârm - Grobbulus"] = "main",
-		["Gaismunënas - Grobbulus"] = "Lettuceroçk - Grobbulus",
-		["Jemz - Grobbulus"] = "main",
-		["Odrálaga - Grobbulus"] = "main",
-		["Lettuceroçk - Grobbulus"] = "main",
-		["Cuivre - Kurinnaxx"] = "main",
-		["Iettuce - Kurinnaxx"] = "main",
-		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
-		["Jermz - Kurinnaxx"] = "Jermz - Kurinnaxx",
-	},
 	["global"] = {
 		["overlayfont"] = {
 			["fontsize"] = 14,
 			["fontface"] = "FORCED SQUARE",
 		},
 	},
+	["profileKeys"] = {
+		["Jemz - Kurinnaxx"] = "Jemz - Kurinnaxx",
+		["Lettucestoçk - Grobbulus"] = "main",
+		["Jermz - Grobbulus"] = "Jermz - Kurinnaxx",
+		["Sneéki - Kurinnaxx"] = "Sneéki - Kurinnaxx",
+		["Lettuceloçk - Kurinnaxx"] = "main",
+		["Gaismunënas - Grobbulus"] = "Lettuceroçk - Grobbulus",
+		["Lettucefârm - Grobbulus"] = "main",
+		["Lettuceroçk - Grobbulus"] = "main",
+		["Odrálaga - Grobbulus"] = "main",
+		["Jemz - Grobbulus"] = "main",
+		["Cuivre - Kurinnaxx"] = "main",
+		["Iettuce - Kurinnaxx"] = "main",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Jermz - Kurinnaxx"] = "Jermz - Kurinnaxx",
+	},
 	["profiles"] = {
-		["Cuivre - Kurinnaxx"] = {
+		["Sneéki - Kurinnaxx"] = {
 		},
 		["Jemz - Kurinnaxx"] = {
 		},
-		["Lettucestoçk - Grobbulus"] = {
+		["Lettuceloçk - Kurinnaxx"] = {
 		},
 		["Jermz - Grobbulus"] = {
 		},
-		["Sneéki - Kurinnaxx"] = {
+		["Cuivre - Kurinnaxx"] = {
 		},
-		["Lettuceloçk - Kurinnaxx"] = {
-		},
-		["Lettucefârm - Grobbulus"] = {
+		["Lettucestoçk - Grobbulus"] = {
 		},
 		["Gaismunënas - Grobbulus"] = {
 		},
+		["Lettucefârm - Grobbulus"] = {
+		},
+		["Lettuceroçk - Grobbulus"] = {
+		},
 		["Odrálaga - Grobbulus"] = {
+		},
+		["Jemz - Grobbulus"] = {
 		},
 		["main"] = {
 			["party"] = {
@@ -53,23 +57,19 @@ SimpleUnitFramesDB = {
 				["rmp"] = "MPnone",
 			},
 			["target"] = {
-				["mmp"] = "MPcurrmax",
 				["mhp"] = "HPcurrmax",
-			},
-			["targettarget"] = {
-				["rmp"] = "MPnone",
-				["mmp"] = "MPnone",
-				["rhp"] = "HPnone",
-				["mhp"] = "HPnone",
+				["mmp"] = "MPcurrmax",
 			},
 			["pet"] = {
 				["rmp"] = "MPnone",
 				["rhp"] = "HPnone",
 			},
-		},
-		["Jemz - Grobbulus"] = {
-		},
-		["Lettuceroçk - Grobbulus"] = {
+			["targettarget"] = {
+				["rmp"] = "MPnone",
+				["mhp"] = "HPnone",
+				["rhp"] = "HPnone",
+				["mmp"] = "MPnone",
+			},
 		},
 		["Iettuce - Kurinnaxx"] = {
 			["player"] = {
@@ -81,14 +81,14 @@ SimpleUnitFramesDB = {
 		},
 		["Jermz - Kurinnaxx"] = {
 			["target"] = {
-				["mhp"] = "HPcurrmax",
 				["mmp"] = "MPcurrmax",
+				["mhp"] = "HPcurrmax",
 			},
 			["party"] = {
 				["rmp"] = "MPnone",
-				["mhp"] = "HPcurrmax",
-				["rhp"] = "HPnone",
 				["mmp"] = "MPnone",
+				["rhp"] = "HPnone",
+				["mhp"] = "HPcurrmax",
 			},
 			["targettarget"] = {
 				["rmp"] = "MPnone",

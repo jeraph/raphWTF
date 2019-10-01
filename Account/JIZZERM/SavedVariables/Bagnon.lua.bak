@@ -30,11 +30,31 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["refrigeColor"] = {
-	},
+	["displayBlizzard"] = false,
+	["glowUnusable"] = false,
+	["glowSets"] = true,
+	["colorSlots"] = true,
 	["global"] = {
 		["inventory"] = {
+			["color"] = {
+			},
 			["brokerObject"] = "MinimapIcon",
+			["point"] = "TOPRIGHT",
+			["hiddenBags"] = {
+			},
+			["money"] = true,
+			["options"] = true,
+			["alpha"] = 1,
+			["showBags"] = true,
+			["y"] = -208.822021484375,
+			["x"] = -479.050415039063,
+			["broker"] = false,
+			["borderColor"] = {
+			},
+			["itemScale"] = 1,
+			["scale"] = 1,
+			["hiddenRules"] = {
+			},
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -58,24 +78,6 @@ Bagnon_Sets = {
 				"misc", -- [20]
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
-			},
-			["point"] = "TOPRIGHT",
-			["hiddenBags"] = {
-			},
-			["money"] = true,
-			["alpha"] = 1,
-			["hiddenRules"] = {
-			},
-			["scale"] = 1,
-			["y"] = -208.822021484375,
-			["x"] = -479.050415039063,
-			["itemScale"] = 1,
-			["borderColor"] = {
-			},
-			["broker"] = false,
-			["showBags"] = true,
-			["options"] = true,
-			["color"] = {
 			},
 		},
 		["vault"] = {
@@ -180,12 +182,10 @@ Bagnon_Sets = {
 			["x"] = 261.069641113281,
 			["borderColor"] = {
 			},
-			["brokerObject"] = "WeakAuras",
 			["showBags"] = true,
+			["brokerObject"] = "WeakAuras",
 		},
 	},
-	["glowSets"] = true,
-	["colorSlots"] = true,
-	["glowUnusable"] = false,
-	["displayBlizzard"] = false,
+	["refrigeColor"] = {
+	},
 }

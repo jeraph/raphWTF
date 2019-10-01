@@ -1,23 +1,23 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 99999999,
-	},
 	["profileKeys"] = {
 		["Jemz - Kurinnaxx"] = "Jemz - Kurinnaxx",
-		["Lettuceloçk - Kurinnaxx"] = "Lettuceloçk - Kurinnaxx",
+		["Lettucestoçk - Grobbulus"] = "Lettucestoçk - Grobbulus",
 		["Jermz - Grobbulus"] = "Jermz - Grobbulus",
 		["Sneéki - Kurinnaxx"] = "Sneéki - Kurinnaxx",
-		["Lettucestoçk - Grobbulus"] = "Lettucestoçk - Grobbulus",
-		["Lettucefârm - Grobbulus"] = "Lettucefârm - Grobbulus",
+		["Lettuceloçk - Kurinnaxx"] = "Lettuceloçk - Kurinnaxx",
 		["Gaismunënas - Grobbulus"] = "Gaismunënas - Grobbulus",
-		["Jemz - Grobbulus"] = "Jemz - Grobbulus",
-		["Odrálaga - Grobbulus"] = "Odrálaga - Grobbulus",
+		["Lettucefârm - Grobbulus"] = "Lettucefârm - Grobbulus",
 		["Lettuceroçk - Grobbulus"] = "Lettuceroçk - Grobbulus",
+		["Odrálaga - Grobbulus"] = "Odrálaga - Grobbulus",
+		["Jemz - Grobbulus"] = "Jemz - Grobbulus",
 		["Cuivre - Kurinnaxx"] = "Cuivre - Kurinnaxx",
 		["Iettuce - Kurinnaxx"] = "Iettuce - Kurinnaxx",
 		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
 		["Jermz - Kurinnaxx"] = "Jermz - Kurinnaxx",
+	},
+	["global"] = {
+		["__addonrevision"] = 99999999,
 	},
 	["profiles"] = {
 		["Jemz - Kurinnaxx"] = {
@@ -25,9 +25,9 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 195.912182146046,
 			},
 		},
-		["Lettuceloçk - Kurinnaxx"] = {
+		["Lettucestoçk - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 187.646761134304,
+				["minimapPos"] = 192.386419696281,
 			},
 		},
 		["Jermz - Grobbulus"] = {
@@ -36,6 +36,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Sneéki - Kurinnaxx"] = {
+			["minimap"] = {
+				["minimapPos"] = 203.423439302844,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -45,18 +48,10 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 203.423439302844,
-			},
 		},
-		["Lettucestoçk - Grobbulus"] = {
+		["Lettuceloçk - Kurinnaxx"] = {
 			["minimap"] = {
-				["minimapPos"] = 192.386419696281,
-			},
-		},
-		["Lettucefârm - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 195.957038249234,
+				["minimapPos"] = 187.646761134304,
 			},
 		},
 		["Gaismunënas - Grobbulus"] = {
@@ -64,7 +59,24 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 196.998360107598,
 			},
 		},
-		["Jemz - Grobbulus"] = {
+		["Lettucefârm - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 195.957038249234,
+			},
+		},
+		["Lettuceroçk - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 192.582325052134,
+			},
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"Ragefire", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 		["Odrálaga - Grobbulus"] = {
 			["minimap"] = {
@@ -80,19 +92,7 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Lettuceroçk - Grobbulus"] = {
-			["GUI"] = {
-				["selected"] = {
-					nil, -- [1]
-					"Ragefire", -- [2]
-					nil, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 192.582325052134,
-			},
+		["Jemz - Grobbulus"] = {
 		},
 		["Cuivre - Kurinnaxx"] = {
 			["minimap"] = {
@@ -100,6 +100,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Iettuce - Kurinnaxx"] = {
+			["minimap"] = {
+				["minimapPos"] = 199.165441555825,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -109,13 +112,13 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 199.165441555825,
-			},
 		},
 		["Lettuçerock - Grobbulus"] = {
 		},
 		["Jermz - Kurinnaxx"] = {
+			["minimap"] = {
+				["minimapPos"] = 198.77803947996,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -131,9 +134,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 198.77803947996,
 			},
 		},
 	},

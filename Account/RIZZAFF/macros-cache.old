@@ -31,7 +31,7 @@ VER 3 0000000000000010 "shoot" "132147"
 /cast !Shoot
 END
 VER 3 0000000000000008 "target" "132185"
-/target Sunscale Scyth
+/target Sunscale Scyt
 /run SetRaidTarget("target",1)
 /cast Flame Shock
 #tooltipdesc target^Target and add icon
@@ -54,4 +54,7 @@ VER 3 0000000000000011 "wait" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000000000009 "yes" "INV_MISC_QUESTIONMARK"
 /yes
+END
+VER 3 0000000000000015 "zzzquestcheck" "INV_MISC_QUESTIONMARK"
+/script print(IsQuestFlaggedCompleted(894))
 END

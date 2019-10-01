@@ -1,0 +1,6 @@
+
+TodoChecklisterDB = {
+}
+TodoChecklisterMapIcon = {
+	["hide"] = false,
+}

@@ -1,17 +1,17 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 99999999,
-	},
 	["profileKeys"] = {
 		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
+		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
 		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
-		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
 		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
 		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
-		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
-		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+	},
+	["global"] = {
+		["__addonrevision"] = 99999999,
 	},
 	["profiles"] = {
 		["Lettuçelock - Kurinnaxx"] = {
@@ -25,7 +25,12 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
+		["Meistar - Grobbulus"] = {
+		},
 		["Lettuçestock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -35,15 +40,19 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+		},
+		["Odràlaga - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
+				["minimapPos"] = 186.164194858725,
 			},
-		},
-		["Lettucefarm - Grobbulus"] = {
-		},
-		["Lettuçerock - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 210.480219753921,
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"WailingCaverns", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["Raph - Kurinnaxx"] = {
@@ -66,21 +75,12 @@ AtlasLootClassicDB = {
 		},
 		["Notraph - Kurinnaxx"] = {
 		},
-		["Odràlaga - Grobbulus"] = {
+		["Lettuçerock - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 198.596658748335,
-			},
-			["GUI"] = {
-				["selected"] = {
-					nil, -- [1]
-					"WailingCaverns", -- [2]
-					nil, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
+				["minimapPos"] = 210.480219753921,
 			},
 		},
-		["Meistar - Grobbulus"] = {
+		["Lettucefarm - Grobbulus"] = {
 		},
 	},
 }

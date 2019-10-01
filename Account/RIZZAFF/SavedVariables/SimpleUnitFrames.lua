@@ -1,15 +1,5 @@
 
 SimpleUnitFramesDB = {
-	["profileKeys"] = {
-		["Lettuçelock - Kurinnaxx"] = "Kurinnaxx",
-		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
-		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
-		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
-		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
-		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
-		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
-	},
 	["global"] = {
 		["overlayfont"] = {
 			["fontsize"] = 14,
@@ -18,6 +8,16 @@ SimpleUnitFramesDB = {
 			["texture"] = "Details Flat",
 		},
 	},
+	["profileKeys"] = {
+		["Lettuçelock - Kurinnaxx"] = "Kurinnaxx",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
+		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
+		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
+		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
+	},
 	["profiles"] = {
 		["Lettuçelock - Kurinnaxx"] = {
 		},
@@ -25,7 +25,7 @@ SimpleUnitFramesDB = {
 		},
 		["Odràlaga - Grobbulus"] = {
 		},
-		["Meistar - Grobbulus"] = {
+		["Default"] = {
 		},
 		["Lettuçestock - Grobbulus"] = {
 		},
@@ -37,7 +37,7 @@ SimpleUnitFramesDB = {
 		},
 		["Lettuçerock - Grobbulus"] = {
 		},
-		["Default"] = {
+		["Meistar - Grobbulus"] = {
 		},
 	},
 }

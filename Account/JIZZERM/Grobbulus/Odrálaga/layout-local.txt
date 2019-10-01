@@ -1,4 +1,11 @@
 Version: 1
+Frame: PartyMemberFrame1
+FrameLevel: 2
+Anchor: CENTER
+X: -279
+Y: 99
+W: 128
+H: 53
 Frame: PartyMemberFrame2
 FrameLevel: 2
 Anchor: CENTER
@@ -41,13 +48,6 @@ X: 95
 Y: -32
 W: 128
 H: 64
-Frame: PartyMemberFrame1
-FrameLevel: 2
-Anchor: CENTER
-X: -279
-Y: 99
-W: 128
-H: 53
 Frame: WorldMapFrame
 FrameLevel: 1
 Anchor: TOP
