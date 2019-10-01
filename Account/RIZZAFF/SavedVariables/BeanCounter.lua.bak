@@ -16,13 +16,13 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 				["10939"] = {
 					["item:10939::::::::100:::::::"] = {
-						"7;;;;;7000;Pomf;1568266186;;A", -- [1]
-						"1;;;;;1300;Dekku;1568263062;;A", -- [2]
-						"1;;;;;1300;Dekku;1568263059;;A", -- [3]
-						"1;;;;;1300;Dekku;1568263046;;A", -- [4]
+						"1;;;;1385;1385;Dandis;1568261946;;A", -- [1]
+						"1;;;;1299;1299;Juicez;1568261928;;A", -- [2]
+						"1;;;;1299;1299;Juicez;1568261923;;A", -- [3]
+						"2;;;;3000;2500;Itsnotwater;1568248017;;A", -- [4]
 					},
 				},
 			},
@@ -32,13 +32,13 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 				["10939"] = {
 					["item:10939::::::::100:::::::"] = {
-						"1;;;;1385;1385;Dandis;1568261946;;A", -- [1]
-						"1;;;;1299;1299;Juicez;1568261928;;A", -- [2]
-						"1;;;;1299;1299;Juicez;1568261923;;A", -- [3]
-						"2;;;;3000;2500;Itsnotwater;1568248017;;A", -- [4]
+						"7;;;;;7000;Pomf;1568266186;;A", -- [1]
+						"1;;;;;1300;Dekku;1568263062;;A", -- [2]
+						"1;;;;;1300;Dekku;1568263059;;A", -- [3]
+						"1;;;;;1300;Dekku;1568263046;;A", -- [4]
 					},
 				},
 			},
@@ -63,37 +63,6 @@ BeanCounterDB = {
 			["failedAuctions"] = {
 			},
 			["failedBidsNeutral"] = {
-			},
-			["failedBids"] = {
-				["10939"] = {
-					["item:10939::::::::100:::::::"] = {
-						"1;;;;;1186;Gnòmad;1568162772;;A", -- [1]
-						"1;;;;;1186;Gnòmad;1568162770;;A", -- [2]
-					},
-				},
-				["4583"] = {
-					["item:4583::::::::100:::::::"] = {
-						"1;;;;;115;Amandown;1568178170;;A", -- [1]
-						"1;;;;;105;Amandown;1568177890;;A", -- [2]
-						"1;;;;;99;Amandown;1568177829;Vendor;A", -- [3]
-					},
-				},
-				["2318"] = {
-					["item:2318::::::::100:::::::"] = {
-						"20;;;;;99;Shylvan;1568178179;Vendor;A", -- [1]
-						"20;;;;;99;Shylvan;1568177964;Vendor;A", -- [2]
-						"20;;;;;105;Shylvan;1568177948;;A", -- [3]
-						"20;;;;;97;Shylvan;1568177883;;A", -- [4]
-						"20;;;;;95;Shylvan;1568177874;Vendor;A", -- [5]
-						"20;;;;;99;Shylvan;1568177827;;A", -- [6]
-					},
-				},
-			},
-			["completedAuctions"] = {
-			},
-			["failedAuctionsNeutral"] = {
-			},
-			["completedAuctionsNeutral"] = {
 			},
 			["completedBidsBuyouts"] = {
 				["10939"] = {
@@ -144,6 +113,37 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["failedBids"] = {
+				["10939"] = {
+					["item:10939::::::::100:::::::"] = {
+						"1;;;;;1186;Gnòmad;1568162772;;A", -- [1]
+						"1;;;;;1186;Gnòmad;1568162770;;A", -- [2]
+					},
+				},
+				["4583"] = {
+					["item:4583::::::::100:::::::"] = {
+						"1;;;;;115;Amandown;1568178170;;A", -- [1]
+						"1;;;;;105;Amandown;1568177890;;A", -- [2]
+						"1;;;;;99;Amandown;1568177829;Vendor;A", -- [3]
+					},
+				},
+				["2318"] = {
+					["item:2318::::::::100:::::::"] = {
+						"20;;;;;99;Shylvan;1568178179;Vendor;A", -- [1]
+						"20;;;;;99;Shylvan;1568177964;Vendor;A", -- [2]
+						"20;;;;;105;Shylvan;1568177948;;A", -- [3]
+						"20;;;;;97;Shylvan;1568177883;;A", -- [4]
+						"20;;;;;95;Shylvan;1568177874;Vendor;A", -- [5]
+						"20;;;;;99;Shylvan;1568177827;;A", -- [6]
+					},
+				},
+			},
 		},
 		["Lettuçelock"] = {
 			["vendorsell"] = {
@@ -160,7 +160,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -168,7 +168,7 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 		},
 	},
@@ -188,7 +188,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -196,7 +196,7 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 		},
 		["Meistar"] = {
@@ -214,7 +214,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -222,17 +222,13 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 		},
-		["Odràlaga"] = {
+		["Lettucefarm"] = {
 			["vendorsell"] = {
 			},
 			["postedBids"] = {
-				["2073"] = {
-					["item:2073::::::1547:772846464:100:::1::::"] = {
-					},
-				},
 			},
 			["postedAuctions"] = {
 			},
@@ -244,7 +240,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -252,12 +248,7 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
-				["2073"] = {
-					["item:2073::::::1547:772846464:100:::1::::"] = {
-						"1;;;;1200;1150;Genja;1568698883;;H", -- [1]
-					},
-				},
+			["failedBids"] = {
 			},
 		},
 		["Lettuçestock"] = {
@@ -280,6 +271,22 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+				["2555"] = {
+					["item:2555::::::::100:::::::"] = {
+						"1;17392;24;914;18282;9848;Cherry;1569197575;;H", -- [1]
+					},
+					["item:2555::::::::100:::1::::"] = {
+						"1;10746;24;564;11286;9750;Drcosby;1569467622;;H", -- [1]
+					},
+				},
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
 			["completedBidsBuyouts"] = {
 				["10939"] = {
 					["item:10939::::::::100:::::::"] = {
@@ -292,27 +299,15 @@ BeanCounterDB = {
 					},
 				},
 			},
-			["completedAuctions"] = {
-				["2555"] = {
-					["item:2555::::::::100:::1::::"] = {
-						"1;10746;24;564;11286;9750;Drcosby;1569467622;;H", -- [1]
-					},
-					["item:2555::::::::100:::::::"] = {
-						"1;17392;24;914;18282;9848;Cherry;1569197575;;H", -- [1]
-					},
-				},
-			},
-			["failedAuctionsNeutral"] = {
-			},
-			["completedAuctionsNeutral"] = {
-			},
-			["failedBids"] = {
-			},
 		},
-		["Lettucefarm"] = {
+		["Odràlaga"] = {
 			["vendorsell"] = {
 			},
 			["postedBids"] = {
+				["2073"] = {
+					["item:2073::::::1547:772846464:100:::1::::"] = {
+					},
+				},
 			},
 			["postedAuctions"] = {
 			},
@@ -324,7 +319,12 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
+				["2073"] = {
+					["item:2073::::::1547:772846464:100:::1::::"] = {
+						"1;;;;1200;1150;Genja;1568698883;;H", -- [1]
+					},
+				},
 			},
 			["completedAuctions"] = {
 			},
@@ -332,59 +332,16 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 		},
 	},
 }
 BeanCounterDBSettings = {
 	["configator.left"] = 560.000183105469,
-	["configator.top"] = 764.999877929688,
+	["util.beancounter.ButtonuseDateCheck"] = false,
+	["columnsortcurSort"] = 1,
 	["columnsortcurDir"] = 1,
-	["Kurinnaxx"] = {
-		["Notraph"] = {
-			["tasks.sortArray"] = 1568372133,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568372133,
-			["wealth"] = 8624,
-			["tasks.prunePostedDB"] = 1569814063,
-			["mailbox"] = {
-				{
-					["sender"] = "Alliance Auction House",
-					["read"] = 1,
-					["subject"] = "Outbid on Greater Magic Essence (7)",
-					["time"] = 29.6635646820068,
-				}, -- [1]
-			},
-		},
-		["Raph"] = {
-			["tasks.sortArray"] = 1568295854,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568295854,
-			["wealth"] = 12916,
-			["tasks.prunePostedDB"] = 1570014415,
-			["mailbox"] = {
-				{
-					["sender"] = "Alliance Auction House",
-					["read"] = 1,
-					["subject"] = "Auction won: Wool Cloth (20)",
-					["time"] = 29.6838188171387,
-				}, -- [1]
-			},
-		},
-		["Lettuçelock"] = {
-			["tasks.sortArray"] = 1568344366,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568344366,
-			["wealth"] = 13959,
-			["tasks.prunePostedDB"] = 1570100364,
-			["mailbox"] = {
-			},
-		},
-	},
 	["Grobbulus"] = {
 		["Lettuçerock"] = {
 			["tasks.sortArray"] = 1568494040,
@@ -402,33 +359,7 @@ BeanCounterDBSettings = {
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1568666188,
 			["wealth"] = 0,
-			["tasks.prunePostedDB"] = 1568666188,
-			["mailbox"] = {
-			},
-		},
-		["Odràlaga"] = {
-			["tasks.sortArray"] = 1568944977,
-			["version"] = 3.04,
-			["faction"] = "Horde",
-			["tasks.compactDB"] = 1568944977,
-			["wealth"] = 70480,
-			["tasks.prunePostedDB"] = 1568944977,
-			["mailbox"] = {
-				{
-					["time"] = 29.9979972839356,
-					["sender"] = "Horde Auction House",
-					["subject"] = "Auction won: Dwarven Hatchet of Power",
-					["read"] = 2,
-				}, -- [1]
-			},
-		},
-		["Lettuçestock"] = {
-			["tasks.sortArray"] = 1568535192,
-			["version"] = 3.04,
-			["faction"] = "Horde",
-			["tasks.compactDB"] = 1568535192,
-			["wealth"] = 28459,
-			["tasks.prunePostedDB"] = 1570105454,
+			["tasks.prunePostedDB"] = 1570155072,
 			["mailbox"] = {
 			},
 		},
@@ -442,9 +373,78 @@ BeanCounterDBSettings = {
 			["mailbox"] = {
 			},
 		},
+		["Lettuçestock"] = {
+			["tasks.sortArray"] = 1568535192,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1568535192,
+			["wealth"] = 28459,
+			["tasks.prunePostedDB"] = 1570105454,
+			["mailbox"] = {
+			},
+		},
+		["Odràlaga"] = {
+			["tasks.sortArray"] = 1568944977,
+			["version"] = 3.04,
+			["faction"] = "Horde",
+			["tasks.compactDB"] = 1568944977,
+			["wealth"] = 70480,
+			["tasks.prunePostedDB"] = 1568944977,
+			["mailbox"] = {
+				{
+					["read"] = 2,
+					["sender"] = "Horde Auction House",
+					["time"] = 29.9979972839356,
+					["subject"] = "Auction won: Dwarven Hatchet of Power",
+				}, -- [1]
+			},
+		},
 	},
-	["columnsortcurSort"] = 1,
-	["util.beancounter.ButtonuseDateCheck"] = false,
+	["Kurinnaxx"] = {
+		["Notraph"] = {
+			["tasks.sortArray"] = 1568372133,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568372133,
+			["wealth"] = 8624,
+			["tasks.prunePostedDB"] = 1569814063,
+			["mailbox"] = {
+				{
+					["time"] = 29.6635646820068,
+					["sender"] = "Alliance Auction House",
+					["subject"] = "Outbid on Greater Magic Essence (7)",
+					["read"] = 1,
+				}, -- [1]
+			},
+		},
+		["Raph"] = {
+			["tasks.sortArray"] = 1568295854,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568295854,
+			["wealth"] = 12916,
+			["tasks.prunePostedDB"] = 1570014415,
+			["mailbox"] = {
+				{
+					["time"] = 29.6838188171387,
+					["sender"] = "Alliance Auction House",
+					["subject"] = "Auction won: Wool Cloth (20)",
+					["read"] = 1,
+				}, -- [1]
+			},
+		},
+		["Lettuçelock"] = {
+			["tasks.sortArray"] = 1568344366,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568344366,
+			["wealth"] = 13959,
+			["tasks.prunePostedDB"] = 1570100364,
+			["mailbox"] = {
+			},
+		},
+	},
+	["configator.top"] = 764.999877929688,
 }
 BeanCounterDBNames = {
 	["10940:"] = "cffffffff;Strange Dust",

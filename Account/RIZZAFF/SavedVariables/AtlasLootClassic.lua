@@ -1,17 +1,17 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 99999999,
-	},
 	["profileKeys"] = {
 		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
+		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
 		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
-		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
-		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
 		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
 		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
-		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
-		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
+		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+	},
+	["global"] = {
+		["__addonrevision"] = 99999999,
 	},
 	["profiles"] = {
 		["Lettuçelock - Kurinnaxx"] = {
@@ -25,25 +25,22 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
+		["Meistar - Grobbulus"] = {
+		},
 		["Lettucefarm - Grobbulus"] = {
 		},
-		["Lettuçestock - Grobbulus"] = {
+		["Odràlaga - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 186.164194858725,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
-					"Ragefire", -- [2]
+					"WailingCaverns", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
-			},
-		},
-		["Lettuçerock - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 210.480219753921,
 			},
 		},
 		["Raph - Kurinnaxx"] = {
@@ -66,21 +63,24 @@ AtlasLootClassicDB = {
 		},
 		["Notraph - Kurinnaxx"] = {
 		},
-		["Odràlaga - Grobbulus"] = {
+		["Lettuçerock - Grobbulus"] = {
 			["minimap"] = {
-				["minimapPos"] = 186.164194858725,
+				["minimapPos"] = 210.480219753921,
+			},
+		},
+		["Lettuçestock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
 			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
-					"WailingCaverns", -- [2]
+					"Ragefire", -- [2]
 					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
-		},
-		["Meistar - Grobbulus"] = {
 		},
 	},
 }

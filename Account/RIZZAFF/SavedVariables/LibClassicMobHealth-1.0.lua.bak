@@ -1,5 +1,8 @@
 
 LibClassicMobHealth10DB = {
+	["revision"] = 1,
+	["pc"] = {
+	},
 	["npc"] = {
 		nil, -- [1]
 		nil, -- [2]
@@ -24,13 +27,13 @@ LibClassicMobHealth10DB = {
 			["Gnarlpine Warrior"] = 119.540229885057,
 			["Crag Boar"] = 120,
 			["Juvenile Snow Leopard"] = 120,
-			["Nightsaber"] = 118.666666666667,
+			["Dark Sprite"] = 118.64406779661,
 			["Gnarlpine Ursa"] = 121.153846153846,
-			["Webwood Lurker"] = 118.367346938776,
 			["Large Crag Boar"] = 80.7228915662651,
+			["Webwood Lurker"] = 118.367346938776,
 			["Gnarlpine Mystic"] = 112.121212121212,
 			["Snow Tracker Wolf"] = 118.758684576193,
-			["Dark Sprite"] = 118.64406779661,
+			["Nightsaber"] = 118.666666666667,
 		}, -- [6]
 		{
 			["Uruson"] = 118.571428571429,
@@ -45,9 +48,9 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 136.082474226804,
 			["Gnarlpine Defender"] = 188.636363636364,
 			["Elder Crag Boar"] = 136.082474226804,
+			["Large Crag Boar"] = 136.666666666667,
 			["Ice Claw Bear"] = 163.04347826087,
 			["Snow Leopard"] = 136.287367192233,
-			["Large Crag Boar"] = 136.666666666667,
 			["Snow Tracker Wolf"] = 135.443037974684,
 			["Strigid Screecher"] = 136.363636363636,
 		}, -- [7]
@@ -61,48 +64,48 @@ LibClassicMobHealth10DB = {
 			["Nightsaber Stalker"] = 155.555555555556,
 			["Elder Crag Boar"] = 113.953488372093,
 			["Rockjaw Skullthumper"] = 155,
-			["Frostmane Troll"] = 155.090027700831,
+			["Webwood Silkspinner"] = 154.545454545455,
 			["Leper Gnome"] = 156.365930225281,
-			["Gnarlpine Defender"] = 155.31914893617,
 			["Elder Nightsaber"] = 158.064516129032,
+			["Gnarlpine Defender"] = 155.31914893617,
 			["Frostmane Snowstrider"] = 142.068965517241,
-			["Snow Leopard"] = 159.340659340659,
 			["Ice Claw Bear"] = 186.53483992467,
+			["Snow Leopard"] = 159.340659340659,
 			["Lord Melenas"] = 144.285714285714,
 			["Frostmane Seer"] = 147.474747474747,
-			["Webwood Silkspinner"] = 154.545454545455,
+			["Frostmane Troll"] = 155.090027700831,
 		}, -- [8]
 		{
-			["Rockjaw Bonesnapper"] = 174.226804123711,
+			["Webwood Silkspinner"] = 167.5,
 			["Frostmane Shadowcaster"] = 160.27397260274,
 			["Leper Gnome"] = 174.109351806037,
 			["Gnarlpine Augur"] = 36.8421052631579,
-			["Gnarlpine Avenger"] = 178.571428571429,
+			["Frostmane Snowstrider"] = 164.645898700134,
 			["Rockjaw Skullthumper"] = 173.972602739726,
 			["Frostmane Headhunter"] = 176.216412490922,
-			["Bloodfeather Harpy"] = 175.609756097561,
+			["Bloodfeather Sorceress"] = 158.730158730159,
 			["Frostmane Hideskinner"] = 175.531914893617,
-			["Elder Nightsaber"] = 175.806451612903,
-			["Frostmane Snowstrider"] = 164.645898700134,
+			["Rockjaw Bonesnapper"] = 174.226804123711,
+			["Gnarlpine Avenger"] = 178.571428571429,
 			["Gnarlpine Pathfinder"] = 138.709677419355,
 			["Scarred Crag Boar"] = 174.549968963377,
-			["Bloodfeather Sorceress"] = 158.730158730159,
+			["Bloodfeather Harpy"] = 175.609756097561,
 			["Frostmane Seer"] = 164.933362464496,
-			["Webwood Silkspinner"] = 167.5,
+			["Elder Nightsaber"] = 175.806451612903,
 		}, -- [9]
 		{
 			["Frostmane Shadowcaster"] = 180,
 			["Greenpaw"] = 187.5,
 			["Coyote"] = 196.842105263158,
+			["Frostmane Hideskinner"] = 196.629213483146,
 			["Bloodfeather Fury"] = 197.999603881957,
-			["Young Fleshripper"] = 195.652173913043,
 			["Rockjaw Bonesnapper"] = 196.511627906977,
 			["Leper Gnome"] = 198.503951275875,
 			["Mountain Boar"] = 196.875495638382,
 			["Tunnel Rat Vermin"] = 197.979797979798,
 			["Scarred Crag Boar"] = 196.723259762309,
 			["Forest Lurker"] = 197.439990218216,
-			["Frostmane Hideskinner"] = 196.629213483146,
+			["Young Fleshripper"] = 195.652173913043,
 		}, -- [10]
 		{
 			["Coyote Packleader"] = 220.338983050847,
@@ -116,12 +119,12 @@ LibClassicMobHealth10DB = {
 			["Coyote"] = 219.753086419753,
 			["Harvest Golem"] = 221.212121212121,
 			["Bloodfeather Matriarch"] = 191.612747464993,
-			["Gibblewilt"] = 197.590361445783,
+			["Forest Lurker"] = 213.307776560789,
 			["Young Fleshripper"] = 220.731707317073,
 			["Mountain Boar"] = 220.20202020202,
 			["Stonesplinter Trogg"] = 221.686746987952,
 			["Vagash"] = 740.506329113924,
-			["Forest Lurker"] = 213.307776560789,
+			["Gibblewilt"] = 197.590361445783,
 			["Tunnel Rat Scout"] = 217.647058823529,
 		}, -- [11]
 		{
@@ -132,12 +135,12 @@ LibClassicMobHealth10DB = {
 			["Tunnel Rat Forager"] = 246.464646464646,
 			["Young Goretusk"] = 244.705882352941,
 			["Stonesplinter Scout"] = 119.642857142857,
-			["Harvest Golem"] = 217.948717948718,
+			["Tunnel Rat Digger"] = 266.304347826087,
 			["Defias Trapper"] = 245.292076344708,
 			["Stonesplinter Trogg"] = 244.791666666667,
 			["Tunnel Rat Geomancer"] = 216.216216216216,
 			["Rockjaw Backbreaker"] = 244.303797468354,
-			["Tunnel Rat Digger"] = 266.304347826087,
+			["Harvest Golem"] = 217.948717948718,
 		}, -- [12]
 		{
 			["Tunnel Rat Geomancer"] = 242.168674698795,
@@ -152,32 +155,32 @@ LibClassicMobHealth10DB = {
 			["Riverpaw Mongrel"] = 300,
 			["Defias Pillager"] = 260,
 			["Fleshripper"] = 300,
-			["Riverpaw Herbalist"] = 300,
-			["Harvest Watcher"] = 300,
-			["Tunnel Rat Surveyor"] = 291.666666666667,
 			["Goretusk"] = 297.959183673469,
+			["Tunnel Rat Surveyor"] = 291.666666666667,
+			["Harvest Watcher"] = 300,
+			["Riverpaw Herbalist"] = 300,
 		}, -- [14]
 		{
 			["Goretusk"] = 327.280104875461,
-			["Riverpaw Herbalist"] = 330.769230769231,
 			["Defias Pillager"] = 282.278481012658,
+			["Riverpaw Herbalist"] = 330.769230769231,
 			["Grizlak"] = 300,
 		}, -- [15]
 		{
 			["Riverpaw Brute"] = 351.807228915663,
 			["Riverpaw Bandit"] = 355.434782608696,
-			["Great Goretusk"] = 353.191489361702,
 			["Bristleback Water Seeker"] = 326.262626262626,
+			["Great Goretusk"] = 353.191489361702,
 		}, -- [16]
 		{
 			["Bristleback Hunter"] = 386.868686868687,
 			["Bristleback Water Seeker"] = 346.938775510204,
 		}, -- [17]
 		{
-			["Bristleback Hunter"] = 413.333333333333,
-			["Silithid Protector"] = 408.108108108108,
-			["Sergeant Brashclaw"] = 415.151515151515,
 			["Hecklefang Snarler"] = 415.492957746479,
+			["Silithid Protector"] = 408.108108108108,
+			["Bristleback Hunter"] = 413.333333333333,
+			["Sergeant Brashclaw"] = 415.151515151515,
 		}, -- [18]
 		nil, -- [19]
 		{
@@ -197,11 +200,8 @@ LibClassicMobHealth10DB = {
 			["Hecklefang Stalker"] = 619.191919191919,
 		}, -- [23]
 	},
-	["pc"] = {
-	},
 	["pet"] = {
 	},
-	["revision"] = 1,
 }
 LibClassicMobHealth10Opt = {
 	["prune"] = 1000,
