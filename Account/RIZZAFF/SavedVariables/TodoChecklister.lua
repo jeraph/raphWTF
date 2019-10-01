@@ -18,6 +18,6 @@ TodoChecklisterDB = {
 	}, -- [4]
 }
 TodoChecklisterMapIcon = {
-	["minimapPos"] = 174.84258907629,
+	["minimapPos"] = 168.499574170999,
 	["hide"] = false,
 }
