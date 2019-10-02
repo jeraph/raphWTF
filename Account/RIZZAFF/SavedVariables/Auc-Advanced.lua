@@ -102,7 +102,7 @@ AucAdvancedServers = {
 	},
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1569965673,
+		["Grobbulus"] = 1569974514,
 	},
 	["Version"] = 1,
 }

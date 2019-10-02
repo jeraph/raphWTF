@@ -207,9 +207,9 @@ DominosDB = {
 					["font"] = "Friz Quadrata TT",
 					["padW"] = 1,
 					["display"] = {
+						["icon"] = false,
 						["time"] = true,
 						["border"] = true,
-						["icon"] = false,
 					},
 					["padH"] = 1,
 					["showInOverrideUI"] = false,
@@ -463,9 +463,9 @@ DominosDB = {
 					["y"] = -88,
 					["padW"] = 1,
 					["display"] = {
+						["border"] = true,
 						["icon"] = false,
 						["time"] = true,
-						["border"] = true,
 					},
 					["showInOverrideUI"] = false,
 					["padH"] = 1,
@@ -576,16 +576,15 @@ DominosDB = {
 					["columns"] = 6,
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
-					["y"] = 276,
-					["x"] = -361,
-					["point"] = "BOTTOM",
+					["y"] = -276,
+					["x"] = -370,
 					["spacing"] = 4,
 					["padH"] = 2,
-					["numButtons"] = 12,
 					["pages"] = {
 						["SHAMAN"] = {
 						},
 					},
+					["numButtons"] = 12,
 					["padW"] = 2,
 				}, -- [3]
 				{
@@ -612,7 +611,7 @@ DominosDB = {
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["x"] = 474,
+					["x"] = 374,
 					["spacing"] = 4,
 					["padH"] = 2,
 					["y"] = -274,
@@ -646,7 +645,7 @@ DominosDB = {
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
 					["padW"] = 2,
-					["x"] = -114,
+					["x"] = -116,
 					["columns"] = 6,
 					["spacing"] = 4,
 					["padH"] = 2,
@@ -719,9 +718,9 @@ DominosDB = {
 					["font"] = "Friz Quadrata TT",
 					["latencyPadding"] = 0,
 					["display"] = {
+						["icon"] = false,
 						["time"] = true,
 						["border"] = true,
-						["icon"] = false,
 					},
 					["padH"] = 1,
 					["padW"] = 1,
@@ -769,6 +768,7 @@ DominosDB = {
 					["spacing"] = 2,
 					["anchor"] = "menuLT",
 					["showInOverrideUI"] = false,
+					["hidden"] = true,
 				},
 				["vehicle"] = {
 					["y"] = 0,
@@ -799,6 +799,7 @@ DominosDB = {
 			["minimap"] = {
 				["minimapPos"] = 200.545529949602,
 			},
+			["showgrid"] = true,
 		},
 		["Warlock"] = {
 			["frames"] = {
@@ -996,9 +997,9 @@ DominosDB = {
 					["padH"] = 1,
 					["x"] = 0,
 					["display"] = {
+						["time"] = true,
 						["border"] = true,
 						["icon"] = false,
-						["time"] = true,
 					},
 					["texture"] = "blizzard",
 				},

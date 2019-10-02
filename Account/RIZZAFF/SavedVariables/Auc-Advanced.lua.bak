@@ -97,7 +97,7 @@ AucAdvancedData = {
 AucAdvancedServers = {
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1569962423,
+		["Grobbulus"] = 1569974483,
 	},
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",

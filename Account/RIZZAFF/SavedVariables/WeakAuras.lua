@@ -102,22 +102,14 @@ WeakAurasSaved = {
 			["regionType"] = "text",
 			["blendMode"] = "BLEND",
 			["parent"] = "Totem Text Range",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 			["selfPoint"] = "LEFT",
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+			["color"] = {
+				1, -- [1]
+				0.647058823529412, -- [2]
+				0.396078431372549, -- [3]
+				0.75, -- [4]
+			},
 			["conditions"] = {
 			},
 			["justify"] = "LEFT",
@@ -132,11 +124,19 @@ WeakAurasSaved = {
 			["uid"] = "jHRgUF0Xfbi",
 			["anchorFrameType"] = "MOUSE",
 			["fixedWidth"] = 200,
-			["color"] = {
-				1, -- [1]
-				0.647058823529412, -- [2]
-				0.396078431372549, -- [3]
-				0.75, -- [4]
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
 			},
 			["discrete_rotation"] = 0,
 		},
@@ -216,10 +216,10 @@ WeakAurasSaved = {
 			["selfPoint"] = "BOTTOMLEFT",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "MOUSE",
+			["borderInset"] = 1,
 			["uid"] = "lJbgvLD5vJn",
 			["config"] = {
 			},
-			["borderInset"] = 1,
 			["borderOffset"] = 4,
 			["conditions"] = {
 			},
@@ -300,12 +300,11 @@ WeakAurasSaved = {
 			["selfPoint"] = "LEFT",
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
-			["parent"] = "Lightning Shield Charges",
+			["glowLength"] = 10,
 			["cooldownSwipe"] = true,
-			["authorOptions"] = {
-			},
+			["parent"] = "Lightning Shield Charges",
 			["customTextUpdate"] = "update",
-			["cooldownEdge"] = false,
+			["automaticWidth"] = "Auto",
 			["icon"] = true,
 			["useglowColor"] = false,
 			["color"] = {
@@ -325,13 +324,13 @@ WeakAurasSaved = {
 				["main"] = {
 					["type"] = "none",
 					["translateType"] = "shake",
-					["colorA"] = 1,
+					["x"] = 3,
 					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 					["scalex"] = 1,
 					["alpha"] = 0,
-					["x"] = 3,
-					["y"] = 0,
 					["colorB"] = 1,
+					["y"] = 0,
+					["colorA"] = 1,
 					["colorG"] = 1,
 					["colorR"] = 1,
 					["scaley"] = 1,
@@ -353,23 +352,24 @@ WeakAurasSaved = {
 					["type"] = "custom",
 					["scaleType"] = "straightScale",
 					["duration"] = ".66",
-					["preset"] = "slidetop",
+					["scaley"] = 2,
 					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local bounceDistance = math.sin(progress * math.pi)\n      return startX + (bounceDistance * deltaX), startY + (bounceDistance * deltaY)\n    end\n  ",
-					["use_color"] = false,
+					["preset"] = "slidetop",
 					["alpha"] = 0,
 					["x"] = 0,
 					["y"] = 66,
 					["colorType"] = "straightColor",
 					["translateType"] = "bounce",
-					["scaley"] = 2,
+					["use_color"] = false,
 					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
 					["rotate"] = 0,
 					["duration_type"] = "seconds",
 					["use_scale"] = true,
 				},
 			},
-			["glowLength"] = 10,
-			["automaticWidth"] = "Auto",
+			["authorOptions"] = {
+			},
+			["url"] = "https://wago.io/z_FlToQHY/1",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
@@ -469,7 +469,7 @@ WeakAurasSaved = {
 			["regionType"] = "texture",
 			["tocversion"] = 11302,
 			["blendMode"] = "BLEND",
-			["url"] = "https://wago.io/z_FlToQHY/1",
+			["cooldownEdge"] = false,
 			["discrete_rotation"] = 0,
 			["glowLines"] = 8,
 			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\target_indicator_glow.tga",
@@ -478,10 +478,10 @@ WeakAurasSaved = {
 			["justify"] = "CENTER",
 			["glowScale"] = 1,
 			["id"] = "Charge Center (3)",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 54.6435089111328,
 			["glowYOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["width"] = 54.6435089111328,
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -506,12 +506,11 @@ WeakAurasSaved = {
 			["wordWrap"] = "WordWrap",
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
-			["parent"] = "Lightning Shield Charges",
+			["glowLength"] = 10,
 			["cooldownSwipe"] = true,
-			["authorOptions"] = {
-			},
+			["parent"] = "Lightning Shield Charges",
 			["customTextUpdate"] = "update",
-			["cooldownEdge"] = false,
+			["url"] = "https://wago.io/z_FlToQHY/1",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
@@ -536,8 +535,9 @@ WeakAurasSaved = {
 			["internalVersion"] = 21,
 			["glowXOffset"] = 0,
 			["selfPoint"] = "LEFT",
-			["glowLength"] = 10,
-			["url"] = "https://wago.io/z_FlToQHY/1",
+			["authorOptions"] = {
+			},
+			["automaticWidth"] = "Auto",
 			["icon"] = true,
 			["desaturate"] = false,
 			["discrete_rotation"] = 0,
@@ -614,13 +614,13 @@ WeakAurasSaved = {
 				["main"] = {
 					["translateType"] = "shake",
 					["type"] = "none",
-					["colorA"] = 1,
+					["x"] = 3,
 					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 					["scalex"] = 1,
 					["alpha"] = 0,
-					["x"] = 3,
-					["y"] = 0,
 					["colorB"] = 1,
+					["y"] = 0,
+					["colorA"] = 1,
 					["colorG"] = 1,
 					["colorR"] = 1,
 					["scaley"] = 1,
@@ -642,15 +642,15 @@ WeakAurasSaved = {
 					["type"] = "custom",
 					["scaleType"] = "straightScale",
 					["duration"] = ".66",
-					["preset"] = "slidetop",
+					["scaley"] = 2,
 					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local bounceDistance = math.sin(progress * math.pi)\n      return startX + (bounceDistance * deltaX), startY + (bounceDistance * deltaY)\n    end\n  ",
-					["use_color"] = false,
+					["preset"] = "slidetop",
 					["alpha"] = 0,
 					["x"] = 0,
 					["y"] = 66,
 					["colorType"] = "straightColor",
 					["translateType"] = "bounce",
-					["scaley"] = 2,
+					["use_color"] = false,
 					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
 					["rotate"] = 0,
 					["duration_type"] = "seconds",
@@ -660,7 +660,7 @@ WeakAurasSaved = {
 			["regionType"] = "texture",
 			["auto"] = true,
 			["blendMode"] = "BLEND",
-			["automaticWidth"] = "Auto",
+			["cooldownEdge"] = false,
 			["rotation"] = 0,
 			["load"] = {
 				["use_class"] = true,
@@ -684,10 +684,10 @@ WeakAurasSaved = {
 			["justify"] = "CENTER",
 			["tocversion"] = 11302,
 			["id"] = "Charge Right (1)",
-			["width"] = 54.6435089111328,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["glowYOffset"] = 0,
+			["alpha"] = 1,
+			["width"] = 54.6435089111328,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -926,12 +926,12 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "NamePlateTarget",
-			["borderInset"] = 1,
+			["uid"] = "9ZcQCjL1eNH",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["borderInset"] = 1,
 			["config"] = {
 			},
-			["uid"] = "9ZcQCjL1eNH",
 			["borderOffset"] = 4,
 			["selfPoint"] = "BOTTOMLEFT",
 			["conditions"] = {
@@ -1029,7 +1029,7 @@ WeakAurasSaved = {
 				0.75, -- [4]
 			},
 			["regionType"] = "texture",
-			["anchorFrameType"] = "MOUSE",
+			["width"] = 2,
 			["actions"] = {
 				["start"] = {
 				},
@@ -1070,11 +1070,11 @@ WeakAurasSaved = {
 			["id"] = "Cursor Vertical",
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 8,
-			["desaturate"] = false,
+			["anchorFrameType"] = "MOUSE",
 			["rotation"] = 93,
 			["config"] = {
 			},
-			["width"] = 2,
+			["desaturate"] = false,
 			["subRegions"] = {
 			},
 			["height"] = 1200,
@@ -1099,52 +1099,19 @@ WeakAurasSaved = {
 		},
 		["In Combat"] = {
 			["uid"] = "KSba2or2kgH",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
-					["use_rotate"] = false,
-					["scalex"] = 1.1,
-					["alphaType"] = "alphaPulse",
-					["colorB"] = 1,
-					["colorG"] = 1,
-					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-					["use_alpha"] = true,
-					["type"] = "custom",
-					["scaleType"] = "pulse",
-					["colorR"] = 1,
-					["preset"] = "rotateClockwise",
-					["alpha"] = 0.65,
-					["rotateFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
-					["y"] = 0,
-					["x"] = 0,
-					["use_scale"] = true,
-					["rotateType"] = "straight",
-					["colorA"] = 1,
-					["rotate"] = -360,
-					["scaley"] = 1.1,
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["authorOptions"] = {
-			},
+			["tocversion"] = 11302,
 			["color"] = {
 				1, -- [1]
 				0.0156862745098039, -- [2]
 				0, -- [3]
 				0.75, -- [4]
 			},
+			["xOffset"] = -134.973876953125,
 			["mirror"] = false,
 			["yOffset"] = -53.5520935058594,
 			["anchorPoint"] = "CENTER",
-			["xOffset"] = -134.973876953125,
+			["authorOptions"] = {
+			},
 			["blendMode"] = "BLEND",
 			["rotate"] = true,
 			["regionType"] = "texture",
@@ -1179,10 +1146,43 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["tocversion"] = 11302,
+			["selfPoint"] = "CENTER",
 			["internalVersion"] = 21,
 			["rotation"] = 0,
-			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
+					["use_rotate"] = false,
+					["scalex"] = 1.1,
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = true,
+					["type"] = "custom",
+					["scaleType"] = "pulse",
+					["colorR"] = 1,
+					["preset"] = "rotateClockwise",
+					["alpha"] = 0.65,
+					["rotateFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+					["y"] = 0,
+					["x"] = 0,
+					["use_scale"] = true,
+					["rotateType"] = "straight",
+					["colorA"] = 1,
+					["rotate"] = -360,
+					["scaley"] = 1.1,
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["id"] = "In Combat",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
@@ -1373,12 +1373,12 @@ WeakAurasSaved = {
 			["yOffset"] = -3.7427978515625,
 			["tocversion"] = 11302,
 			["id"] = "Totem Text Range",
-			["uid"] = "Z0JXbO0UINn",
+			["borderInset"] = 1,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "MOUSE",
+			["uid"] = "Z0JXbO0UINn",
 			["config"] = {
 			},
-			["borderInset"] = 1,
 			["internalVersion"] = 21,
 			["animation"] = {
 				["start"] = {
@@ -1574,22 +1574,22 @@ WeakAurasSaved = {
 			["internalVersion"] = 21,
 			["animation"] = {
 				["start"] = {
+					["type"] = "none",
 					["scaleType"] = "straightScale",
-					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
 					["use_scale"] = false,
 					["duration"] = ".15",
+					["scalex"] = 1.5,
 					["scaley"] = 1,
-					["duration_type"] = "seconds",
 					["alpha"] = 0,
 					["colorR"] = 1,
 					["y"] = 0,
-					["colorB"] = 1,
-					["colorG"] = 1,
 					["colorA"] = 1,
+					["colorG"] = 1,
 					["x"] = 0,
+					["colorB"] = 1,
 					["rotate"] = 0,
-					["scalex"] = 1.5,
-					["type"] = "none",
+					["duration_type"] = "seconds",
+					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
 				},
 				["main"] = {
 					["translateType"] = "bounce",
@@ -1640,10 +1640,10 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["alpha"] = 1,
 			["parent"] = "NamePlateTarget",
 			["desaturate"] = false,
-			["text1Font"] = "Friz Quadrata TT",
+			["alpha"] = 1,
+			["xOffset"] = 120,
 			["text1Point"] = "RIGHT",
 			["zoom"] = 0,
 			["text1"] = "%c",
@@ -1672,8 +1672,8 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
+			["text1Font"] = "Friz Quadrata TT",
 			["fixedWidth"] = 200,
-			["xOffset"] = 120,
 		},
 		["Beacon"] = {
 			["text2Point"] = "CENTER",
@@ -1804,18 +1804,18 @@ WeakAurasSaved = {
 					["type"] = "none",
 					["scaleType"] = "straightScale",
 					["duration_type"] = "seconds",
-					["x"] = 0,
-					["duration"] = ".15",
-					["alpha"] = 0,
-					["colorA"] = 1,
-					["y"] = 0,
 					["colorB"] = 1,
+					["use_scale"] = false,
+					["alpha"] = 0,
+					["x"] = 0,
+					["y"] = 0,
+					["colorA"] = 1,
 					["colorG"] = 1,
 					["colorR"] = 1,
 					["scaley"] = 1,
 					["rotate"] = 0,
-					["use_scale"] = false,
 					["scalex"] = 1.5,
+					["duration"] = ".15",
 				},
 				["main"] = {
 					["colorR"] = 1,
@@ -1866,10 +1866,11 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["fixedWidth"] = 200,
 			["parent"] = "NamePlateTarget",
 			["desaturate"] = false,
-			["cooldownTextDisabled"] = false,
+			["fixedWidth"] = 200,
+			["config"] = {
+			},
 			["alpha"] = 0.32,
 			["wordWrap"] = "WordWrap",
 			["text1"] = "%c",
@@ -1902,9 +1903,8 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["cooldownTextDisabled"] = false,
 			["text2"] = "%p",
-			["config"] = {
-			},
 		},
 		["Cursor Horizontal"] = {
 			["config"] = {
@@ -1979,10 +1979,10 @@ WeakAurasSaved = {
 			["id"] = "Cursor Horizontal",
 			["tocversion"] = 11302,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["width"] = 4500,
 			["discrete_rotation"] = 0,
 			["uid"] = "LKqW)KDxXa3",
-			["width"] = 4500,
+			["anchorFrameType"] = "MOUSE",
 			["subRegions"] = {
 			},
 			["height"] = 2,
@@ -2001,7 +2001,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorFrameType"] = "MOUSE",
+			["desaturate"] = false,
 		},
 		["Strength of Earth"] = {
 			["outline"] = "OUTLINE",
@@ -2073,9 +2073,14 @@ WeakAurasSaved = {
 			["regionType"] = "text",
 			["blendMode"] = "BLEND",
 			["parent"] = "Totem Text Range",
-			["xOffset"] = 220,
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 			["discrete_rotation"] = 0,
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+			["color"] = {
+				1, -- [1]
+				0.6, -- [2]
+				0.337254901960784, -- [3]
+				0.75, -- [4]
+			},
 			["fixedWidth"] = 200,
 			["justify"] = "LEFT",
 			["tocversion"] = 11302,
@@ -2111,12 +2116,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["color"] = {
-				1, -- [1]
-				0.6, -- [2]
-				0.337254901960784, -- [3]
-				0.75, -- [4]
-			},
+			["xOffset"] = 220,
 			["selfPoint"] = "LEFT",
 		},
 		["Charge Left (2)"] = {
@@ -2129,12 +2129,11 @@ WeakAurasSaved = {
 			["selfPoint"] = "LEFT",
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
-			["parent"] = "Lightning Shield Charges",
+			["glowLength"] = 10,
 			["cooldownSwipe"] = true,
-			["authorOptions"] = {
-			},
+			["parent"] = "Lightning Shield Charges",
 			["customTextUpdate"] = "update",
-			["cooldownEdge"] = false,
+			["automaticWidth"] = "Auto",
 			["icon"] = true,
 			["triggers"] = {
 				{
@@ -2181,8 +2180,9 @@ WeakAurasSaved = {
 			["internalVersion"] = 21,
 			["keepAspectRatio"] = true,
 			["wordWrap"] = "WordWrap",
-			["glowLength"] = 10,
-			["automaticWidth"] = "Auto",
+			["authorOptions"] = {
+			},
+			["url"] = "https://wago.io/z_FlToQHY/1",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
@@ -2243,13 +2243,13 @@ WeakAurasSaved = {
 				["main"] = {
 					["type"] = "none",
 					["translateType"] = "shake",
-					["x"] = 3,
+					["colorB"] = 1,
 					["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 					["scalex"] = 1,
 					["alpha"] = 0,
-					["colorB"] = 1,
-					["y"] = 0,
 					["colorA"] = 1,
+					["y"] = 0,
+					["x"] = 3,
 					["colorG"] = 1,
 					["scaley"] = 1,
 					["colorR"] = 1,
@@ -2289,7 +2289,7 @@ WeakAurasSaved = {
 			["regionType"] = "texture",
 			["justify"] = "CENTER",
 			["blendMode"] = "BLEND",
-			["url"] = "https://wago.io/z_FlToQHY/1",
+			["cooldownEdge"] = false,
 			["discrete_rotation"] = 0,
 			["glowLines"] = 8,
 			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\target_indicator_glow.tga",
@@ -2298,10 +2298,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["tocversion"] = 11302,
 			["id"] = "Charge Left (2)",
-			["width"] = 54.6435089111328,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["glowYOffset"] = 0,
+			["alpha"] = 1,
+			["width"] = 54.6435089111328,
+			["anchorFrameType"] = "SCREEN",
 			["config"] = {
 			},
 			["inverse"] = false,
@@ -2379,60 +2379,7 @@ WeakAurasSaved = {
 			["glowLines"] = 8,
 			["alpha"] = 1,
 			["glowFrequency"] = 0.25,
-			["load"] = {
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["authorOptions"] = {
-			},
-			["glowType"] = "buttonOverlay",
-			["glowThickness"] = 1,
-			["parent"] = "Weapon Group",
-			["keepAspectRatio"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["regionType"] = "icon",
-			["xOffset"] = -447.7861328125,
-			["config"] = {
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
-			["glowScale"] = 1,
-			["zoom"] = 0,
-			["auto"] = true,
-			["tocversion"] = 11302,
-			["id"] = "!Reminder - Lightning Shield",
 			["url"] = "https://wago.io/z_FlToQHY/1",
-			["frameStrata"] = 1,
-			["width"] = 54.6435089111328,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -2469,8 +2416,58 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["uid"] = "SD1zgwSAHjQ",
-			["inverse"] = false,
+			["glowType"] = "buttonOverlay",
+			["glowThickness"] = 1,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["authorOptions"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["regionType"] = "icon",
+			["parent"] = "Weapon Group",
+			["config"] = {
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextDisabled"] = false,
+			["glowScale"] = 1,
+			["zoom"] = 0,
+			["auto"] = true,
+			["tocversion"] = 11302,
+			["id"] = "!Reminder - Lightning Shield",
+			["xOffset"] = -447.7861328125,
+			["frameStrata"] = 1,
+			["width"] = 54.6435089111328,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\ESPARK1.ogg",
@@ -2483,6 +2480,9 @@ WeakAurasSaved = {
 					["do_sound"] = false,
 				},
 			},
+			["uid"] = "SD1zgwSAHjQ",
+			["inverse"] = false,
+			["keepAspectRatio"] = true,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -2733,9 +2733,10 @@ WeakAurasSaved = {
 			["regionType"] = "text",
 			["blendMode"] = "BLEND",
 			["parent"] = "Totem Text Range",
-			["selfPoint"] = "LEFT",
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 			["rotation"] = 0,
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["justify"] = "LEFT",
@@ -2750,8 +2751,7 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 3,
 			["fixedWidth"] = 200,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "LEFT",
 			["wordWrap"] = "WordWrap",
 		},
 		["Big Cursor"] = {
@@ -2829,10 +2829,10 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 2,
 			["anchorFrameType"] = "SCREEN",
+			["uid"] = "Hxbs6SZkW6l",
 			["borderInset"] = 1,
 			["config"] = {
 			},
-			["uid"] = "Hxbs6SZkW6l",
 			["internalVersion"] = 21,
 			["conditions"] = {
 			},
@@ -2963,6 +2963,7 @@ WeakAurasSaved = {
 			["internalVersion"] = 21,
 			["glowXOffset"] = 0,
 			["wordWrap"] = "WordWrap",
+			["parent"] = "Weapon Group",
 			["xOffset"] = -634.933442924271,
 			["animation"] = {
 				["start"] = {
@@ -2996,7 +2997,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["parent"] = "Weapon Group",
 			["desaturate"] = false,
 			["glowColor"] = {
 				1, -- [1]
@@ -3168,10 +3168,22 @@ WeakAurasSaved = {
 			["regionType"] = "text",
 			["blendMode"] = "BLEND",
 			["parent"] = "Totem Text Range",
-			["authorOptions"] = {
-			},
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 			["discrete_rotation"] = 0,
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["fixedWidth"] = 200,
 			["justify"] = "LEFT",
 			["tocversion"] = 11302,
@@ -3186,19 +3198,7 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "MOUSE",
 			["conditions"] = {
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["authorOptions"] = {
 			},
 			["xOffset"] = 220,
 		},
@@ -3220,7 +3220,7 @@ WeakAurasSaved = {
 			["yOffset"] = -400,
 			["anchorPoint"] = "CENTER",
 			["borderSize"] = 2,
-			["borderInset"] = 1,
+			["scale"] = 0.65,
 			["borderColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -3256,11 +3256,9 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = 1,
 			},
-			["scale"] = 0.65,
-			["internalVersion"] = 21,
 			["borderEdge"] = "1 Pixel",
+			["internalVersion"] = 21,
 			["selfPoint"] = "BOTTOMLEFT",
-			["id"] = "Weapon Group",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3275,12 +3273,14 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["id"] = "Weapon Group",
+			["borderOffset"] = 4,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["borderOffset"] = 4,
-			["uid"] = "YvU3yWAbc04",
 			["config"] = {
 			},
+			["borderInset"] = 1,
+			["uid"] = "YvU3yWAbc04",
 			["regionType"] = "group",
 			["conditions"] = {
 			},
@@ -3421,7 +3421,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["height"] = 65.8710556030274,
-			["selfPoint"] = "CENTER",
+			["glowLines"] = 8,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -3438,16 +3438,19 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["glowFrequency"] = 0.25,
-			["keepAspectRatio"] = true,
-			["xOffset"] = -557.500030517578,
-			["glowType"] = "buttonOverlay",
-			["glowThickness"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["selfPoint"] = "CENTER",
+			["glowType"] = "buttonOverlay",
+			["glowThickness"] = 1,
+			["icon"] = true,
+			["xOffset"] = -557.500030517578,
+			["keepAspectRatio"] = true,
+			["regionType"] = "icon",
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -3484,11 +3487,8 @@ WeakAurasSaved = {
 				}, -- [1]
 				["activeTriggerMode"] = -10,
 			},
-			["parent"] = "Weapon Group",
-			["regionType"] = "icon",
-			["glowLines"] = 8,
 			["uid"] = "y6(rlvDrGmP",
-			["icon"] = true,
+			["parent"] = "Weapon Group",
 			["width"] = 54.6435089111328,
 			["zoom"] = 0,
 			["tocversion"] = 11302,
@@ -3842,14 +3842,10 @@ WeakAurasSaved = {
 			["lastUpdate"] = 1568874144,
 			["allowUpdates"] = true,
 			["data"] = {
-				["xOffset"] = -309.704162597656,
-				["regionType"] = "texture",
-				["color"] = {
-					1, -- [1]
-					0.0156862745098039, -- [2]
-					0, -- [3]
-					0.75, -- [4]
+				["authorOptions"] = {
 				},
+				["regionType"] = "texture",
+				["xOffset"] = -309.704162597656,
 				["conditions"] = {
 				},
 				["mirror"] = false,
@@ -3857,41 +3853,8 @@ WeakAurasSaved = {
 				["anchorPoint"] = "CENTER",
 				["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura19",
 				["blendMode"] = "BLEND",
-				["width"] = 103.742980957031,
-				["animation"] = {
-					["start"] = {
-						["duration_type"] = "seconds",
-						["type"] = "none",
-					},
-					["main"] = {
-						["colorR"] = 1,
-						["use_rotate"] = false,
-						["scalex"] = 1.1,
-						["alphaType"] = "alphaPulse",
-						["colorB"] = 1,
-						["colorG"] = 1,
-						["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-						["use_alpha"] = true,
-						["type"] = "custom",
-						["duration_type"] = "seconds",
-						["scaley"] = 1.1,
-						["preset"] = "rotateClockwise",
-						["alpha"] = 0.65,
-						["rotate"] = -360,
-						["y"] = 0,
-						["x"] = 0,
-						["colorA"] = 1,
-						["rotateType"] = "straight",
-						["use_scale"] = true,
-						["rotateFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
-						["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
-						["scaleType"] = "pulse",
-					},
-					["finish"] = {
-						["duration_type"] = "seconds",
-						["type"] = "none",
-					},
-				},
+				["desaturate"] = false,
+				["selfPoint"] = "CENTER",
 				["config"] = {
 				},
 				["actions"] = {
@@ -3926,15 +3889,48 @@ WeakAurasSaved = {
 				},
 				["discrete_rotation"] = 0,
 				["internalVersion"] = 21,
-				["desaturate"] = false,
-				["tocversion"] = 11302,
+				["anchorFrameType"] = "SCREEN",
+				["animation"] = {
+					["start"] = {
+						["duration_type"] = "seconds",
+						["type"] = "none",
+					},
+					["main"] = {
+						["colorR"] = 1,
+						["use_rotate"] = false,
+						["scalex"] = 1.1,
+						["alphaType"] = "alphaPulse",
+						["colorB"] = 1,
+						["colorG"] = 1,
+						["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+						["use_alpha"] = true,
+						["type"] = "custom",
+						["duration_type"] = "seconds",
+						["scaley"] = 1.1,
+						["preset"] = "rotateClockwise",
+						["alpha"] = 0.65,
+						["rotate"] = -360,
+						["y"] = 0,
+						["x"] = 0,
+						["colorA"] = 1,
+						["rotateType"] = "straight",
+						["use_scale"] = true,
+						["rotateFunc"] = "    function(progress, start, delta)\n      return start + (progress * delta)\n    end\n  ",
+						["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
+						["scaleType"] = "pulse",
+					},
+					["finish"] = {
+						["duration_type"] = "seconds",
+						["type"] = "none",
+					},
+				},
 				["id"] = "In Combat",
 				["frameStrata"] = 1,
 				["alpha"] = 1,
-				["anchorFrameType"] = "SCREEN",
+				["width"] = 103.742980957031,
 				["rotation"] = 0,
 				["uid"] = "KSba2or2kgH",
-				["selfPoint"] = "CENTER",
+				["tocversion"] = 11302,
 				["subRegions"] = {
 				},
 				["height"] = 112.164520263672,
@@ -3955,7 +3951,11 @@ WeakAurasSaved = {
 						},
 					},
 				},
-				["authorOptions"] = {
+				["color"] = {
+					1, -- [1]
+					0.0156862745098039, -- [2]
+					0, -- [3]
+					0.75, -- [4]
 				},
 			},
 		},
@@ -4032,7 +4032,7 @@ WeakAurasSaved = {
 				["icon"] = true,
 				["internalVersion"] = 21,
 				["keepAspectRatio"] = true,
-				["wordWrap"] = "WordWrap",
+				["selfPoint"] = "LEFT",
 				["automaticWidth"] = "Auto",
 				["config"] = {
 				},
@@ -4100,7 +4100,6 @@ WeakAurasSaved = {
 				["anchorFrameType"] = "SCREEN",
 				["uid"] = "9j8oNzrq)pc",
 				["inverse"] = false,
-				["selfPoint"] = "LEFT",
 				["animation"] = {
 					["start"] = {
 						["duration_type"] = "seconds",
@@ -4110,13 +4109,13 @@ WeakAurasSaved = {
 					["main"] = {
 						["type"] = "none",
 						["translateType"] = "shake",
-						["x"] = 3,
+						["colorA"] = 1,
 						["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 						["duration_type"] = "seconds",
 						["alpha"] = 0,
-						["colorA"] = 1,
-						["y"] = 0,
 						["colorB"] = 1,
+						["y"] = 0,
+						["x"] = 3,
 						["colorG"] = 1,
 						["scaley"] = 1,
 						["colorR"] = 1,
@@ -4153,6 +4152,7 @@ WeakAurasSaved = {
 						["scalex"] = 2,
 					},
 				},
+				["wordWrap"] = "WordWrap",
 				["conditions"] = {
 					{
 						["check"] = {
@@ -4250,11 +4250,11 @@ WeakAurasSaved = {
 				["selfPoint"] = "BOTTOMLEFT",
 				["frameStrata"] = 1,
 				["anchorFrameType"] = "MOUSE",
-				["borderInset"] = 1,
-				["uid"] = "Z0JXbO0UINn",
-				["tocversion"] = 11302,
 				["config"] = {
 				},
+				["borderInset"] = 1,
+				["tocversion"] = 11302,
+				["uid"] = "Z0JXbO0UINn",
 				["xOffset"] = -40,
 				["conditions"] = {
 				},
@@ -4503,11 +4503,11 @@ WeakAurasSaved = {
 				["selfPoint"] = "BOTTOMLEFT",
 				["frameStrata"] = 1,
 				["anchorFrameType"] = "SCREEN",
+				["borderInset"] = 1,
 				["uid"] = "YvU3yWAbc04",
+				["scale"] = 0.65,
 				["config"] = {
 				},
-				["scale"] = 0.65,
-				["borderInset"] = 1,
 				["internalVersion"] = 21,
 				["conditions"] = {
 				},
@@ -4638,8 +4638,9 @@ WeakAurasSaved = {
 				["tocversion"] = 11302,
 				["frameStrata"] = 1,
 				["anchorFrameType"] = "SCREEN",
+				["config"] = {
+				},
 				["uid"] = "9ZcQCjL1eNH",
-				["borderInset"] = 1,
 				["animation"] = {
 					["start"] = {
 						["duration_type"] = "seconds",
@@ -4654,8 +4655,7 @@ WeakAurasSaved = {
 						["type"] = "none",
 					},
 				},
-				["config"] = {
-				},
+				["borderInset"] = 1,
 				["authorOptions"] = {
 				},
 				["conditions"] = {
@@ -4819,13 +4819,13 @@ WeakAurasSaved = {
 					["main"] = {
 						["type"] = "none",
 						["translateType"] = "shake",
-						["colorB"] = 1,
+						["x"] = 3,
 						["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 						["duration_type"] = "seconds",
 						["alpha"] = 0,
-						["x"] = 3,
-						["y"] = 0,
 						["colorA"] = 1,
+						["y"] = 0,
+						["colorB"] = 1,
 						["colorG"] = 1,
 						["colorR"] = 1,
 						["scaley"] = 1,
@@ -5172,13 +5172,13 @@ WeakAurasSaved = {
 					["main"] = {
 						["translateType"] = "shake",
 						["duration_type"] = "seconds",
-						["x"] = -3,
+						["colorA"] = 1,
 						["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 						["scalex"] = 1,
 						["alpha"] = 0,
-						["colorA"] = 1,
-						["y"] = 0,
 						["colorB"] = 1,
+						["y"] = 0,
+						["x"] = -3,
 						["colorG"] = 1,
 						["scaley"] = 1,
 						["colorR"] = 1,
@@ -5652,18 +5652,18 @@ WeakAurasSaved = {
 						["type"] = "none",
 						["scaleType"] = "straightScale",
 						["duration_type"] = "seconds",
-						["x"] = 0,
-						["duration"] = ".15",
-						["alpha"] = 0,
-						["colorA"] = 1,
-						["y"] = 0,
 						["colorB"] = 1,
+						["use_scale"] = false,
+						["alpha"] = 0,
+						["x"] = 0,
+						["y"] = 0,
+						["colorA"] = 1,
 						["colorG"] = 1,
 						["colorR"] = 1,
 						["scaley"] = 1,
 						["rotate"] = 0,
-						["use_scale"] = false,
 						["scalex"] = 1.5,
+						["duration"] = ".15",
 					},
 					["main"] = {
 						["colorR"] = 1,
@@ -5863,22 +5863,22 @@ WeakAurasSaved = {
 				["internalVersion"] = 21,
 				["animation"] = {
 					["start"] = {
+						["type"] = "none",
 						["scaleType"] = "straightScale",
-						["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
 						["duration"] = ".15",
 						["scalex"] = 1.5,
+						["scaley"] = 1,
 						["duration_type"] = "seconds",
-						["use_scale"] = false,
 						["alpha"] = 0,
 						["colorR"] = 1,
 						["y"] = 0,
-						["x"] = 0,
-						["colorG"] = 1,
 						["colorB"] = 1,
+						["colorG"] = 1,
 						["colorA"] = 1,
+						["x"] = 0,
 						["rotate"] = 0,
-						["scaley"] = 1,
-						["type"] = "none",
+						["use_scale"] = false,
+						["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\n    end\n  ",
 					},
 					["main"] = {
 						["colorR"] = 1,
@@ -6050,13 +6050,13 @@ WeakAurasSaved = {
 					["main"] = {
 						["translateType"] = "shake",
 						["duration_type"] = "seconds",
-						["x"] = 3,
+						["colorA"] = 1,
 						["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 						["scalex"] = 1,
 						["alpha"] = 0,
-						["colorA"] = 1,
-						["y"] = 0,
 						["colorB"] = 1,
+						["y"] = 0,
+						["x"] = 3,
 						["colorG"] = 1,
 						["scaley"] = 1,
 						["colorR"] = 1,
@@ -6269,13 +6269,13 @@ WeakAurasSaved = {
 					["main"] = {
 						["translateType"] = "shake",
 						["type"] = "none",
-						["colorA"] = 1,
+						["colorB"] = 1,
 						["translateFunc"] = "    function(progress, startX, startY, deltaX, deltaY)\n      local prog\n      if(progress < 0.25) then\n        prog = progress * 4\n      elseif(progress < .75) then\n        prog = 2 - (progress * 4)\n      else\n        prog = (progress - 1) * 4\n      end\n      return startX + (prog * deltaX), startY + (prog * deltaY)\n    end\n  ",
 						["scalex"] = 1,
 						["alpha"] = 0,
-						["colorB"] = 1,
-						["y"] = 0,
 						["x"] = 3,
+						["y"] = 0,
+						["colorA"] = 1,
 						["colorG"] = 1,
 						["scaley"] = 1,
 						["colorR"] = 1,
@@ -6477,12 +6477,12 @@ WeakAurasSaved = {
 				["selfPoint"] = "BOTTOMLEFT",
 				["frameStrata"] = 2,
 				["anchorFrameType"] = "SCREEN",
+				["borderInset"] = 1,
 				["config"] = {
 				},
-				["uid"] = "Hxbs6SZkW6l",
 				["authorOptions"] = {
 				},
-				["borderInset"] = 1,
+				["uid"] = "Hxbs6SZkW6l",
 				["borderOffset"] = 4,
 				["conditions"] = {
 				},
@@ -6613,11 +6613,11 @@ WeakAurasSaved = {
 				["tocversion"] = 11302,
 				["frameStrata"] = 1,
 				["anchorFrameType"] = "MOUSE",
+				["uid"] = "lJbgvLD5vJn",
 				["config"] = {
 				},
-				["borderInset"] = 1,
 				["xOffset"] = 22.5,
-				["uid"] = "lJbgvLD5vJn",
+				["borderInset"] = 1,
 				["animation"] = {
 					["start"] = {
 						["type"] = "none",
@@ -6933,8 +6933,8 @@ WeakAurasSaved = {
 	},
 	["login_squelch_time"] = 10,
 	["frame"] = {
-		["xOffset"] = -195.853759765625,
-		["yOffset"] = -122.790771484375,
+		["xOffset"] = -244.231811523438,
+		["yOffset"] = -492.111999511719,
 		["height"] = 665.000122070313,
 		["width"] = 829.999877929688,
 	},

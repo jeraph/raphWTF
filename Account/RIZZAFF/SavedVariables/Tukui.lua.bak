@@ -855,11 +855,11 @@ TukuiData = {
 					-22.0000019073486, -- [5]
 				},
 				["TukuiTargetTargetFrame"] = {
-					"BOTTOM", -- [1]
+					"RIGHT", -- [1]
 					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					391.111694335938, -- [4]
-					202.365127563477, -- [5]
+					"RIGHT", -- [3]
+					-387.057067871094, -- [4]
+					-175.216079711914, -- [5]
 				},
 				["TukuiLootFrame"] = {
 					"TOP", -- [1]
@@ -876,11 +876,11 @@ TukuiData = {
 					87.0393295288086, -- [5]
 				},
 				["TukuiObjectiveTracker"] = {
-					"RIGHT", -- [1]
+					"CENTER", -- [1]
 					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-414.095520019531, -- [4]
-					202.412780761719, -- [5]
+					"CENTER", -- [3]
+					477.940246582031, -- [4]
+					218.931930541992, -- [5]
 				},
 				["TukuiBuffHeader"] = {
 					"TOP", -- [1]
@@ -897,18 +897,18 @@ TukuiData = {
 					-37.5869178771973, -- [5]
 				},
 				["TukuiPetFrame"] = {
-					"BOTTOM", -- [1]
+					"LEFT", -- [1]
 					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					-370.309844970703, -- [4]
-					207.285537719727, -- [5]
+					"LEFT", -- [3]
+					400.781646728516, -- [4]
+					-182.095001220703, -- [5]
 				},
 				["TukuiTooltipAnchor"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					196.334075927734, -- [4]
-					211.198425292969, -- [5]
+					209.313430786133, -- [4]
+					241.877029418945, -- [5]
 				},
 				["TukuiParty"] = {
 					"CENTER", -- [1]
@@ -1467,7 +1467,7 @@ TukuiSettings = {
 	},
 	["General"] = {
 		["WorldMapScale"] = 100,
-		["MinimapScale"] = 162,
+		["MinimapScale"] = 100,
 		["UIScale"] = 0.64,
 	},
 	["ActionBars"] = {
@@ -1636,9 +1636,9 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 136.082474226804,
 			["Gnarlpine Defender"] = 188.636363636364,
 			["Elder Crag Boar"] = 136.082474226804,
+			["Snow Leopard"] = 136.287367192233,
 			["Large Crag Boar"] = 136.666666666667,
 			["Ice Claw Bear"] = 163.04347826087,
-			["Snow Leopard"] = 136.287367192233,
 			["Snow Tracker Wolf"] = 135.443037974684,
 			["Strigid Screecher"] = 136.363636363636,
 		}, -- [7]
@@ -1685,15 +1685,15 @@ LibClassicMobHealth10DB = {
 			["Frostmane Shadowcaster"] = 180,
 			["Greenpaw"] = 187.5,
 			["Coyote"] = 196.842105263158,
+			["Young Fleshripper"] = 195.652173913043,
 			["Frostmane Hideskinner"] = 196.629213483146,
-			["Bloodfeather Fury"] = 197.999603881957,
 			["Rockjaw Bonesnapper"] = 196.511627906977,
 			["Leper Gnome"] = 198.503951275875,
 			["Mountain Boar"] = 196.875495638382,
 			["Tunnel Rat Vermin"] = 197.979797979798,
 			["Scarred Crag Boar"] = 196.723259762309,
 			["Forest Lurker"] = 197.439990218216,
-			["Young Fleshripper"] = 195.652173913043,
+			["Bloodfeather Fury"] = 197.999603881957,
 		}, -- [10]
 		{
 			["Coyote Packleader"] = 220.338983050847,

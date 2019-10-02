@@ -33,6 +33,9 @@ END
 VER 3 0000000000000010 "shoot" "132147"
 /cast !Shoot
 END
+VER 3 0000000000000016 "startattk" "132147"
+/startattack
+END
 VER 3 0000000000000008 "target" "132185"
 /target Sunscale Scyt
 /run SetRaidTarget("target",1)
