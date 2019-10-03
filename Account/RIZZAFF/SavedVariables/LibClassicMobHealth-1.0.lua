@@ -1,8 +1,5 @@
 
 LibClassicMobHealth10DB = {
-	["pet"] = {
-	},
-	["revision"] = 1,
 	["npc"] = {
 		nil, -- [1]
 		nil, -- [2]
@@ -76,22 +73,22 @@ LibClassicMobHealth10DB = {
 			["Webwood Silkspinner"] = 154.545454545455,
 		}, -- [8]
 		{
-			["Elder Nightsaber"] = 175.806451612903,
+			["Rockjaw Bonesnapper"] = 174.226804123711,
 			["Frostmane Shadowcaster"] = 160.27397260274,
-			["Webwood Silkspinner"] = 167.5,
+			["Leper Gnome"] = 174.109351806037,
 			["Gnarlpine Augur"] = 36.8421052631579,
 			["Gnarlpine Avenger"] = 178.571428571429,
 			["Rockjaw Skullthumper"] = 173.972602739726,
 			["Frostmane Headhunter"] = 176.216412490922,
 			["Bloodfeather Harpy"] = 175.609756097561,
 			["Frostmane Hideskinner"] = 175.531914893617,
-			["Rockjaw Bonesnapper"] = 174.226804123711,
+			["Elder Nightsaber"] = 175.806451612903,
 			["Frostmane Snowstrider"] = 164.645898700134,
 			["Gnarlpine Pathfinder"] = 138.709677419355,
 			["Scarred Crag Boar"] = 174.549968963377,
 			["Bloodfeather Sorceress"] = 158.730158730159,
 			["Frostmane Seer"] = 164.933362464496,
-			["Leper Gnome"] = 174.109351806037,
+			["Webwood Silkspinner"] = 167.5,
 		}, -- [9]
 		{
 			["Frostmane Shadowcaster"] = 180,
@@ -177,10 +174,10 @@ LibClassicMobHealth10DB = {
 			["Bristleback Water Seeker"] = 346.938775510204,
 		}, -- [17]
 		{
-			["Sergeant Brashclaw"] = 415.151515151515,
-			["Hecklefang Snarler"] = 415.492957746479,
 			["Bristleback Hunter"] = 413.333333333333,
 			["Silithid Protector"] = 408.108108108108,
+			["Sergeant Brashclaw"] = 415.151515151515,
+			["Hecklefang Snarler"] = 415.492957746479,
 		}, -- [18]
 		nil, -- [19]
 		{
@@ -202,6 +199,9 @@ LibClassicMobHealth10DB = {
 	},
 	["pc"] = {
 	},
+	["pet"] = {
+	},
+	["revision"] = 1,
 }
 LibClassicMobHealth10Opt = {
 	["prune"] = 1000,

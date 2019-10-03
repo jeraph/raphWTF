@@ -5,8 +5,8 @@ AtlasLootClassicDB = {
 	},
 	["profileKeys"] = {
 		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
 		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
 		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
 		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
 		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
@@ -25,9 +25,10 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Lettucefarm - Grobbulus"] = {
-		},
 		["Lettuçestock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -37,9 +38,8 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
-			},
+		},
+		["Lettucefarm - Grobbulus"] = {
 		},
 		["Lettuçerock - Grobbulus"] = {
 			["minimap"] = {

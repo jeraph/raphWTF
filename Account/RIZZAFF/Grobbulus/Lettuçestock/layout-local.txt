@@ -13,3 +13,10 @@ X: 0
 Y: 0
 W: 1024
 H: 768
+Frame: TukuiGUI
+FrameLevel: 1
+Anchor: RIGHT
+X: -219
+Y: 110
+W: 490
+H: 386

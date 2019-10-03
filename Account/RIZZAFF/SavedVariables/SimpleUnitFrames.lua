@@ -3,12 +3,12 @@ SimpleUnitFramesDB = {
 	["profileKeys"] = {
 		["Lettuçelock - Kurinnaxx"] = "Kurinnaxx",
 		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
 		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
 		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
 		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
 		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
-		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
 	},
 	["global"] = {
 		["overlayfont"] = {
@@ -27,7 +27,7 @@ SimpleUnitFramesDB = {
 		},
 		["Meistar - Grobbulus"] = {
 		},
-		["Default"] = {
+		["Lettuçestock - Grobbulus"] = {
 		},
 		["Lettucefarm - Grobbulus"] = {
 		},
@@ -37,7 +37,7 @@ SimpleUnitFramesDB = {
 		},
 		["Lettuçerock - Grobbulus"] = {
 		},
-		["Lettuçestock - Grobbulus"] = {
+		["Default"] = {
 		},
 	},
 }

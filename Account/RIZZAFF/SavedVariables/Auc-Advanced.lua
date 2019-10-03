@@ -25,7 +25,7 @@ AucAdvancedConfig = {
 				["priceperitem"] = true,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOP:TOP:38.4:-160.5",
+				["ahframeanchors"] = "LEFT:LEFT:315.0:181.8",
 			},
 		},
 		["stat"] = {
@@ -48,9 +48,9 @@ AucAdvancedData = {
 			["columnwidth.Bid"] = 85.0000152587891,
 			["general.name"] = "greater magic",
 			["snatch.columnsortcurSort"] = 1,
-			["snatch.columnsortcurDir"] = 1,
-			["columnsortcurSort"] = 9,
 			["enchantmats.PriceAdjust.22446"] = 99,
+			["columnsortcurSort"] = 9,
+			["snatch.columnsortcurDir"] = 1,
 			["columnsortcurDir"] = 1,
 			["snatch.itemsList"] = {
 				["2318:0:0"] = {
@@ -70,21 +70,21 @@ AucAdvancedData = {
 		["Version"] = 1,
 		["Selected"] = "Greater Magic Essence",
 		["Global"] = {
-			["configator.left"] = 510.000030517578,
+			["configator.left"] = 510,
 			["configator.top"] = 790,
 		},
 		["SavedSearches"] = {
 			["Greater Magic Essence"] = {
 				["columnsortcurSort"] = 3,
 				["resale.profit.min"] = 5101,
-				["columnsortcurDir"] = -1,
+				["resale.allow.bid"] = false,
 				["snatch.itemsList"] = {
 					["10939:0:0"] = {
 						["price"] = 1100,
 						["link"] = "|cff1eff00|Hitem:10939::::::::19:::::::|h[Greater Magic Essence]|h|r",
 					},
 				},
-				["resale.allow.bid"] = false,
+				["columnsortcurDir"] = -1,
 				["snatch.columnsortcurDir"] = 1,
 				["vendor.allow.bid"] = false,
 				["snatch.columnsortcurSort"] = 1,
@@ -95,14 +95,14 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
-	["Timestamp"] = 1568137202,
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",
 		["Grobbulus"] = "Grobbulus",
 	},
+	["Timestamp"] = 1568137202,
+	["Version"] = 1,
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1569974514,
+		["Grobbulus"] = 1570077144,
 	},
-	["Version"] = 1,
 }
