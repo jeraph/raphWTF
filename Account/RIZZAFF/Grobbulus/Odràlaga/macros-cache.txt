@@ -1,7 +1,7 @@
 VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
 /startattack
-/cast Lightning Bolt
-#tooltipdesc Lightening Bolt^Start Attack first, then cast lightning bolt
+/cast Lightning Bolt(Rank 1)
+#tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
 END
 VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -34,4 +34,8 @@ VER 3 0000000001000002 "BOXheal" "INV_MISC_QUESTIONMARK"
 /follow
 /cast Healing Wave
 #tooltipdesc Target/Heal^Target Part1, Follow, Heal
+END
+VER 3 0000000001000006 "ClickHeal1" "136052"
+#showtooltip Lesser Healing Wave(Rank 1)
+/use [@mouseover,help,nodead][help,nodead]Lesser Healing Wave(Rank 1)
 END

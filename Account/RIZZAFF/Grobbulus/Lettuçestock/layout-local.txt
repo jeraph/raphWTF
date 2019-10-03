@@ -1,4 +1,11 @@
 Version: 1
+Frame: AuctionFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 317
+Y: 183
+W: 832
+H: 447
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER

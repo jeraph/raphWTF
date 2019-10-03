@@ -11,6 +11,9 @@ END
 VER 3 0000000000000014 "dance" "INV_MISC_QUESTIONMARK"
 /dance
 END
+VER 3 0000000000000017 "invite" "INV_MISC_QUESTIONMARK"
+/invite
+END
 VER 3 0000000000000004 "lol" "INV_MISC_QUESTIONMARK"
 /lol
 END
@@ -37,7 +40,7 @@ VER 3 0000000000000016 "startattk" "132147"
 /startattack
 END
 VER 3 0000000000000008 "target" "132185"
-/target Sunscale Scyt
+/target Baron Longshore
 /run SetRaidTarget("target",1)
 /cast Flame Shock
 #tooltipdesc target^Target and add icon
