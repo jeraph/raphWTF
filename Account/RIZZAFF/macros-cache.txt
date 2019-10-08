@@ -29,8 +29,9 @@ VER 3 000000000000000B "party 1 assist" "132104"
 #tooltipdesc Party1-Assist^Party1-Assist
 END
 VER 3 000000000000000D "party 1 follow" "132089"
-/target party1
+/target Odrálaga
 /follow
+/w Odrálaga AF
 #tooltipdesc Party1-Follow^Party1-Follow
 END
 VER 3 0000000000000010 "shoot" "132147"
@@ -40,7 +41,7 @@ VER 3 0000000000000016 "startattk" "132147"
 /startattack
 END
 VER 3 0000000000000008 "target" "132185"
-/target Baron Longshore
+/target Hezrul
 /run SetRaidTarget("target",1)
 /cast Flame Shock
 #tooltipdesc target^Target and add icon

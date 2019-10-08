@@ -6,8 +6,8 @@ InformantConfig = {
 		["configator.top"] = 773.571472167969,
 	},
 	["position"] = {
-		["y"] = 540.000549316406,
-		["x"] = 960.0009765625,
+		["y"] = 540.0009765625,
+		["x"] = 960.001892089844,
 	},
 }
 InformantLocalUpdates = {

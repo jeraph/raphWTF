@@ -1,11 +1,4 @@
 Version: 1
-Frame: AuctionFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 317
-Y: 183
-W: 832
-H: 447
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER
@@ -15,7 +8,7 @@ W: 128
 H: 64
 Frame: WorldMapFrame
 FrameLevel: 1
-Anchor: TOP
+Anchor: BOTTOM
 X: 0
 Y: 0
 W: 1024
@@ -26,4 +19,4 @@ Anchor: RIGHT
 X: -219
 Y: 110
 W: 490
-H: 386
+H: 387

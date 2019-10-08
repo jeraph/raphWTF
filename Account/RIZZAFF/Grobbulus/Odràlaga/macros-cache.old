@@ -1,3 +1,8 @@
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+/startattack
+/cast Lightning Bolt(Rank 1)
+#tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
+END
 VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /target party1
@@ -7,11 +12,6 @@ VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
 /follow
 /assist
 #tooltipdesc Target/Hea/followl^Target Part1, assist, heal, follow, assists
-END
-VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
-/startattack
-/cast Lightning Bolt(Rank 1)
-#tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
 END
 VER 3 0000000001000004 "BOX/follow" "132144"
 /target party1

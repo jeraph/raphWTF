@@ -3,39 +3,17 @@ VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
 /cast Lightning Bolt(Rank 1)
 #tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
 END
-VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+VER 3 0000000001000005 " SmH" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/target party1
-/assist
-/cast Healing Wave
-/target party1
-/follow
-/assist
-#tooltipdesc Target/Hea/followl^Target Part1, assist, heal, follow, assists
+/cast Lesser Healing Wave(Rank 1)
+/w Odrálaga Small Heal
 END
-VER 3 0000000001000004 "BOX/follow" "132144"
-/target party1
-/follow
-/assist
-#tooltipdesc Box/follow^ Target party1 Follow Assist
-END
-VER 3 0000000001000003 "BOXflameShock" "INV_MISC_QUESTIONMARK"
+VER 3 0000000001000008 "BgH" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/target party1
-/follow
-/assist
-/cast Flame Shock
-/startattack
-#tooltipdesc Box/FlameShock^ Target Party1, Follow, Assist, FlamShock, Attack.
+/cast Healing Wave(Rank 4)
+/w Odrálaga Big Heal
 END
-VER 3 0000000001000002 "BOXheal" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/target party1
-/follow
-/cast Healing Wave
-#tooltipdesc Target/Heal^Target Part1, Follow, Heal
-END
-VER 3 0000000001000006 "ClickHeal1" "136052"
-#showtooltip Lesser Healing Wave(Rank 1)
-/use [@mouseover,help,nodead][help,nodead]Lesser Healing Wave(Rank 1)
+VER 3 0000000001000007 "GW" "INV_MISC_QUESTIONMARK"
+/cast Ghost Wolf
+/w Odrálaga Ghost Wolf
 END

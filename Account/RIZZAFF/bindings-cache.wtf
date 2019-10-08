@@ -100,3 +100,14 @@ bind CTRL-SHIFT-R NONE
 bind SHIFT-E TOGGLEAUTORUN
 bind SHIFT-D NONE
 bind SHIFT-F FOLLOWTARGET
+bind ALT-1 CLICK DominosActionButton19:LeftButton
+bind ALT-2 CLICK DominosActionButton20:LeftButton
+bind ALT-3 CLICK DominosActionButton21:LeftButton
+bind ALT-4 CLICK DominosActionButton22:LeftButton
+bind ALT-5 CLICK DominosActionButton23:LeftButton
+bind ALT-6 CLICK DominosActionButton24:LeftButton
+bind ALT-BUTTON3 NONE
+bind ALT-7 CLICK DominosActionButton31:LeftButton
+bind ALT-8 CLICK DominosActionButton32:LeftButton
+bind ALT-9 CLICK DominosActionButton33:LeftButton
+bind ALT-0 CLICK DominosActionButton34:LeftButton
