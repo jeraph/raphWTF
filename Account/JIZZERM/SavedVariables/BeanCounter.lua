@@ -16,7 +16,7 @@ BeanCounterDB = {
 			},
 			["failedBidsNeutral"] = {
 			},
-			["failedBids"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["completedAuctions"] = {
 			},
@@ -24,27 +24,27 @@ BeanCounterDB = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBids"] = {
 			},
 		},
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 423.813415527344,
+	["configator.left"] = 423.813751220703,
 	["Grobbulus"] = {
 		["Odrálaga"] = {
 			["tasks.sortArray"] = 1570293185,
 			["version"] = 3.04,
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1570293185,
-			["wealth"] = 58239,
+			["wealth"] = 54011,
 			["tasks.prunePostedDB"] = 1570293185,
 			["mailbox"] = {
 			},
 		},
 	},
-	["configator.top"] = 661.363647460938,
 	["util.beancounter.ButtonuseDateCheck"] = false,
+	["configator.top"] = 661.364196777344,
 }
 BeanCounterDBNames = {
 }

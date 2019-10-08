@@ -41,7 +41,7 @@ VER 3 0000000000000016 "startattk" "132147"
 /startattack
 END
 VER 3 0000000000000008 "target" "132185"
-/target Baron Longshore
+/target Hezrul
 /run SetRaidTarget("target",1)
 /cast Flame Shock
 #tooltipdesc target^Target and add icon

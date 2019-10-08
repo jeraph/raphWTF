@@ -334,8 +334,8 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 560.001403808594,
-	["configator.top"] = 765.001281738281,
+	["configator.left"] = 560.001647949219,
+	["configator.top"] = 765.001403808594,
 	["columnsortcurDir"] = 1,
 	["Kurinnaxx"] = {
 		["Notraph"] = {
@@ -407,7 +407,7 @@ BeanCounterDBSettings = {
 			["version"] = 3.04,
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1568944977,
-			["wealth"] = 79686,
+			["wealth"] = 70465,
 			["tasks.prunePostedDB"] = 1570401420,
 			["mailbox"] = {
 				{

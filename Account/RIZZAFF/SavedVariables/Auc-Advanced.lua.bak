@@ -31,12 +31,12 @@ AucAdvancedConfig = {
 			},
 			["automagic"] = {
 				["ammailguix"] = 160,
-				["ammailguiy"] = 99.8,
+				["ammailguiy"] = 99.7,
 				["SavedMailButtons"] = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "LEFT:LEFT:326.8:91.0",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:10.2:-19.6",
 			},
 		},
 		["configator.top"] = 764.999938964844,
@@ -100,7 +100,7 @@ AucAdvancedServers = {
 	["Timestamp"] = 1568137202,
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1570510164,
+		["Grobbulus"] = 1570558305,
 	},
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",

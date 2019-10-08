@@ -1,4 +1,9 @@
-VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+VER 3 000000000100000A " Frost Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Frost Shock
+/w Odrálaga Frost Shock
+END
+VER 3 0000000001000001 " Lightening Pull" "INV_MISC_QUESTIONMARK"
 /startattack
 /cast Lightning Bolt(Rank 1)
 #tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
@@ -6,14 +11,50 @@ END
 VER 3 0000000001000005 " SmH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Lesser Healing Wave(Rank 1)
-/w Odrálaga Small Heal
+/w Odrálaga Small Heals
 END
 VER 3 0000000001000008 "BgH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Healing Wave(Rank 4)
-/w Odrálaga Big Heal
+/w Odrálaga Big Heals
+END
+VER 3 000000000100000C "Earth Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Strength of Earth Totem
+/w Odrálaga Strength of Earth Totem
+END
+VER 3 0000000001000010 "Earthbind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Earthbind Totem
+/w Odrálaga Earthbind Totem
+END
+VER 3 000000000100000B "Fire Totem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Fire Nova Totem
+/w Odrálaga Fire Nova Totem
 END
 VER 3 0000000001000007 "GW" "INV_MISC_QUESTIONMARK"
+#showtooltip
 /cast Ghost Wolf
 /w Odrálaga Ghost Wolf
+END
+VER 3 000000000100000F "Healing Stream" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Healing Stream Totem
+/w Odrálaga Healing Stream Totem
+END
+VER 3 000000000100000E "Searing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Searing Totem
+/w Odrálaga Searing Totem
+END
+VER 3 000000000100000D "Stoneskin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Stoneskin Totem
+/w Odrálaga Stoneskin Totem
+END
+VER 3 0000000001000011 "Tremor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Tremor Totem
+/w Odrálaga Tremor Totem
 END

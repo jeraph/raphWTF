@@ -334,7 +334,7 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 560.001403808594,
+	["configator.left"] = 560.001586914063,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 	["columnsortcurSort"] = 1,
 	["Kurinnaxx"] = {
@@ -427,7 +427,7 @@ BeanCounterDBSettings = {
 			["version"] = 3.04,
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1568944977,
-			["wealth"] = 75204,
+			["wealth"] = 70465,
 			["tasks.prunePostedDB"] = 1570401420,
 			["mailbox"] = {
 				{
@@ -440,7 +440,7 @@ BeanCounterDBSettings = {
 		},
 	},
 	["columnsortcurDir"] = 1,
-	["configator.top"] = 765.001281738281,
+	["configator.top"] = 765.001403808594,
 }
 BeanCounterDBNames = {
 	["10940:"] = "cffffffff;Strange Dust",

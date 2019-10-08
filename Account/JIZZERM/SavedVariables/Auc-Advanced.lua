@@ -4,9 +4,9 @@ AucAdvancedConfig = {
 	["profile.Default"] = {
 		["stat"] = {
 			["sales"] = {
-				["upgraded32"] = true,
 				["ignoredsigs"] = {
 				},
+				["upgraded32"] = true,
 			},
 		},
 		["util"] = {
@@ -23,12 +23,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
 	["Timestamp"] = 1569958941,
+	["KnownServerKeys"] = {
+		["Grobbulus"] = 1570551747,
+	},
 	["KnownRealms"] = {
 		["Grobbulus"] = "Grobbulus",
 	},
-	["KnownServerKeys"] = {
-		["Grobbulus"] = 1569958945,
-	},
-	["Version"] = 1,
 }

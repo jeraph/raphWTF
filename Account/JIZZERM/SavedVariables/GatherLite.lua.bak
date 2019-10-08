@@ -464,15 +464,15 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "silverleaf",
 				["loot"] = {
+					["|cffffffff|Hitem:765::::::::11:::::::|h[Silverleaf]|h|r"] = {
+						["name"] = "Silverleaf",
+						["count"] = 1,
+					},
 					["|cffffffff|Hitem:765::::::::9:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 3,
 					},
 					["|cffffffff|Hitem:765::::::::13:::::::|h[Silverleaf]|h|r"] = {
-						["name"] = "Silverleaf",
-						["count"] = 1,
-					},
-					["|cffffffff|Hitem:765::::::::11:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 1,
 					},
@@ -2876,11 +2876,11 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "earthroot",
 				["loot"] = {
-					["|cffffffff|Hitem:2449::::::::17:::::::|h[Earthroot]|h|r"] = {
+					["|cffffffff|Hitem:2449::::::::14:::::::|h[Earthroot]|h|r"] = {
 						["name"] = "Earthroot",
 						["count"] = 1,
 					},
-					["|cffffffff|Hitem:2449::::::::14:::::::|h[Earthroot]|h|r"] = {
+					["|cffffffff|Hitem:2449::::::::17:::::::|h[Earthroot]|h|r"] = {
 						["name"] = "Earthroot",
 						["count"] = 1,
 					},
@@ -6718,13 +6718,13 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 2,
 					},
-					["|cffffffff|Hitem:2770::::::::7:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 2,
-					},
 					["|cffffffff|Hitem:2770::::::::8:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 6,
+					},
+					["|cffffffff|Hitem:2770::::::::7:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 2,
 					},
 				},
 				["icon"] = 134566,
@@ -7594,12 +7594,12 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:2770::::::::13:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
+						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::13:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
 						["count"] = 4,
 					},
 				},
@@ -7948,13 +7948,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::16:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 5,
-					},
 					["|cffffffff|Hitem:2770::::::::16:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::16:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
+						["count"] = 5,
 					},
 				},
 				["icon"] = 134566,
@@ -7990,13 +7990,13 @@ GatherLiteGlobalSettings = {
 						["name"] = "Rough Stone",
 						["count"] = 3,
 					},
-					["|cffffffff|Hitem:2770::::::::17:::::::|h[Copper Ore]|h|r"] = {
-						["name"] = "Copper Ore",
-						["count"] = 11,
-					},
 					["|cffffffff|Hitem:2770::::::::16:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2770::::::::17:::::::|h[Copper Ore]|h|r"] = {
+						["name"] = "Copper Ore",
+						["count"] = 11,
 					},
 				},
 				["icon"] = 134566,
@@ -8024,13 +8024,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "copper vein",
 				["loot"] = {
-					["|cffffffff|Hitem:2835::::::::16:::::::|h[Rough Stone]|h|r"] = {
-						["name"] = "Rough Stone",
-						["count"] = 2,
-					},
 					["|cffffffff|Hitem:2770::::::::16:::::::|h[Copper Ore]|h|r"] = {
 						["name"] = "Copper Ore",
 						["count"] = 4,
+					},
+					["|cffffffff|Hitem:2835::::::::16:::::::|h[Rough Stone]|h|r"] = {
+						["name"] = "Rough Stone",
+						["count"] = 2,
 					},
 				},
 				["icon"] = 134566,
@@ -8605,6 +8605,332 @@ GatherLiteGlobalSettings = {
 				["spellID"] = 2576,
 			}, -- [77]
 		},
+		["fish"] = {
+			{
+				["GUID"] = "Player-4399-0069EFDE",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 22,
+					["min"] = 44,
+					["wday"] = 1,
+					["day"] = 1,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 48,
+					["yday"] = 244,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.398641183898077,
+					["mapID"] = 1439,
+					["x"] = 0.373613220629071,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6361::::::::12:::::::|h[Raw Rainbow Fin Albacore]|h|r"] = {
+						["name"] = "Raw Rainbow Fin Albacore",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [1]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 20,
+					["min"] = 36,
+					["wday"] = 2,
+					["day"] = 2,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 7,
+					["yday"] = 245,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.542921297880083,
+					["mapID"] = 1453,
+					["x"] = 0.472874565507226,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 2,
+					},
+					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
+						["name"] = "Raw Bristle Whisker Catfish",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [2]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 21,
+					["min"] = 5,
+					["wday"] = 2,
+					["day"] = 2,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 57,
+					["yday"] = 245,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.555863274159845,
+					["mapID"] = 1453,
+					["x"] = 0.453458806752398,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 2,
+					},
+					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
+						["name"] = "Raw Bristle Whisker Catfish",
+						["count"] = 3,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [3]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 21,
+					["min"] = 18,
+					["wday"] = 2,
+					["day"] = 2,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 37,
+					["yday"] = 245,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.319349447522841,
+					["mapID"] = 1453,
+					["x"] = 0.64307836370825,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 3,
+					},
+					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
+						["name"] = "Raw Brilliant Smallfish",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [4]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 22,
+					["min"] = 9,
+					["wday"] = 2,
+					["day"] = 2,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 22,
+					["yday"] = 245,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.716178614307535,
+					["mapID"] = 1453,
+					["x"] = 0.701920680993358,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
+						["name"] = "Raw Brilliant Smallfish",
+						["count"] = 2,
+					},
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 2,
+					},
+					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
+						["name"] = "Raw Bristle Whisker Catfish",
+						["count"] = 2,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [5]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 22,
+					["min"] = 20,
+					["wday"] = 2,
+					["day"] = 2,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 12,
+					["yday"] = 245,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.766047549424426,
+					["mapID"] = 1453,
+					["x"] = 0.728924160567861,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
+						["name"] = "Raw Brilliant Smallfish",
+						["count"] = 1,
+					},
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 8,
+					},
+					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
+						["name"] = "Raw Bristle Whisker Catfish",
+						["count"] = 2,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [6]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 21,
+					["min"] = 46,
+					["wday"] = 3,
+					["day"] = 3,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 56,
+					["yday"] = 246,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.505324306598131,
+					["mapID"] = 1453,
+					["x"] = 0.604693212096402,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 3,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [7]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 0,
+					["min"] = 5,
+					["wday"] = 1,
+					["day"] = 8,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 39,
+					["yday"] = 251,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.446412205750866,
+					["mapID"] = 1439,
+					["x"] = 0.361155199306536,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:12238::::::::15:::::::|h[Darkshore Grouper]|h|r"] = {
+						["name"] = "Darkshore Grouper",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [8]
+			{
+				["GUID"] = "Player-4399-007A2A85",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 10,
+					["min"] = 9,
+					["wday"] = 3,
+					["day"] = 10,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 38,
+					["yday"] = 253,
+					["isdst"] = true,
+				},
+				["name"] = "Fishing spot",
+				["position"] = {
+					["y"] = 0.579000323102859,
+					["mapID"] = 1436,
+					["x"] = 0.463190461997103,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+					["|cffffffff|Hitem:6289::::::::16:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 133910,
+				["spellID"] = 7620,
+			}, -- [9]
+			{
+				["GUID"] = "Player-4647-001BCA6B",
+				["type"] = "fish",
+				["date"] = {
+					["hour"] = 8,
+					["min"] = 6,
+					["wday"] = 1,
+					["day"] = 22,
+					["month"] = 9,
+					["year"] = 2019,
+					["sec"] = 2,
+					["yday"] = 265,
+					["isdst"] = true,
+				},
+				["name"] = "fishing spot",
+				["position"] = {
+					["y"] = 0.60375175097107,
+					["mapID"] = 1442,
+					["x"] = 0.45920136265471,
+				},
+				["target"] = "fishing spot",
+				["loot"] = {
+				},
+				["icon"] = "133910",
+				["spellID"] = 7732,
+			}, -- [10]
+		},
 		["treasure"] = {
 			{
 				["GUID"] = "Player-4399-0069EFDE",
@@ -8658,13 +8984,13 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "water barrel",
 				["loot"] = {
-					["|cffffffff|Hitem:159::::::::8:::::::|h[Refreshing Spring Water]|h|r"] = {
-						["name"] = "Refreshing Spring Water",
-						["count"] = 5,
-					},
 					["|cffffffff|Hitem:3406::::::::8:::::::|h[Black Feather Quill]|h|r"] = {
 						["name"] = "Black Feather Quill",
 						["count"] = 1,
+					},
+					["|cffffffff|Hitem:159::::::::8:::::::|h[Refreshing Spring Water]|h|r"] = {
+						["name"] = "Refreshing Spring Water",
+						["count"] = 5,
 					},
 				},
 				["icon"] = 132594,
@@ -11250,332 +11576,6 @@ GatherLiteGlobalSettings = {
 				["icon"] = "132594",
 				["spellID"] = 6478,
 			}, -- [90]
-		},
-		["fish"] = {
-			{
-				["GUID"] = "Player-4399-0069EFDE",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 22,
-					["min"] = 44,
-					["wday"] = 1,
-					["day"] = 1,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 48,
-					["yday"] = 244,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.398641183898077,
-					["mapID"] = 1439,
-					["x"] = 0.373613220629071,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6361::::::::12:::::::|h[Raw Rainbow Fin Albacore]|h|r"] = {
-						["name"] = "Raw Rainbow Fin Albacore",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [1]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 20,
-					["min"] = 36,
-					["wday"] = 2,
-					["day"] = 2,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 7,
-					["yday"] = 245,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.542921297880083,
-					["mapID"] = 1453,
-					["x"] = 0.472874565507226,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 2,
-					},
-					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
-						["name"] = "Raw Bristle Whisker Catfish",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [2]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 21,
-					["min"] = 5,
-					["wday"] = 2,
-					["day"] = 2,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 57,
-					["yday"] = 245,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.555863274159845,
-					["mapID"] = 1453,
-					["x"] = 0.453458806752398,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 2,
-					},
-					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
-						["name"] = "Raw Bristle Whisker Catfish",
-						["count"] = 3,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [3]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 21,
-					["min"] = 18,
-					["wday"] = 2,
-					["day"] = 2,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 37,
-					["yday"] = 245,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.319349447522841,
-					["mapID"] = 1453,
-					["x"] = 0.64307836370825,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 3,
-					},
-					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
-						["name"] = "Raw Brilliant Smallfish",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [4]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 22,
-					["min"] = 9,
-					["wday"] = 2,
-					["day"] = 2,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 22,
-					["yday"] = 245,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.716178614307535,
-					["mapID"] = 1453,
-					["x"] = 0.701920680993358,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
-						["name"] = "Raw Bristle Whisker Catfish",
-						["count"] = 2,
-					},
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 2,
-					},
-					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
-						["name"] = "Raw Brilliant Smallfish",
-						["count"] = 2,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [5]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 22,
-					["min"] = 20,
-					["wday"] = 2,
-					["day"] = 2,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 12,
-					["yday"] = 245,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.766047549424426,
-					["mapID"] = 1453,
-					["x"] = 0.728924160567861,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6308::::::::12:::::::|h[Raw Bristle Whisker Catfish]|h|r"] = {
-						["name"] = "Raw Bristle Whisker Catfish",
-						["count"] = 2,
-					},
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 8,
-					},
-					["|cffffffff|Hitem:6291::::::::12:::::::|h[Raw Brilliant Smallfish]|h|r"] = {
-						["name"] = "Raw Brilliant Smallfish",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [6]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 21,
-					["min"] = 46,
-					["wday"] = 3,
-					["day"] = 3,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 56,
-					["yday"] = 246,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.505324306598131,
-					["mapID"] = 1453,
-					["x"] = 0.604693212096402,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6289::::::::12:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 3,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [7]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 0,
-					["min"] = 5,
-					["wday"] = 1,
-					["day"] = 8,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 39,
-					["yday"] = 251,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.446412205750866,
-					["mapID"] = 1439,
-					["x"] = 0.361155199306536,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:12238::::::::15:::::::|h[Darkshore Grouper]|h|r"] = {
-						["name"] = "Darkshore Grouper",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [8]
-			{
-				["GUID"] = "Player-4399-007A2A85",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 10,
-					["min"] = 9,
-					["wday"] = 3,
-					["day"] = 10,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 38,
-					["yday"] = 253,
-					["isdst"] = true,
-				},
-				["name"] = "Fishing spot",
-				["position"] = {
-					["y"] = 0.579000323102859,
-					["mapID"] = 1436,
-					["x"] = 0.463190461997103,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-					["|cffffffff|Hitem:6289::::::::16:::::::|h[Raw Longjaw Mud Snapper]|h|r"] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["count"] = 1,
-					},
-				},
-				["icon"] = 133910,
-				["spellID"] = 7620,
-			}, -- [9]
-			{
-				["GUID"] = "Player-4647-001BCA6B",
-				["type"] = "fish",
-				["date"] = {
-					["hour"] = 8,
-					["min"] = 6,
-					["wday"] = 1,
-					["day"] = 22,
-					["month"] = 9,
-					["year"] = 2019,
-					["sec"] = 2,
-					["yday"] = 265,
-					["isdst"] = true,
-				},
-				["name"] = "fishing spot",
-				["position"] = {
-					["y"] = 0.60375175097107,
-					["mapID"] = 1442,
-					["x"] = 0.45920136265471,
-				},
-				["target"] = "fishing spot",
-				["loot"] = {
-				},
-				["icon"] = "133910",
-				["spellID"] = 7732,
-			}, -- [10]
 		},
 	},
 }

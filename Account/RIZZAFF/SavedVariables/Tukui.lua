@@ -1509,7 +1509,7 @@ TukuiGold = {
 		["Meistar"] = 0,
 		["Lettucefarm"] = 194,
 		["Lettuçestock"] = 28459,
-		["Odràlaga"] = 79686,
+		["Odràlaga"] = 70465,
 	},
 }
 TukuiSettingsPerCharacter = {
@@ -1633,9 +1633,9 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 136.082474226804,
 			["Gnarlpine Defender"] = 188.636363636364,
 			["Elder Crag Boar"] = 136.082474226804,
-			["Ice Claw Bear"] = 163.04347826087,
 			["Snow Leopard"] = 136.287367192233,
 			["Large Crag Boar"] = 136.666666666667,
+			["Ice Claw Bear"] = 163.04347826087,
 			["Snow Tracker Wolf"] = 135.443037974684,
 			["Strigid Screecher"] = 136.363636363636,
 		}, -- [7]
@@ -1682,15 +1682,15 @@ LibClassicMobHealth10DB = {
 			["Frostmane Shadowcaster"] = 180,
 			["Greenpaw"] = 187.5,
 			["Coyote"] = 196.842105263158,
-			["Bloodfeather Fury"] = 197.999603881957,
 			["Young Fleshripper"] = 195.652173913043,
+			["Frostmane Hideskinner"] = 196.629213483146,
 			["Rockjaw Bonesnapper"] = 196.511627906977,
 			["Leper Gnome"] = 198.503951275875,
 			["Mountain Boar"] = 196.875495638382,
 			["Tunnel Rat Vermin"] = 197.979797979798,
 			["Scarred Crag Boar"] = 196.723259762309,
 			["Forest Lurker"] = 197.439990218216,
-			["Frostmane Hideskinner"] = 196.629213483146,
+			["Bloodfeather Fury"] = 197.999603881957,
 		}, -- [10]
 		{
 			["Coyote Packleader"] = 220.338983050847,

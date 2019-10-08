@@ -5,62 +5,13 @@ SwatterData = {
 	["combat"] = false,
 	["errors"] = {
 		{
-			["message"] = "Interface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:303: bad argument #1 to 'unpack' (table expected, got nil)",
-			["count"] = 2,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
-			["timestamp"] = "2019-09-13 10:19:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `unpack'\nInterface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:303: in function <Interface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:297>\n(tail call): ?\n(tail call): ?\nInterface\\AddOns\\Tukui\\Libs\\oUF\\ouf.lua:206: in function <Interface\\AddOns\\Tukui\\Libs\\oUF\\ouf.lua:189>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [1]
-		{
-			["message"] = "Error: AddOn OneBag3 attempted to call a forbidden function (UNKNOWN()) from a tainted execution path.",
-			["count"] = 27,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["timestamp"] = "2019-09-14 00:06:26",
-			["context"] = "AddOn: OneBag3",
-			["stack"] = "[C]: ?\n[C]: in function `UseContainerItem'\nInterface\\FrameXML\\ContainerFrame.lua:1241: in function `ContainerFrameItemButton_OnClick'\n[string \"*:OnClick\"]:12: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [2]
-		{
-			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton1:Hide()) during combat lockdown.",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["timestamp"] = "2019-09-14 00:41:40",
-			["context"] = "AddOn: Tukui",
-			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [3]
-		{
-			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton2:Hide()) during combat lockdown.",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["timestamp"] = "2019-09-14 00:41:40",
-			["context"] = "AddOn: Tukui",
-			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [4]
-		{
-			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton3:Hide()) during combat lockdown.",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["timestamp"] = "2019-09-14 00:41:40",
-			["context"] = "AddOn: Tukui",
-			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [5]
-		{
-			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton4:Hide()) during combat lockdown.",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
-			["timestamp"] = "2019-09-14 00:41:40",
-			["context"] = "AddOn: Tukui",
-			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [6]
-		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton5:Hide()) during combat lockdown.",
 			["count"] = 1,
 			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OneBag3, vv3.3.13\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  ssossmobileLook, v7.0\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=476)\n",
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [7]
+		}, -- [1]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton6:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -68,7 +19,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [8]
+		}, -- [2]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton7:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -76,7 +27,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [9]
+		}, -- [3]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton8:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -84,7 +35,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [10]
+		}, -- [4]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton9:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -92,7 +43,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [11]
+		}, -- [5]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton10:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -100,7 +51,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [12]
+		}, -- [6]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton11:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -108,7 +59,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [13]
+		}, -- [7]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton12:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -116,7 +67,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [14]
+		}, -- [8]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton13:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -124,7 +75,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [15]
+		}, -- [9]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton14:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -132,7 +83,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [16]
+		}, -- [10]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton15:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -140,7 +91,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [17]
+		}, -- [11]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton16:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -148,7 +99,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [18]
+		}, -- [12]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton17:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -156,7 +107,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [19]
+		}, -- [13]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton18:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -164,7 +115,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [20]
+		}, -- [14]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton19:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -172,7 +123,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [21]
+		}, -- [15]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton20:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -180,7 +131,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [22]
+		}, -- [16]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton21:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -188,7 +139,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [23]
+		}, -- [17]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton22:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -196,7 +147,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [24]
+		}, -- [18]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton23:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -204,7 +155,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [25]
+		}, -- [19]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton24:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -212,7 +163,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [26]
+		}, -- [20]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton25:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -220,7 +171,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [27]
+		}, -- [21]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton26:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -228,7 +179,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [28]
+		}, -- [22]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton27:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -236,7 +187,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [29]
+		}, -- [23]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton28:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -244,7 +195,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [30]
+		}, -- [24]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton29:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -252,7 +203,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [31]
+		}, -- [25]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton30:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -260,7 +211,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [32]
+		}, -- [26]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton31:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -268,7 +219,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [33]
+		}, -- [27]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton32:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -276,7 +227,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [34]
+		}, -- [28]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton33:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -284,7 +235,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [35]
+		}, -- [29]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton34:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -292,7 +243,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [36]
+		}, -- [30]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton35:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -300,7 +251,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [37]
+		}, -- [31]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton36:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -308,7 +259,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [38]
+		}, -- [32]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton37:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -316,7 +267,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [39]
+		}, -- [33]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton38:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -324,7 +275,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [40]
+		}, -- [34]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton39:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -332,7 +283,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [41]
+		}, -- [35]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (RaidGroupButton40:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -340,7 +291,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 00:41:40",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:511: in function `RaidGroupFrame_Update'\nInterface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:183: in function <Interface\\AddOns\\Blizzard_RaidUI\\Blizzard_RaidUI.lua:168>\n",
-		}, -- [42]
+		}, -- [36]
 		{
 			["message"] = "Interface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:303: bad argument #1 to 'unpack' (table expected, got nil)",
 			["count"] = 2,
@@ -349,7 +300,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 21:53:46",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `unpack'\nInterface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:303: in function <Interface\\AddOns\\Tukui\\Modules\\UnitFrames\\Core.lua:297>\n(tail call): ?\n(tail call): ?\nInterface\\AddOns\\Tukui\\Libs\\oUF\\ouf.lua:206: in function <Interface\\AddOns\\Tukui\\Libs\\oUF\\ouf.lua:189>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [43]
+		}, -- [37]
 		{
 			["message"] = "Note: AddOn Stubby attempted to call a protected function (UNKNOWN()) during combat lockdown.",
 			["count"] = 1,
@@ -357,7 +308,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-14 23:04:00",
 			["context"] = "AddOn: Stubby",
 			["stack"] = "[C]: ?\n[C]: in function `pcall'\nInterface\\AddOns\\Stubby\\Stubby.lua:342: in function <Interface\\AddOns\\Stubby\\Stubby.lua:326>\n(tail call): ?\nInterface\\FrameXML\\ContainerFrame.lua:1224: in function `ContainerFrameItemButton_OnClick'\nInterface\\FrameXML\\ContainerFrame.lua:1128: in function `ContainerFrameItemButton_OnDrag'\n[string \"*:OnReceiveDrag\"]:1: in function <[string \"*:OnReceiveDrag\"]:1>\n",
-		}, -- [44]
+		}, -- [38]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: table index is nil",
 			["count"] = 1,
@@ -366,7 +317,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-17 20:22:20",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: in function `foundTreasureChest'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:932: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [45]
+		}, -- [39]
 		{
 			["message"] = "Interface\\AddOns\\Enchantrix\\EnxTooltip.lua:592: attempt to index field 'C_TradeSkillUI' (a nil value)",
 			["count"] = 6,
@@ -375,7 +326,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-17 22:55:17",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Enchantrix\\EnxTooltip.lua:592: in function <Interface\\AddOns\\Enchantrix\\EnxTooltip.lua:569>\nInterface\\AddOns\\Enchantrix\\EnxTooltip.lua:757: in function `callback'\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:115: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:99>\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:204: in function `h'\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:480: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:476>\n[C]: ?\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:408: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:402>\n...nterface\\AddOns\\Tukui\\Modules\\ChatFrames\\CopyURL.lua:70: in function `SetHyperlink'\nInterface\\FrameXML\\ItemRef.lua:348: in function <Interface\\FrameXML\\ItemRef.lua:1>\n[C]: ?\n...ace\\AddOns\\Blizzard_CombatLog\\Blizzard_CombatLog.lua:3521: in function <...ace\\AddOns\\Blizzard_CombatLog\\Blizzard_CombatLog.lua:3463>\n[C]: in function `SetItemRef'\nInterface\\FrameXML\\ChatFrame.lua:3461: in function <Interface\\FrameXML\\ChatFrame.lua:3460>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `ChatFrame_OnHyperlinkShow'\n[string \"*:OnHyperlinkClick\"]:1: in function <[string \"*:OnHyperlinkClick\"]:1>\n",
-		}, -- [46]
+		}, -- [40]
 		{
 			["message"] = "Interface\\AddOns\\VendorPrice\\VendorPrice.lua:10: attempt to index local 'container' (a nil value)",
 			["count"] = 4,
@@ -384,7 +335,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-19 08:14:36",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VendorPrice\\VendorPrice.lua:10: in function <Interface\\AddOns\\VendorPrice\\VendorPrice.lua:3>\n[C]: ?\n[C]: in function `OnTooltipSetItem'\nInterface\\AddOns\\Enchantrix\\EnxMain.lua:232: in function <Interface\\AddOns\\Enchantrix\\EnxMain.lua:228>\n[C]: ?\n[C]: ?\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:408: in function `SetHyperlink'\n...e\\AddOns\\Bagnon\\common\\Wildpants\\components\\item.lua:485: in function <...e\\AddOns\\Bagnon\\common\\Wildpants\\components\\item.lua:472>\n[C]: in function `Show'\n...e\\AddOns\\Bagnon\\common\\Wildpants\\components\\item.lua:29: in function `New'\n...Ons\\Bagnon\\common\\Wildpants\\components\\itemFrame.lua:123: in function <...Ons\\Bagnon\\common\\Wildpants\\components\\itemFrame.lua:112>\n",
-		}, -- [47]
+		}, -- [41]
 		{
 			["message"] = "Interface\\AddOns\\VendorPrice\\VendorPrice.lua:16: attempt to index field 'Count' (a nil value)",
 			["count"] = 1,
@@ -393,7 +344,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-19 08:14:36",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VendorPrice\\VendorPrice.lua:16: in function <Interface\\AddOns\\VendorPrice\\VendorPrice.lua:3>\n[C]: ?\n[C]: in function `OnTooltipSetItem'\nInterface\\AddOns\\Enchantrix\\EnxMain.lua:232: in function <Interface\\AddOns\\Enchantrix\\EnxMain.lua:228>\n[C]: ?\n[C]: ?\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:408: in function `SetHyperlink'\n...e\\AddOns\\Bagnon\\common\\Wildpants\\components\\item.lua:485: in function `UpdateTooltip'\nInterface\\FrameXML\\GameTooltip.lua:496: in function <Interface\\FrameXML\\GameTooltip.lua:475>\n[C]: ?\n",
-		}, -- [48]
+		}, -- [42]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: attempt to concatenate field 'count' (a nil value)",
 			["count"] = 1,
@@ -402,7 +353,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-21 23:38:56",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:461>\n",
-		}, -- [49]
+		}, -- [43]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame1:ClearAllPoints()) during combat lockdown.",
 			["count"] = 2,
@@ -410,7 +361,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [50]
+		}, -- [44]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame1:SetPoint()) during combat lockdown.",
 			["count"] = 2,
@@ -418,7 +369,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [51]
+		}, -- [45]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame2:ClearAllPoints()) during combat lockdown.",
 			["count"] = 2,
@@ -426,7 +377,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [52]
+		}, -- [46]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame2:SetPoint()) during combat lockdown.",
 			["count"] = 2,
@@ -434,7 +385,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [53]
+		}, -- [47]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame3:ClearAllPoints()) during combat lockdown.",
 			["count"] = 2,
@@ -442,7 +393,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [54]
+		}, -- [48]
 		{
 			["message"] = "Note: AddOn Tukui attempted to call a protected function (CompactRaidFrame3:SetPoint()) during combat lockdown.",
 			["count"] = 2,
@@ -450,7 +401,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-23 20:55:05",
 			["context"] = "AddOn: Tukui",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [55]
+		}, -- [49]
 		{
 			["message"] = "...\\AddOns\\Tukui\\Modules\\DataTexts\\Elements\\Friends.lua:305: bad argument #10 to 'format' (string expected, got nil)",
 			["count"] = 1,
@@ -459,7 +410,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-26 15:25:04",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\n...\\AddOns\\Tukui\\Modules\\DataTexts\\Elements\\Friends.lua:305: in function <...\\AddOns\\Tukui\\Modules\\DataTexts\\Elements\\Friends.lua:244>\n",
-		}, -- [56]
+		}, -- [50]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: table index is nil",
 			["count"] = 1,
@@ -468,7 +419,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:43:12",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: in function `foundTreasureChest'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:932: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [57]
+		}, -- [51]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameContainer:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -476,7 +427,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Hide'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:494: in function `CompactRaidFrameManager_UpdateContainerVisibility'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:439: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:428>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:478: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [58]
+		}, -- [52]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameManagerContainerResizeFrame:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -484,7 +435,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Hide'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:538: in function `CompactRaidFrameManager_LockContainer'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:531: in function `CompactRaidFrameManager_UpdateContainerLockVisibility'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:373: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:368>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:468: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [59]
+		}, -- [53]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame4:ClearAllPoints()) during combat lockdown.",
 			["count"] = 9,
@@ -492,7 +443,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [60]
+		}, -- [54]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame4:SetPoint()) during combat lockdown.",
 			["count"] = 9,
@@ -500,7 +451,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [61]
+		}, -- [55]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame1:ClearAllPoints()) during combat lockdown.",
 			["count"] = 11,
@@ -508,7 +459,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [62]
+		}, -- [56]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame1:SetPoint()) during combat lockdown.",
 			["count"] = 11,
@@ -516,7 +467,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [63]
+		}, -- [57]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame3:ClearAllPoints()) during combat lockdown.",
 			["count"] = 11,
@@ -524,7 +475,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [64]
+		}, -- [58]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame3:SetPoint()) during combat lockdown.",
 			["count"] = 11,
@@ -532,7 +483,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [65]
+		}, -- [59]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:ClearAllPoints()) during combat lockdown.",
 			["count"] = 9,
@@ -540,7 +491,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `ClearAllPoints'\nInterface\\FrameXML\\FlowContainer.lua:157: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [66]
+		}, -- [60]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:SetPoint()) during combat lockdown.",
 			["count"] = 9,
@@ -548,7 +499,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetPoint'\nInterface\\FrameXML\\FlowContainer.lua:161: in function `FlowContainer_DoLayout'\nInterface\\FrameXML\\FlowContainer.lua:17: in function `FlowContainer_ResumeUpdates'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:185: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:404: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:395>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:472: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:565: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:542: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [67]
+		}, -- [61]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame1:SetSize()) during combat lockdown.",
 			["count"] = 1,
@@ -556,7 +507,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetSize'\nInterface\\FrameXML\\CompactUnitFrame.lua:1263: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:547: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [68]
+		}, -- [62]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:SetSize()) during combat lockdown.",
 			["count"] = 1,
@@ -564,7 +515,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetSize'\nInterface\\FrameXML\\CompactUnitFrame.lua:1263: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:547: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [69]
+		}, -- [63]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame3:SetSize()) during combat lockdown.",
 			["count"] = 1,
@@ -572,7 +523,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetSize'\nInterface\\FrameXML\\CompactUnitFrame.lua:1263: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:547: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [70]
+		}, -- [64]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame4:SetSize()) during combat lockdown.",
 			["count"] = 1,
@@ -580,7 +531,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetSize'\nInterface\\FrameXML\\CompactUnitFrame.lua:1263: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:547: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [71]
+		}, -- [65]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame1:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -588,7 +539,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\CompactUnitFrame.lua:353: in function `CompactUnitFrame_UpdateVisible'\nInterface\\FrameXML\\CompactUnitFrame.lua:286: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:548: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [72]
+		}, -- [66]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -596,7 +547,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\CompactUnitFrame.lua:353: in function `CompactUnitFrame_UpdateVisible'\nInterface\\FrameXML\\CompactUnitFrame.lua:286: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:548: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [73]
+		}, -- [67]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame3:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -604,7 +555,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\CompactUnitFrame.lua:353: in function `CompactUnitFrame_UpdateVisible'\nInterface\\FrameXML\\CompactUnitFrame.lua:286: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:548: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [74]
+		}, -- [68]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame4:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -612,7 +563,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\CompactUnitFrame.lua:353: in function `CompactUnitFrame_UpdateVisible'\nInterface\\FrameXML\\CompactUnitFrame.lua:286: in function `func'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:325: in function `applyFunc'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:121: in function `CompactRaidFrameContainer_ApplyToFrames'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:548: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [75]
+		}, -- [69]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameManagerContainerResizeFrame:ClearAllPoints()) during combat lockdown.",
 			["count"] = 1,
@@ -620,7 +571,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `ClearAllPoints'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:521: in function `CompactRaidFrameManager_UpdateContainerBounds'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:664: in function `CompactRaidFrameManager_ResizeFrame_LoadPosition'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:557: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [76]
+		}, -- [70]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameManagerContainerResizeFrame:SetPoint()) during combat lockdown.",
 			["count"] = 1,
@@ -628,7 +579,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetPoint'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:522: in function `CompactRaidFrameManager_UpdateContainerBounds'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:664: in function `CompactRaidFrameManager_ResizeFrame_LoadPosition'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:557: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [77]
+		}, -- [71]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameManagerContainerResizeFrame:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -636,7 +587,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetHeight'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:523: in function `CompactRaidFrameManager_UpdateContainerBounds'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:664: in function `CompactRaidFrameManager_ResizeFrame_LoadPosition'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:557: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [78]
+		}, -- [72]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrameContainer:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -644,7 +595,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 12:59:45",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetHeight'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:595: in function `CompactRaidFrameManager_ResizeFrame_UpdateContainerSize'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:525: in function `CompactRaidFrameManager_UpdateContainerBounds'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:664: in function `CompactRaidFrameManager_ResizeFrame_LoadPosition'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:557: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:173: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:82: in function `CompactUnitFrameProfiles_CancelChanges'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:75: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:73>\n[C]: in function `pcall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:217: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:216>\n[C]: in function `securecall'\nInterface\\FrameXML\\InterfaceOptionsFrame.lua:252: in function <Interface\\FrameXML\\InterfaceOptionsFrame.lua:248>\n[C]: in function `Click'\nInterface\\FrameXML\\UIParent.lua:3344: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-		}, -- [79]
+		}, -- [73]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: attempt to concatenate field 'count' (a nil value)",
 			["count"] = 2,
@@ -653,7 +604,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 15:59:49",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:461>\n",
-		}, -- [80]
+		}, -- [74]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame3:SetAttribute()) during combat lockdown.",
 			["count"] = 1,
@@ -661,7 +612,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 16:37:47",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetAttribute'\nInterface\\FrameXML\\CompactUnitFrame.lua:161: in function `CompactUnitFrame_SetUnit'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:318: in function `CompactRaidFrameContainer_AddUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:254: in function `CompactRaidFrameContainer_AddPlayers'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:176: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [81]
+		}, -- [75]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:SetAttribute()) during combat lockdown.",
 			["count"] = 1,
@@ -669,7 +620,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 16:37:47",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `SetAttribute'\nInterface\\FrameXML\\CompactUnitFrame.lua:161: in function `CompactUnitFrame_SetUnit'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:31: in function `releaseFunc'\n...ames\\Blizzard_CompactRaidFrameReservationManager.lua:27: in function `CompactRaidFrameReservation_ReleaseUnusedReservations'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:359: in function `CompactRaidFrameContainer_ReleaseAllReservedFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:189: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [82]
+		}, -- [76]
 		{
 			["message"] = "Note: AddOn SimpleUnitFrames attempted to call a protected function (CompactRaidFrame2:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -677,7 +628,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-28 16:37:47",
 			["context"] = "AddOn: SimpleUnitFrames",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\CompactUnitFrame.lua:355: in function `CompactUnitFrame_UpdateVisible'\nInterface\\FrameXML\\CompactUnitFrame.lua:286: in function `CompactUnitFrame_UpdateAll'\nInterface\\FrameXML\\CompactUnitFrame.lua:176: in function `CompactUnitFrame_SetUnit'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:31: in function `releaseFunc'\n...ames\\Blizzard_CompactRaidFrameReservationManager.lua:27: in function `CompactRaidFrameReservation_ReleaseUnusedReservations'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:359: in function `CompactRaidFrameContainer_ReleaseAllReservedFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:189: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [83]
+		}, -- [77]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:768: bad argument #1 to 'ipairs' (table expected, got nil)",
 			["count"] = 1,
@@ -686,7 +637,7 @@ SwatterData = {
 			["timestamp"] = "2019-09-29 13:05:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `ipairs'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:768: in function `ParseSentData'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:952: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [84]
+		}, -- [78]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 3,
@@ -695,7 +646,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-01 13:18:41",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function <...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:254>\n[C]: ?\n[C]: in function `originalHide'\nInterface\\FrameXML\\FrameLocks.lua:98: in function <Interface\\FrameXML\\FrameLocks.lua:74>\nInterface\\FrameXML\\FrameLocks.lua:109: in function <Interface\\FrameXML\\FrameLocks.lua:102>\nInterface\\FrameXML\\FrameLocks.lua:127: in function `Hide'\nInterface\\FrameXML\\FloatingChatFrame.lua:1840: in function `FCF_MinimizeFrame'\n[string \"*:OnDoubleClick\"]:4: in function <[string \"*:OnDoubleClick\"]:1>\n",
-		}, -- [85]
+		}, -- [79]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 3,
@@ -704,7 +655,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-01 13:20:12",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function <...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:254>\n[C]: ?\n[C]: in function `originalHide'\nInterface\\FrameXML\\FrameLocks.lua:98: in function <Interface\\FrameXML\\FrameLocks.lua:74>\nInterface\\FrameXML\\FrameLocks.lua:109: in function <Interface\\FrameXML\\FrameLocks.lua:102>\nInterface\\FrameXML\\FrameLocks.lua:127: in function `Hide'\nInterface\\FrameXML\\FloatingChatFrame.lua:1840: in function `FCF_MinimizeFrame'\n[string \"*:OnDoubleClick\"]:4: in function <[string \"*:OnDoubleClick\"]:1>\n",
-		}, -- [86]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: table index is nil",
 			["count"] = 2,
@@ -713,7 +664,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-03 12:52:02",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:846: in function `foundTreasureChest'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:932: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [87]
+		}, -- [81]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:768: bad argument #1 to 'ipairs' (table expected, got nil)",
 			["count"] = 1,
@@ -722,7 +673,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-03 16:39:02",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `ipairs'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:768: in function `ParseSentData'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:952: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [88]
+		}, -- [82]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:768: bad argument #1 to 'ipairs' (table expected, got nil)",
 			["count"] = 1,
@@ -731,7 +682,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-04 22:42:41",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `ipairs'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:768: in function `ParseSentData'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:952: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [89]
+		}, -- [83]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -740,7 +691,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 20:59:38",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [90]
+		}, -- [84]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -749,7 +700,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:00:46",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [91]
+		}, -- [85]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:768: bad argument #1 to 'ipairs' (table expected, got nil)",
 			["count"] = 1,
@@ -758,7 +709,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:04:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `ipairs'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:768: in function `ParseSentData'\nInterface\\AddOns\\GatherLite\\GatherLite.lua:952: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:901>\n",
-		}, -- [92]
+		}, -- [86]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -767,7 +718,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:04:36",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [93]
+		}, -- [87]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -776,7 +727,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:09:08",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [94]
+		}, -- [88]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -785,7 +736,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:09:46",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [95]
+		}, -- [89]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -794,7 +745,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:09:55",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [96]
+		}, -- [90]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -803,7 +754,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:11:53",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [97]
+		}, -- [91]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -812,7 +763,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:12:00",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [98]
+		}, -- [92]
 		{
 			["message"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: attempt to index local 'Rep' (a nil value)",
 			["count"] = 1,
@@ -821,7 +772,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:14:53",
 			["context"] = "Global",
 			["stack"] = "...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:272: in function `RemoveRightChat'\n...rface\\AddOns\\Tukui\\Modules\\ChatFrames\\ChatFrames.lua:323: in function `SetChatFramePosition'\nInterface\\AddOns\\Tukui\\Modules\\ChatFrames\\Core.lua:21: in function `Enable'\nInterface\\AddOns\\Tukui\\Core\\Loading.lua:136: in function <Interface\\AddOns\\Tukui\\Core\\Loading.lua:111>\n",
-		}, -- [99]
+		}, -- [93]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: attempt to concatenate field 'count' (a nil value)",
 			["count"] = 1,
@@ -830,7 +781,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 21:55:27",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:461>\n",
-		}, -- [100]
+		}, -- [94]
 		{
 			["message"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: attempt to concatenate field 'count' (a nil value)",
 			["count"] = 1,
@@ -839,7 +790,159 @@ SwatterData = {
 			["timestamp"] = "2019-10-07 22:10:59",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\GatherLite\\GatherLite.lua:490: in function <Interface\\AddOns\\GatherLite\\GatherLite.lua:461>\n",
+		}, -- [95]
+		{
+			["message"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:6: <unnamed>:SetPoint(): Couldn't find region named 'Twodreads'",
+			["count"] = 782,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BagnonConfig, v\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosConfig, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=50a)\n",
+			["timestamp"] = "2019-10-08 08:08:43",
+			["context"] = "Global",
+			["stack"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:6: in function <[string \"--[[ Error in 'Beacon' ]] return function()...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:541: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:1293: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1291>\n",
+		}, -- [96]
+		{
+			["message"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:7: <unnamed>:SetPoint(): Couldn't find region named 'Twodreads'",
+			["count"] = 764,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BagnonConfig, v\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosConfig, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=50a)\n",
+			["timestamp"] = "2019-10-08 08:09:17",
+			["context"] = "Global",
+			["stack"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:7: in function <[string \"--[[ Error in 'Beacon' ]] return function()...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:541: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:1293: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1291>\n",
+		}, -- [97]
+		{
+			["message"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:7: <unnamed>:SetPoint(): Couldn't find region named 'Bofadeez'",
+			["count"] = 249,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BagnonConfig, v\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosConfig, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=50a)\n",
+			["timestamp"] = "2019-10-08 08:09:21",
+			["context"] = "Global",
+			["stack"] = "[string \"--[[ Error in 'Beacon' ]] return function()...\"]:7: in function <[string \"--[[ Error in 'Beacon' ]] return function()...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:541: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:1293: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:1291>\n",
+		}, -- [98]
+		{
+			["message"] = "[string \"--[[ Error in 'CatchAll' ]] return function...\"]:3: attempt to call field 'icon' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=515)\n",
+			["timestamp"] = "2019-10-08 10:38:01",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5578: in function `RunCustomTextFunc'\n...nterface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua:221: in function `Update'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5354: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:5349>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5439: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:5406>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5523: in function `UpdatedTriggerState'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5290: in function `UpdateFakeStatesFor'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3954: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3860>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3966: in function `Add'\n...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2337: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2328>\n[C]: ?\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:51: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:49>\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:843: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:664>\n[C]: ?\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:72: in function <...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:70>\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:287: in function `Fire'\n...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:59: in function <...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:56>\n",
+		}, -- [99]
+		{
+			["message"] = "[string \"--[[ Error in 'CatchAll 2' ]] return functi...\"]:2: Usage: UnitBuff(\"unit\", [index][, \"filter\"])",
+			["count"] = 3,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=4e8)\n",
+			["timestamp"] = "2019-10-08 11:32:29",
+			["context"] = "Global",
+			["stack"] = "[string \"--[[ Error in 'CatchAll 2' ]] return functi...\"]:2: in function <[string \"--[[ Error in 'CatchAll 2' ]] return functi...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5578: in function `RunCustomTextFunc'\n...nterface\\AddOns\\WeakAuras\\SubRegionTypes\\SubText.lua:221: in function `Update'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5354: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:5349>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5439: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:5406>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5523: in function `UpdatedTriggerState'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5290: in function `UpdateFakeStatesFor'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3954: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3860>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3966: in function `Add'\n...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2337: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2328>\n[C]: ?\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:51: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:49>\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:843: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:664>\n[C]: ?\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:72: in function <...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:70>\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:287: in function `Fire'\n...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:59: in function <...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:56>\n",
+		}, -- [100]
+		{
+			["message"] = "attempt to call a number value",
+			["count"] = 11,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=4e8)\n",
+			["timestamp"] = "2019-10-08 12:17:24",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:3477: in function `CreateFallbackState'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:699: in function `CreateFakeStates'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:5287: in function `UpdateFakeStatesFor'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3954: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:3860>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:3966: in function `Add'\n...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2337: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:2328>\n[C]: ?\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:51: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:49>\n...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:843: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:664>\n[C]: ?\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:72: in function <...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:70>\n...face\\AddOns\\WeakAuras\\Libs\\AceGUI-3.0\\AceGUI-3.0.lua:287: in function `Fire'\n...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:59: in function <...I-Widgets\\AceGUIWidget-WeakAurasMultiLineEditBox.lua:56>\n",
 		}, -- [101]
+		{
+			["message"] = "attempt to call a string value",
+			["count"] = 19,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=515)\n",
+			["timestamp"] = "2019-10-08 12:54:10",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:718: in function `ScanWithFakeEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:985: in function `LoadDisplays'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:2144: in function `LoadDisplays'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:1999: in function <Interface\\AddOns\\WeakAuras\\WeakAuras.lua:1865>\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:2095: in function `ReloadAll'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:1754: in function `ScanAll'\nInterface\\AddOns\\WeakAuras\\WeakAuras.lua:1699: in function `Resume'\n...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:198: in function <...dOns\\WeakAurasOptions\\OptionsFrames\\OptionsFrame.lua:174>\n[C]: in function `Hide'\n...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:1450: in function <...terface\\AddOns\\WeakAurasOptions\\WeakAurasOptions.lua:1448>\n",
+		}, -- [102]
+		{
+			["message"] = "C stack overflow",
+			["count"] = 12,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: ?\nInterface\\FrameXML\\RestrictedInfrastructure.lua:117: in function `print'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:541: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [103]
+		{
+			["message"] = "[string \"--[[ Error in 'Frost Shock [R]' ]] return f...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [104]
+		{
+			["message"] = "[string \"--[[ Error in 'Healing Stream [R]' ]] retur...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [105]
+		{
+			["message"] = "[string \"--[[ Error in 'Big Heal [R]' ]] return func...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [106]
+		{
+			["message"] = "[string \"--[[ Error in 'Strength [R]' ]] return func...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [107]
+		{
+			["message"] = "[string \"--[[ Error in 'Searing [R]' ]] return funct...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [108]
+		{
+			["message"] = "[string \"--[[ Error in 'Tremor [R]' ]] return functi...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [109]
+		{
+			["message"] = "[string \"--[[ Error in 'Ghost Wolf [R]' ]] return fu...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [110]
+		{
+			["message"] = "[string \"--[[ Error in 'Earthbind [R]' ]] return fun...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [111]
+		{
+			["message"] = "[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:541: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [112]
+		{
+			["message"] = "[string \"--[[ Error in 'CatchAll 2' ]] return functi...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [113]
+		{
+			["message"] = "[string \"--[[ Error in 'Follow' ]] return function(s...\"]:9: C stack overflow",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.1.2-beta\n  AucAdvanced, v8.2.6385 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6368 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  BagBrother, v\n  Bagnon, v8.2.13\n  BeanCounter, v8.2.6381 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  CustomTooltips, v1.13.2\n  CustomTooltipsBlizzard, v1.13.2\n  CustomTooltipsOpie, v1.13.2\n  Dominos, v8.2.10\n  DominosCast, v\n  DominosEncounter, v\n  DominosProgress, v\n  DominosRoll, v\n  Enchantrix, v8.2.6392 (SwimmingSeadragon)\n  FasterLooting, v1.1.0\n  GatherLite, v@project-version@\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LibClassicMobHealth10, v1.0\n  MapCoords, v0.31\n  OPie, vWalnut 4\n  Questie, v4.0.9 BETA\n  SimpleUnitFrames, v11302-1\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TodoChecklister, v1.1.7b\n  Tukui, v1.18\n  VendorPrice, v1.0\n  WeakAuras, v2.14.0-beta5\n  WeakAurasOptions, v2.14.0-beta5\n  WeakAurasTemplates, v2.14.0-beta5\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=539)\n",
+			["timestamp"] = "2019-10-08 13:30:45",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:517: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\n...\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\n[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:2: in function <[string \"--[[ Error in 'CatchAll 3s' ]] return funct...\"]:1>\n[C]: in function `xpcall'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:373: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:369>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:469: in function `ActivateEvent'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:545: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:505>\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:658: in function `ScanEventsInternal'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:619: in function `ScanEvents'\nInterface\\AddOns\\WeakAuras\\GenericTrigger.lua:745: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:736>\n",
+		}, -- [114]
 	},
 	["autoshow"] = true,
 }

@@ -32,7 +32,6 @@ VER 3 000000000000000D "party 1 follow" "132089"
 /target Odrálaga
 /follow
 /w Odrálaga AF
-#tooltipdesc Party1-Follow^Party1-Follow
 END
 VER 3 0000000000000010 "shoot" "132147"
 /cast !Shoot

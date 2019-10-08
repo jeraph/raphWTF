@@ -1822,10 +1822,6 @@ GatherLiteGlobalSettings = {
 						["name"] = "Blood Shard",
 						["count"] = 2,
 					},
-					["|cff1eff00|Hitem:1206::::::::14:::::::|h[Moss Agate]|h|r"] = {
-						["name"] = "Moss Agate",
-						["count"] = 1,
-					},
 					["|cffffffff|Hitem:2836::::::::14:::::::|h[Coarse Stone]|h|r"] = {
 						["name"] = "Coarse Stone",
 						["count"] = 4,
@@ -1833,6 +1829,10 @@ GatherLiteGlobalSettings = {
 					["|cffffffff|Hitem:2771::::::::14:::::::|h[Tin Ore]|h|r"] = {
 						["name"] = "Tin Ore",
 						["count"] = 3,
+					},
+					["|cff1eff00|Hitem:1206::::::::14:::::::|h[Moss Agate]|h|r"] = {
+						["name"] = "Moss Agate",
+						["count"] = 1,
 					},
 				},
 				["icon"] = 134579,

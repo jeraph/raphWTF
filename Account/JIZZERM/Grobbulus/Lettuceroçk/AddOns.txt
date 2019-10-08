@@ -42,3 +42,4 @@ CustomTooltips_ButtonForge: disabled
 CustomTooltips_ElvUI: disabled
 CustomTooltips_Opie: disabled
 FuBar_ClockFu: disabled
+OPie_Classic: disabled

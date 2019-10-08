@@ -1,2 +1,3 @@
 WeakAurasCompanion: enabled
 CustomTooltips_LibActionButton: disabled
+OPie_Classic: disabled

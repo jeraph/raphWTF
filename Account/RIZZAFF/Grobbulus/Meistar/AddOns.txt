@@ -1,1 +1,2 @@
 WeakAurasCompanion: enabled
+OPie_Classic: disabled

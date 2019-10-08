@@ -1,3 +1,4 @@
 AllyRoute: disabled
 WeakAurasCompanion: enabled
 WeaponSwingTimer: disabled
+OPie_Classic: disabled
