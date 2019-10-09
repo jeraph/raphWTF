@@ -11,24 +11,6 @@ AucAdvancedConfig = {
 				},
 			},
 		},
-		["util"] = {
-			["appraiser"] = {
-				["columnsortcurDir"] = -1,
-				["columnsortcurSort"] = 6,
-			},
-			["automagic"] = {
-				["ammailguix"] = 160,
-				["ammailguiy"] = 99.7,
-				["SavedMailButtons"] = {
-				},
-			},
-			["compactui"] = {
-				["priceperitem"] = true,
-			},
-			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "LEFT:LEFT:175.7:32.9",
-			},
-		},
 		["stat"] = {
 			["sales"] = {
 				["normal"] = false,
@@ -39,20 +21,40 @@ AucAdvancedConfig = {
 				},
 			},
 		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
+			["compactui"] = {
+				["priceperitem"] = true,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 99.7,
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "LEFT:LEFT:175.7:32.9",
+			},
+		},
 		["configator.top"] = 764.999938964844,
 	},
 	["version"] = 1,
 }
 AucAdvancedData = {
+	["Stats"] = {
+	},
 	["UtilSearchUiData"] = {
 		["Current"] = {
 			["columnwidth.Bid"] = 85.0000152587891,
 			["general.name"] = "greater magic",
-			["snatch.columnsortcurSort"] = 1,
-			["enchantmats.PriceAdjust.22446"] = 99,
+			["resale.profit.min"] = 5101,
+			["general.maxbuy"] = 9999999999,
 			["columnsortcurSort"] = 9,
-			["snatch.columnsortcurDir"] = 1,
-			["columnsortcurDir"] = 1,
+			["general.maxbid"] = 9999999999,
+			["resale.allow.bid"] = false,
 			["snatch.itemsList"] = {
 				["2318:0:0"] = {
 					["price"] = 5,
@@ -63,10 +65,10 @@ AucAdvancedData = {
 					["link"] = "|cff1eff00|Hitem:10939::::::::19:::::::|h[Greater Magic Essence]|h|r",
 				},
 			},
-			["resale.allow.bid"] = false,
-			["general.maxbid"] = 9999999999,
-			["general.maxbuy"] = 9999999999,
-			["resale.profit.min"] = 5101,
+			["columnsortcurDir"] = 1,
+			["snatch.columnsortcurDir"] = 1,
+			["enchantmats.PriceAdjust.22446"] = 99,
+			["snatch.columnsortcurSort"] = 1,
 		},
 		["Version"] = 1,
 		["Selected"] = "Greater Magic Essence",
@@ -77,8 +79,8 @@ AucAdvancedData = {
 		["SavedSearches"] = {
 			["Greater Magic Essence"] = {
 				["columnsortcurSort"] = 3,
-				["resale.profit.min"] = 5101,
-				["resale.allow.bid"] = false,
+				["snatch.columnsortcurSort"] = 1,
+				["vendor.allow.bid"] = false,
 				["snatch.itemsList"] = {
 					["10939:0:0"] = {
 						["price"] = 1100,
@@ -87,23 +89,21 @@ AucAdvancedData = {
 				},
 				["columnsortcurDir"] = -1,
 				["snatch.columnsortcurDir"] = 1,
-				["vendor.allow.bid"] = false,
-				["snatch.columnsortcurSort"] = 1,
+				["resale.allow.bid"] = false,
+				["resale.profit.min"] = 5101,
 			},
 		},
 	},
-	["Stats"] = {
-	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1568137202,
+	["KnownServerKeys"] = {
+		["Kurinnaxx"] = 1568331100,
+		["Grobbulus"] = 1570656086,
+	},
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",
 		["Grobbulus"] = "Grobbulus",
-	},
-	["Timestamp"] = 1568137202,
-	["Version"] = 1,
-	["KnownServerKeys"] = {
-		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1570587337,
 	},
 }

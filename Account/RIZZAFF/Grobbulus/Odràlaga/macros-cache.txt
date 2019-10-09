@@ -8,15 +8,15 @@ VER 3 0000000001000001 " Lightening Pull" "INV_MISC_QUESTIONMARK"
 /cast Lightning Bolt(Rank 1)
 #tooltipdesc Lightning Pull^Start Attack first, then cast lightning bolt R1
 END
-VER 3 0000000001000005 " SmH" "INV_MISC_QUESTIONMARK"
-#showtooltip
+VER 3 0000000001000005 " SmH" "135741"
+/target Odrálaga
 /cast Lesser Healing Wave(Rank 1)
-/w Odrálaga Small Heals
+/w Odrálaga Small Heal
 END
-VER 3 0000000001000008 "BgH" "INV_MISC_QUESTIONMARK"
-#showtooltip
+VER 3 0000000001000008 "BgH" "135750"
+/target Odrálaga
 /cast Healing Wave(Rank 4)
-/w Odrálaga Big Heals
+/w Odrálaga Big Heal
 END
 VER 3 000000000100000C "Earth Totem" "INV_MISC_QUESTIONMARK"
 #showtooltip

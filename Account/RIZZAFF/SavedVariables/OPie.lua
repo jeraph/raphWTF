@@ -16,9 +16,9 @@ OneRing_Config = {
 		["odralaga"] = {
 			["RingAtMouse"] = true,
 			["Bindings"] = {
-				["RaidSymbols"] = "F6",
+				["RaidSymbols"] = "SHIFT-F6",
 				["TrinketSlots"] = "CTRL-F6",
-				["CommonTrades"] = "SHIFT-F6",
+				["CommonTrades"] = "F6",
 				["asdf"] = "F6",
 			},
 			["SelectedSliceBind"] = "SHIFT-D",
@@ -58,9 +58,13 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgkd3dwi",
 				}, -- [6]
 				{
-					["sliceToken"] = "ABuehgkd3dwg",
 					["id"] = 6390,
+					["sliceToken"] = "ABuehgkd3dwg",
 				}, -- [7]
+				{
+					["id"] = 8166,
+					["sliceToken"] = "ABuehgGC3xw",
+				}, -- [8]
 				["name"] = "Target Markers",
 				["save"] = true,
 				["hotkey"] = "ALT-R",
@@ -132,10 +136,54 @@ OneRing_Config = {
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
 			},
+			["CommonTrades"] = {
+				{
+					"macro", -- [1]
+					" SmH", -- [2]
+					["sliceToken"] = "ABuehgAxW4o",
+					["icon"] = 135741,
+				}, -- [1]
+				{
+					"macro", -- [1]
+					"BgH", -- [2]
+					["sliceToken"] = "ABuehgAxW42",
+					["icon"] = 135750,
+				}, -- [2]
+				{
+					"macro", -- [1]
+					" Lightening Pull", -- [2]
+					["sliceToken"] = "ABuehgAparQ",
+				}, -- [3]
+				{
+					["id"] = 8052,
+					["sliceToken"] = "ABuehgAparm",
+				}, -- [4]
+				{
+					["id"] = 8045,
+					["sliceToken"] = "ABuehgAparn",
+				}, -- [5]
+				{
+					["id"] = 8056,
+					["sliceToken"] = "ABuehgApar6",
+				}, -- [6]
+				{
+					["caption"] = "Big Heal to Someone",
+					["sliceToken"] = "ABuehgAparW",
+					["id"] = 913,
+				}, -- [7]
+				{
+					["caption"] = "Small Heal to someone",
+					["sliceToken"] = "ABuehgAparE",
+					["id"] = 8004,
+				}, -- [8]
+				["name"] = "Trade Skills",
+				["save"] = true,
+				["hotkey"] = "ALT-T",
+			},
 			["asdf"] = {
 				["save"] = true,
-				["name"] = "asdf",
 				["limit"] = "Raph-Kurinnaxx",
+				["name"] = "asdf",
 			},
 		},
 	},

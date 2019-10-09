@@ -6,6 +6,36 @@ TukuiData = {
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
 			["Chat"] = {
 				["Frame1"] = {
 					"BOTTOMLEFT", -- [1]
@@ -39,11 +69,11 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
 					370, -- [5]
 					108, -- [6]
 				},
@@ -79,43 +109,13 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
 					108, -- [6]
-				},
-			},
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
 				},
 			},
 		},
@@ -194,36 +194,6 @@ TukuiData = {
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-			},
 			["Chat"] = {
 				["Frame1"] = {
 					"BOTTOMLEFT", -- [1]
@@ -257,11 +227,11 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
 					108, -- [6]
 				},
@@ -297,13 +267,43 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
 					370, -- [5]
 					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
 				},
 			},
 		},
@@ -389,6 +389,36 @@ TukuiData = {
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Voice Chat"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+			},
 			["Chat"] = {
 				["Frame1"] = {
 					"BOTTOMLEFT", -- [1]
@@ -422,11 +452,11 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
 					370, -- [5]
 					108, -- [6]
 				},
@@ -462,43 +492,13 @@ TukuiData = {
 					370, -- [5]
 					90.9999847412109, -- [6]
 				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
 					108, -- [6]
-				},
-			},
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Voice Chat"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
 				},
 			},
 		},
@@ -555,26 +555,12 @@ TukuiData = {
 					-414.095520019531, -- [4]
 					202.412780761719, -- [5]
 				},
-				["TukuiParty"] = {
-					"CENTER", -- [1]
+				["TukuiBuffHeader"] = {
+					"LEFT", -- [1]
 					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-367.602752685547, -- [4]
-					127.857131958008, -- [5]
-				},
-				["TukuiTooltipAnchor"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					196.334075927734, -- [4]
-					211.198425292969, -- [5]
-				},
-				["TukuiPetFrame"] = {
-					"BOTTOM", -- [1]
-					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					-370.309844970703, -- [4]
-					207.285537719727, -- [5]
+					"LEFT", -- [3]
+					306.824584960938, -- [4]
+					36.7781524658203, -- [5]
 				},
 				["Minimap"] = {
 					"TOPRIGHT", -- [1]
@@ -583,12 +569,26 @@ TukuiData = {
 					-292.572021484375, -- [4]
 					-37.5869178771973, -- [5]
 				},
-				["TukuiBuffHeader"] = {
-					"LEFT", -- [1]
+				["TukuiPetFrame"] = {
+					"BOTTOM", -- [1]
 					"UIParent", -- [2]
-					"LEFT", -- [3]
-					306.824584960938, -- [4]
-					36.7781524658203, -- [5]
+					"BOTTOM", -- [3]
+					-370.309844970703, -- [4]
+					207.285537719727, -- [5]
+				},
+				["TukuiTooltipAnchor"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					196.334075927734, -- [4]
+					211.198425292969, -- [5]
+				},
+				["TukuiParty"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-367.602752685547, -- [4]
+					127.857131958008, -- [5]
 				},
 				["TukuiPlayerFrame"] = {
 					"CENTER", -- [1]
@@ -600,36 +600,6 @@ TukuiData = {
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-			},
 			["Chat"] = {
 				["Frame1"] = {
 					"BOTTOMLEFT", -- [1]
@@ -663,11 +633,11 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
 					108, -- [6]
 				},
@@ -703,13 +673,43 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
 					370, -- [5]
 					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
 				},
 			},
 		},
@@ -718,215 +718,6 @@ TukuiData = {
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
-			["Chat"] = {
-				["Frame1"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					34, -- [3]
-					50, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame5"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame6"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame8"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame9"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame7"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame3"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame2"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-			},
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-			},
-		},
-		["Lettucefarm"] = {
-			["Move"] = {
-				["TukuiTargetFrame"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					376.87255859375, -- [4]
-					-176.865539550781, -- [5]
-				},
-				["TukuiRightDataTextBox"] = {
-					"BOTTOMRIGHT", -- [1]
-					"UIParent", -- [2]
-					"BOTTOMRIGHT", -- [3]
-					-66.9842300415039, -- [4]
-					122.428588867188, -- [5]
-				},
-				["TukuiRaid"] = {
-					"LEFT", -- [1]
-					"UIParent", -- [2]
-					"LEFT", -- [3]
-					223.000259399414, -- [4]
-					-22.0000019073486, -- [5]
-				},
-				["TukuiTargetTargetFrame"] = {
-					"BOTTOM", -- [1]
-					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					391.111694335938, -- [4]
-					202.365127563477, -- [5]
-				},
-				["TukuiLootFrame"] = {
-					"TOP", -- [1]
-					"UIParent", -- [2]
-					"TOP", -- [3]
-					-102.761474609375, -- [4]
-					-246.825302124023, -- [5]
-				},
-				["TukuiLeftDataTextBox"] = {
-					"RIGHT", -- [1]
-					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-65.0787887573242, -- [4]
-					-203.15869140625, -- [5]
-				},
-				["TukuiObjectiveTracker"] = {
-					"RIGHT", -- [1]
-					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-414.095520019531, -- [4]
-					202.412780761719, -- [5]
-				},
-				["TukuiParty"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-367.602752685547, -- [4]
-					127.857131958008, -- [5]
-				},
-				["TukuiTooltipAnchor"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					196.334075927734, -- [4]
-					211.198425292969, -- [5]
-				},
-				["TukuiPetFrame"] = {
-					"BOTTOM", -- [1]
-					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					-370.309844970703, -- [4]
-					207.285537719727, -- [5]
-				},
-				["Minimap"] = {
-					"TOPRIGHT", -- [1]
-					"UIParent", -- [2]
-					"TOPRIGHT", -- [3]
-					-292.572021484375, -- [4]
-					-37.5869178771973, -- [5]
-				},
-				["TukuiBuffHeader"] = {
-					"LEFT", -- [1]
-					"UIParent", -- [2]
-					"LEFT", -- [3]
-					306.824584960938, -- [4]
-					36.7781524658203, -- [5]
-				},
-				["TukuiPlayerFrame"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-374.460388183594, -- [4]
-					-178.801696777344, -- [5]
-				},
-			},
-			["InstallDone"] = true,
-			["HideBar5"] = true,
 			["Texts"] = {
 				["Friends"] = {
 					true, -- [1]
@@ -967,221 +758,12 @@ TukuiData = {
 					108, -- [6]
 				},
 				["Frame5"] = {
-					"TOP", -- [1]
-					"TOP", -- [2]
-					8.2849760055542, -- [3]
-					-136.673767089844, -- [4]
-					567.36474609375, -- [5]
-					119.999969482422, -- [6]
-				},
-				["Frame6"] = {
 					"BOTTOMLEFT", -- [1]
 					"BOTTOMLEFT", -- [2]
 					100, -- [3]
 					100, -- [4]
 					370, -- [5]
 					108, -- [6]
-				},
-				["Frame8"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame9"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame7"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame3"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame2"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-			},
-		},
-		["Lettuçestock"] = {
-			["Move"] = {
-				["TukuiTargetFrame"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					376.87255859375, -- [4]
-					-176.865539550781, -- [5]
-				},
-				["TukuiRightDataTextBox"] = {
-					"BOTTOMRIGHT", -- [1]
-					"UIParent", -- [2]
-					"BOTTOMRIGHT", -- [3]
-					-66.9842300415039, -- [4]
-					122.428588867188, -- [5]
-				},
-				["TukuiRaid"] = {
-					"LEFT", -- [1]
-					"UIParent", -- [2]
-					"LEFT", -- [3]
-					223.000259399414, -- [4]
-					-22.0000019073486, -- [5]
-				},
-				["TukuiTargetTargetFrame"] = {
-					"BOTTOM", -- [1]
-					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					391.111694335938, -- [4]
-					202.365127563477, -- [5]
-				},
-				["TukuiLootFrame"] = {
-					"TOP", -- [1]
-					"UIParent", -- [2]
-					"TOP", -- [3]
-					-102.761474609375, -- [4]
-					-246.825302124023, -- [5]
-				},
-				["TukuiLeftDataTextBox"] = {
-					"RIGHT", -- [1]
-					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-65.0787887573242, -- [4]
-					-203.15869140625, -- [5]
-				},
-				["TukuiObjectiveTracker"] = {
-					"RIGHT", -- [1]
-					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-414.095520019531, -- [4]
-					202.412780761719, -- [5]
-				},
-				["TukuiParty"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-367.602752685547, -- [4]
-					127.857131958008, -- [5]
-				},
-				["TukuiTooltipAnchor"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					196.334075927734, -- [4]
-					211.198425292969, -- [5]
-				},
-				["TukuiPetFrame"] = {
-					"BOTTOM", -- [1]
-					"UIParent", -- [2]
-					"BOTTOM", -- [3]
-					-370.309844970703, -- [4]
-					207.285537719727, -- [5]
-				},
-				["Minimap"] = {
-					"TOPRIGHT", -- [1]
-					"UIParent", -- [2]
-					"TOPRIGHT", -- [3]
-					-292.572021484375, -- [4]
-					-37.5869178771973, -- [5]
-				},
-				["TukuiBuffHeader"] = {
-					"LEFT", -- [1]
-					"UIParent", -- [2]
-					"LEFT", -- [3]
-					306.824584960938, -- [4]
-					36.7781524658203, -- [5]
-				},
-				["TukuiPlayerFrame"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-374.460388183594, -- [4]
-					-178.801696777344, -- [5]
-				},
-			},
-			["InstallDone"] = true,
-			["HideBar5"] = true,
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-			},
-			["Chat"] = {
-				["Frame1"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					34, -- [3]
-					50, -- [4]
-					370, -- [5]
-					108, -- [6]
-				},
-				["Frame5"] = {
-					"TOP", -- [1]
-					"TOP", -- [2]
-					8.2849760055542, -- [3]
-					-136.673767089844, -- [4]
-					567.36474609375, -- [5]
-					119.999969482422, -- [6]
 				},
 				["Frame6"] = {
 					"BOTTOMLEFT", -- [1]
@@ -1252,11 +834,11 @@ TukuiData = {
 		["Odràlaga"] = {
 			["Move"] = {
 				["TukuiTargetFrame"] = {
-					"CENTER", -- [1]
+					"BOTTOMLEFT", -- [1]
 					"UIParent", -- [2]
-					"CENTER", -- [3]
-					376.87255859375, -- [4]
-					-176.865539550781, -- [5]
+					"BOTTOMLEFT", -- [3]
+					327.453582763672, -- [4]
+					20.8094997406006, -- [5]
 				},
 				["TukuiRightDataTextBox"] = {
 					"BOTTOMLEFT", -- [1]
@@ -1273,11 +855,11 @@ TukuiData = {
 					-22.0000019073486, -- [5]
 				},
 				["TukuiTargetTargetFrame"] = {
-					"RIGHT", -- [1]
+					"CENTER", -- [1]
 					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-387.057067871094, -- [4]
-					-175.216079711914, -- [5]
+					"CENTER", -- [3]
+					486.931762695313, -- [4]
+					-33.0678176879883, -- [5]
 				},
 				["TukuiLootFrame"] = {
 					"TOP", -- [1]
@@ -1300,26 +882,12 @@ TukuiData = {
 					477.940246582031, -- [4]
 					218.931930541992, -- [5]
 				},
-				["TukuiParty"] = {
-					"CENTER", -- [1]
+				["TukuiBuffHeader"] = {
+					"TOP", -- [1]
 					"UIParent", -- [2]
-					"CENTER", -- [3]
-					-367.602752685547, -- [4]
-					127.857131958008, -- [5]
-				},
-				["TukuiTooltipAnchor"] = {
-					"CENTER", -- [1]
-					"UIParent", -- [2]
-					"CENTER", -- [3]
-					209.313430786133, -- [4]
-					241.877029418945, -- [5]
-				},
-				["TukuiPetFrame"] = {
-					"LEFT", -- [1]
-					"UIParent", -- [2]
-					"LEFT", -- [3]
-					465.677917480469, -- [4]
-					-184.454864501953, -- [5]
+					"TOP", -- [3]
+					389.8974609375, -- [4]
+					-112.199409484863, -- [5]
 				},
 				["Minimap"] = {
 					"TOPRIGHT", -- [1]
@@ -1328,53 +896,37 @@ TukuiData = {
 					-292.572021484375, -- [4]
 					-37.5869178771973, -- [5]
 				},
-				["TukuiBuffHeader"] = {
-					"TOP", -- [1]
+				["TukuiPetFrame"] = {
+					"LEFT", -- [1]
 					"UIParent", -- [2]
-					"TOP", -- [3]
-					389.8974609375, -- [4]
-					-112.199409484863, -- [5]
+					"LEFT", -- [3]
+					465.677917480469, -- [4]
+					-184.454864501953, -- [5]
 				},
-				["TukuiPlayerFrame"] = {
+				["TukuiTooltipAnchor"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-374.460388183594, -- [4]
-					-178.801696777344, -- [5]
+					209.313430786133, -- [4]
+					241.877029418945, -- [5]
+				},
+				["TukuiParty"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-367.602752685547, -- [4]
+					127.857131958008, -- [5]
+				},
+				["TukuiPlayerFrame"] = {
+					"BOTTOMLEFT", -- [1]
+					"UIParent", -- [2]
+					"BOTTOMLEFT", -- [3]
+					30.3289451599121, -- [4]
+					18.8729133605957, -- [5]
 				},
 			},
 			["InstallDone"] = true,
 			["HideBar5"] = true,
-			["Texts"] = {
-				["Friends"] = {
-					true, -- [1]
-					3, -- [2]
-				},
-				["Memory"] = {
-					true, -- [1]
-					5, -- [2]
-				},
-				["Guild"] = {
-					true, -- [1]
-					1, -- [2]
-				},
-				["Gold"] = {
-					true, -- [1]
-					6, -- [2]
-				},
-				["Coords"] = {
-					true, -- [1]
-					7, -- [2]
-				},
-				["Durability"] = {
-					true, -- [1]
-					2, -- [2]
-				},
-				["FPS & MS"] = {
-					true, -- [1]
-					4, -- [2]
-				},
-			},
 			["Chat"] = {
 				["Frame1"] = {
 					"BOTTOMLEFT", -- [1]
@@ -1408,11 +960,11 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
-				["Frame10"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
 					108, -- [6]
 				},
@@ -1448,6 +1000,175 @@ TukuiData = {
 					370.000030517578, -- [5]
 					98.9999694824219, -- [6]
 				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+			},
+		},
+		["Lettuçestock"] = {
+			["Move"] = {
+				["TukuiTargetFrame"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					376.87255859375, -- [4]
+					-176.865539550781, -- [5]
+				},
+				["TukuiRightDataTextBox"] = {
+					"BOTTOMRIGHT", -- [1]
+					"UIParent", -- [2]
+					"BOTTOMRIGHT", -- [3]
+					-66.9842300415039, -- [4]
+					122.428588867188, -- [5]
+				},
+				["TukuiRaid"] = {
+					"LEFT", -- [1]
+					"UIParent", -- [2]
+					"LEFT", -- [3]
+					223.000259399414, -- [4]
+					-22.0000019073486, -- [5]
+				},
+				["TukuiTargetTargetFrame"] = {
+					"BOTTOM", -- [1]
+					"UIParent", -- [2]
+					"BOTTOM", -- [3]
+					391.111694335938, -- [4]
+					202.365127563477, -- [5]
+				},
+				["TukuiLootFrame"] = {
+					"TOP", -- [1]
+					"UIParent", -- [2]
+					"TOP", -- [3]
+					-102.761474609375, -- [4]
+					-246.825302124023, -- [5]
+				},
+				["TukuiLeftDataTextBox"] = {
+					"RIGHT", -- [1]
+					"UIParent", -- [2]
+					"RIGHT", -- [3]
+					-65.0787887573242, -- [4]
+					-203.15869140625, -- [5]
+				},
+				["TukuiObjectiveTracker"] = {
+					"RIGHT", -- [1]
+					"UIParent", -- [2]
+					"RIGHT", -- [3]
+					-414.095520019531, -- [4]
+					202.412780761719, -- [5]
+				},
+				["TukuiBuffHeader"] = {
+					"LEFT", -- [1]
+					"UIParent", -- [2]
+					"LEFT", -- [3]
+					306.824584960938, -- [4]
+					36.7781524658203, -- [5]
+				},
+				["Minimap"] = {
+					"TOPRIGHT", -- [1]
+					"UIParent", -- [2]
+					"TOPRIGHT", -- [3]
+					-292.572021484375, -- [4]
+					-37.5869178771973, -- [5]
+				},
+				["TukuiPetFrame"] = {
+					"BOTTOM", -- [1]
+					"UIParent", -- [2]
+					"BOTTOM", -- [3]
+					-370.309844970703, -- [4]
+					207.285537719727, -- [5]
+				},
+				["TukuiTooltipAnchor"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					196.334075927734, -- [4]
+					211.198425292969, -- [5]
+				},
+				["TukuiParty"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-367.602752685547, -- [4]
+					127.857131958008, -- [5]
+				},
+				["TukuiPlayerFrame"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-374.460388183594, -- [4]
+					-178.801696777344, -- [5]
+				},
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"TOP", -- [1]
+					"TOP", -- [2]
+					8.2849760055542, -- [3]
+					-136.673767089844, -- [4]
+					567.36474609375, -- [5]
+					119.999969482422, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
 				["Frame4"] = {
 					"BOTTOMRIGHT", -- [1]
 					"BOTTOMRIGHT", -- [2]
@@ -1456,19 +1177,298 @@ TukuiData = {
 					370, -- [5]
 					108, -- [6]
 				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
+			},
+		},
+		["Lettucefarm"] = {
+			["Move"] = {
+				["TukuiTargetFrame"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					376.87255859375, -- [4]
+					-176.865539550781, -- [5]
+				},
+				["TukuiRightDataTextBox"] = {
+					"BOTTOMRIGHT", -- [1]
+					"UIParent", -- [2]
+					"BOTTOMRIGHT", -- [3]
+					-66.9842300415039, -- [4]
+					122.428588867188, -- [5]
+				},
+				["TukuiRaid"] = {
+					"LEFT", -- [1]
+					"UIParent", -- [2]
+					"LEFT", -- [3]
+					223.000259399414, -- [4]
+					-22.0000019073486, -- [5]
+				},
+				["TukuiTargetTargetFrame"] = {
+					"BOTTOM", -- [1]
+					"UIParent", -- [2]
+					"BOTTOM", -- [3]
+					391.111694335938, -- [4]
+					202.365127563477, -- [5]
+				},
+				["TukuiLootFrame"] = {
+					"TOP", -- [1]
+					"UIParent", -- [2]
+					"TOP", -- [3]
+					-102.761474609375, -- [4]
+					-246.825302124023, -- [5]
+				},
+				["TukuiLeftDataTextBox"] = {
+					"RIGHT", -- [1]
+					"UIParent", -- [2]
+					"RIGHT", -- [3]
+					-65.0787887573242, -- [4]
+					-203.15869140625, -- [5]
+				},
+				["TukuiObjectiveTracker"] = {
+					"RIGHT", -- [1]
+					"UIParent", -- [2]
+					"RIGHT", -- [3]
+					-414.095520019531, -- [4]
+					202.412780761719, -- [5]
+				},
+				["TukuiBuffHeader"] = {
+					"LEFT", -- [1]
+					"UIParent", -- [2]
+					"LEFT", -- [3]
+					306.824584960938, -- [4]
+					36.7781524658203, -- [5]
+				},
+				["Minimap"] = {
+					"TOPRIGHT", -- [1]
+					"UIParent", -- [2]
+					"TOPRIGHT", -- [3]
+					-292.572021484375, -- [4]
+					-37.5869178771973, -- [5]
+				},
+				["TukuiPetFrame"] = {
+					"BOTTOM", -- [1]
+					"UIParent", -- [2]
+					"BOTTOM", -- [3]
+					-370.309844970703, -- [4]
+					207.285537719727, -- [5]
+				},
+				["TukuiTooltipAnchor"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					196.334075927734, -- [4]
+					211.198425292969, -- [5]
+				},
+				["TukuiParty"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-367.602752685547, -- [4]
+					127.857131958008, -- [5]
+				},
+				["TukuiPlayerFrame"] = {
+					"CENTER", -- [1]
+					"UIParent", -- [2]
+					"CENTER", -- [3]
+					-374.460388183594, -- [4]
+					-178.801696777344, -- [5]
+				},
+			},
+			["InstallDone"] = true,
+			["HideBar5"] = true,
+			["Chat"] = {
+				["Frame1"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame5"] = {
+					"TOP", -- [1]
+					"TOP", -- [2]
+					8.2849760055542, -- [3]
+					-136.673767089844, -- [4]
+					567.36474609375, -- [5]
+					119.999969482422, -- [6]
+				},
+				["Frame6"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame8"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame4"] = {
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame9"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame7"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame3"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame2"] = {
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+				["Frame10"] = {
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
+					370, -- [5]
+					108, -- [6]
+				},
+			},
+			["Texts"] = {
+				["Friends"] = {
+					true, -- [1]
+					3, -- [2]
+				},
+				["Memory"] = {
+					true, -- [1]
+					5, -- [2]
+				},
+				["Guild"] = {
+					true, -- [1]
+					1, -- [2]
+				},
+				["Gold"] = {
+					true, -- [1]
+					6, -- [2]
+				},
+				["Coords"] = {
+					true, -- [1]
+					7, -- [2]
+				},
+				["FPS & MS"] = {
+					true, -- [1]
+					4, -- [2]
+				},
+				["Durability"] = {
+					true, -- [1]
+					2, -- [2]
+				},
 			},
 		},
 	},
 }
 TukuiSettings = {
 	["Misc"] = {
-		["AFKSaver"] = false,
-		["ReputationEnable"] = false,
 		["ExperienceEnable"] = false,
+		["ReputationEnable"] = false,
+		["AFKSaver"] = false,
 	},
 	["General"] = {
-		["UIScale"] = 0.68,
 		["WorldMapScale"] = 100,
+		["UIScale"] = 0.68,
 	},
 	["ActionBars"] = {
 		["Enable"] = false,
@@ -1491,11 +1491,11 @@ TukuiSettings = {
 	["Raid"] = {
 		["Enable"] = false,
 	},
-	["Auras"] = {
-		["HideBuffs"] = true,
-	},
 	["DataTexts"] = {
 		["Hour24"] = true,
+	},
+	["Auras"] = {
+		["HideBuffs"] = true,
 	},
 }
 TukuiGold = {
@@ -1507,27 +1507,27 @@ TukuiGold = {
 	["Grobbulus"] = {
 		["Lettuçerock"] = 23867,
 		["Meistar"] = 0,
-		["Lettucefarm"] = 194,
-		["Lettuçestock"] = 28459,
 		["Odràlaga"] = 70465,
+		["Lettuçestock"] = 28459,
+		["Lettucefarm"] = 194,
 	},
 }
 TukuiSettingsPerCharacter = {
 	["Kurinnaxx"] = {
 		["Notraph"] = {
-			["ActionBars"] = {
+			["Bags"] = {
 				["Enable"] = false,
 			},
-			["Bags"] = {
+			["ActionBars"] = {
 				["Enable"] = false,
 			},
 		},
 		["Lettuçelock"] = {
-			["Bags"] = {
-				["Enable"] = false,
-			},
 			["Party"] = {
 				["Enable"] = true,
+			},
+			["Bags"] = {
+				["Enable"] = false,
 			},
 			["General"] = {
 				["UseGlobal"] = true,
@@ -1537,14 +1537,14 @@ TukuiSettingsPerCharacter = {
 			},
 		},
 		["Raph"] = {
-			["NamePlates"] = {
-				["Width"] = 124,
+			["General"] = {
+				["UseGlobal"] = true,
 			},
 			["Bags"] = {
 				["Enable"] = false,
 			},
-			["General"] = {
-				["UseGlobal"] = true,
+			["NamePlates"] = {
+				["Width"] = 124,
 			},
 			["ActionBars"] = {
 				["Enable"] = false,
@@ -1555,11 +1555,11 @@ TukuiSettingsPerCharacter = {
 	},
 	["Grobbulus"] = {
 		["Lettuçerock"] = {
-			["Bags"] = {
-				["Enable"] = false,
-			},
 			["Party"] = {
 				["Enable"] = true,
+			},
+			["Bags"] = {
+				["Enable"] = false,
 			},
 			["General"] = {
 				["UseGlobal"] = true,
@@ -1570,7 +1570,7 @@ TukuiSettingsPerCharacter = {
 		},
 		["Meistar"] = {
 		},
-		["Lettucefarm"] = {
+		["Odràlaga"] = {
 			["General"] = {
 				["UseGlobal"] = true,
 			},
@@ -1580,7 +1580,7 @@ TukuiSettingsPerCharacter = {
 				["UseGlobal"] = true,
 			},
 		},
-		["Odràlaga"] = {
+		["Lettucefarm"] = {
 			["General"] = {
 				["UseGlobal"] = true,
 			},
@@ -1588,6 +1588,11 @@ TukuiSettingsPerCharacter = {
 	},
 }
 LibClassicMobHealth10DB = {
+	["pc"] = {
+	},
+	["revision"] = 1,
+	["pet"] = {
+	},
 	["npc"] = {
 		nil, -- [1]
 		nil, -- [2]
@@ -1612,13 +1617,13 @@ LibClassicMobHealth10DB = {
 			["Gnarlpine Warrior"] = 119.540229885057,
 			["Crag Boar"] = 120,
 			["Juvenile Snow Leopard"] = 120,
-			["Nightsaber"] = 118.666666666667,
+			["Dark Sprite"] = 118.64406779661,
 			["Gnarlpine Ursa"] = 121.153846153846,
-			["Webwood Lurker"] = 118.367346938776,
 			["Large Crag Boar"] = 80.7228915662651,
+			["Webwood Lurker"] = 118.367346938776,
 			["Gnarlpine Mystic"] = 112.121212121212,
 			["Snow Tracker Wolf"] = 118.758684576193,
-			["Dark Sprite"] = 118.64406779661,
+			["Nightsaber"] = 118.666666666667,
 		}, -- [6]
 		{
 			["Uruson"] = 118.571428571429,
@@ -1633,9 +1638,9 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 136.082474226804,
 			["Gnarlpine Defender"] = 188.636363636364,
 			["Elder Crag Boar"] = 136.082474226804,
+			["Large Crag Boar"] = 136.666666666667,
 			["Ice Claw Bear"] = 163.04347826087,
 			["Snow Leopard"] = 136.287367192233,
-			["Large Crag Boar"] = 136.666666666667,
 			["Snow Tracker Wolf"] = 135.443037974684,
 			["Strigid Screecher"] = 136.363636363636,
 		}, -- [7]
@@ -1649,48 +1654,48 @@ LibClassicMobHealth10DB = {
 			["Nightsaber Stalker"] = 155.555555555556,
 			["Elder Crag Boar"] = 113.953488372093,
 			["Rockjaw Skullthumper"] = 155,
-			["Frostmane Troll"] = 155.090027700831,
+			["Webwood Silkspinner"] = 154.545454545455,
 			["Leper Gnome"] = 156.365930225281,
-			["Gnarlpine Defender"] = 155.31914893617,
 			["Elder Nightsaber"] = 158.064516129032,
+			["Gnarlpine Defender"] = 155.31914893617,
 			["Frostmane Snowstrider"] = 142.068965517241,
-			["Snow Leopard"] = 159.340659340659,
 			["Ice Claw Bear"] = 186.53483992467,
+			["Snow Leopard"] = 159.340659340659,
 			["Lord Melenas"] = 144.285714285714,
 			["Frostmane Seer"] = 147.474747474747,
-			["Webwood Silkspinner"] = 154.545454545455,
+			["Frostmane Troll"] = 155.090027700831,
 		}, -- [8]
 		{
-			["Rockjaw Bonesnapper"] = 174.226804123711,
-			["Frostmane Shadowcaster"] = 160.27397260274,
 			["Leper Gnome"] = 174.109351806037,
+			["Frostmane Shadowcaster"] = 160.27397260274,
+			["Webwood Silkspinner"] = 167.5,
 			["Gnarlpine Augur"] = 36.8421052631579,
-			["Gnarlpine Avenger"] = 178.571428571429,
+			["Frostmane Snowstrider"] = 164.645898700134,
 			["Rockjaw Skullthumper"] = 173.972602739726,
 			["Frostmane Headhunter"] = 176.216412490922,
-			["Bloodfeather Harpy"] = 175.609756097561,
+			["Bloodfeather Sorceress"] = 158.730158730159,
 			["Frostmane Hideskinner"] = 175.531914893617,
 			["Elder Nightsaber"] = 175.806451612903,
-			["Frostmane Snowstrider"] = 164.645898700134,
+			["Gnarlpine Avenger"] = 178.571428571429,
 			["Gnarlpine Pathfinder"] = 138.709677419355,
 			["Scarred Crag Boar"] = 174.549968963377,
-			["Bloodfeather Sorceress"] = 158.730158730159,
+			["Bloodfeather Harpy"] = 175.609756097561,
 			["Frostmane Seer"] = 164.933362464496,
-			["Webwood Silkspinner"] = 167.5,
+			["Rockjaw Bonesnapper"] = 174.226804123711,
 		}, -- [9]
 		{
 			["Frostmane Shadowcaster"] = 180,
 			["Greenpaw"] = 187.5,
 			["Coyote"] = 196.842105263158,
+			["Frostmane Hideskinner"] = 196.629213483146,
 			["Bloodfeather Fury"] = 197.999603881957,
-			["Young Fleshripper"] = 195.652173913043,
 			["Rockjaw Bonesnapper"] = 196.511627906977,
 			["Leper Gnome"] = 198.503951275875,
 			["Mountain Boar"] = 196.875495638382,
 			["Tunnel Rat Vermin"] = 197.979797979798,
 			["Scarred Crag Boar"] = 196.723259762309,
 			["Forest Lurker"] = 197.439990218216,
-			["Frostmane Hideskinner"] = 196.629213483146,
+			["Young Fleshripper"] = 195.652173913043,
 		}, -- [10]
 		{
 			["Coyote Packleader"] = 220.338983050847,
@@ -1704,12 +1709,12 @@ LibClassicMobHealth10DB = {
 			["Coyote"] = 219.753086419753,
 			["Harvest Golem"] = 221.212121212121,
 			["Bloodfeather Matriarch"] = 191.612747464993,
-			["Gibblewilt"] = 197.590361445783,
+			["Forest Lurker"] = 213.307776560789,
 			["Young Fleshripper"] = 220.731707317073,
 			["Mountain Boar"] = 220.20202020202,
 			["Stonesplinter Trogg"] = 221.686746987952,
 			["Vagash"] = 740.506329113924,
-			["Forest Lurker"] = 213.307776560789,
+			["Gibblewilt"] = 197.590361445783,
 			["Tunnel Rat Scout"] = 217.647058823529,
 		}, -- [11]
 		{
@@ -1720,12 +1725,12 @@ LibClassicMobHealth10DB = {
 			["Tunnel Rat Forager"] = 246.464646464646,
 			["Young Goretusk"] = 244.705882352941,
 			["Stonesplinter Scout"] = 119.642857142857,
-			["Harvest Golem"] = 217.948717948718,
+			["Tunnel Rat Digger"] = 266.304347826087,
 			["Defias Trapper"] = 245.292076344708,
 			["Stonesplinter Trogg"] = 244.791666666667,
 			["Tunnel Rat Geomancer"] = 216.216216216216,
 			["Rockjaw Backbreaker"] = 244.303797468354,
-			["Tunnel Rat Digger"] = 266.304347826087,
+			["Harvest Golem"] = 217.948717948718,
 		}, -- [12]
 		{
 			["Tunnel Rat Geomancer"] = 242.168674698795,
@@ -1740,32 +1745,32 @@ LibClassicMobHealth10DB = {
 			["Riverpaw Mongrel"] = 300,
 			["Defias Pillager"] = 260,
 			["Fleshripper"] = 300,
-			["Riverpaw Herbalist"] = 300,
-			["Harvest Watcher"] = 300,
-			["Tunnel Rat Surveyor"] = 291.666666666667,
 			["Goretusk"] = 297.959183673469,
+			["Tunnel Rat Surveyor"] = 291.666666666667,
+			["Harvest Watcher"] = 300,
+			["Riverpaw Herbalist"] = 300,
 		}, -- [14]
 		{
 			["Goretusk"] = 327.280104875461,
-			["Riverpaw Herbalist"] = 330.769230769231,
 			["Defias Pillager"] = 282.278481012658,
+			["Riverpaw Herbalist"] = 330.769230769231,
 			["Grizlak"] = 300,
 		}, -- [15]
 		{
 			["Riverpaw Brute"] = 351.807228915663,
 			["Riverpaw Bandit"] = 355.434782608696,
-			["Great Goretusk"] = 353.191489361702,
 			["Bristleback Water Seeker"] = 326.262626262626,
+			["Great Goretusk"] = 353.191489361702,
 		}, -- [16]
 		{
 			["Bristleback Hunter"] = 386.868686868687,
 			["Bristleback Water Seeker"] = 346.938775510204,
 		}, -- [17]
 		{
-			["Bristleback Hunter"] = 413.333333333333,
 			["Silithid Protector"] = 408.108108108108,
-			["Sergeant Brashclaw"] = 415.151515151515,
 			["Hecklefang Snarler"] = 415.492957746479,
+			["Sergeant Brashclaw"] = 415.151515151515,
+			["Bristleback Hunter"] = 413.333333333333,
 		}, -- [18]
 		nil, -- [19]
 		{
@@ -1785,11 +1790,6 @@ LibClassicMobHealth10DB = {
 			["Hecklefang Stalker"] = 619.191919191919,
 		}, -- [23]
 	},
-	["pc"] = {
-	},
-	["pet"] = {
-	},
-	["revision"] = 1,
 }
 LibClassicMobHealth10Opt = {
 	["prune"] = 1000,

@@ -28,8 +28,8 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["closeVendor"] = true,
-	["displayAuction"] = false,
+	["refrigeColor"] = {
+	},
 	["global"] = {
 		["inventory"] = {
 			["rules"] = {
@@ -65,18 +65,18 @@ Bagnon_Sets = {
 			["borderColor"] = {
 			},
 			["reverseBags"] = true,
-			["scale"] = 1,
 			["hiddenRules"] = {
 			},
-			["y"] = 268.856750488281,
+			["itemScale"] = 1.51,
+			["alpha"] = 1,
 			["bagBreak"] = false,
 			["x"] = -605.68505859375,
-			["brokerObject"] = "BagnonLauncher",
 			["broker"] = false,
-			["reverseSlots"] = true,
 			["showBags"] = true,
-			["alpha"] = 1,
-			["itemScale"] = 1.51,
+			["reverseSlots"] = true,
+			["brokerObject"] = "BagnonLauncher",
+			["y"] = 268.856750488281,
+			["scale"] = 1,
 		},
 		["vault"] = {
 			["rules"] = {
@@ -143,25 +143,6 @@ Bagnon_Sets = {
 			},
 		},
 		["bank"] = {
-			["reverseBags"] = true,
-			["brokerObject"] = "AtlasLoot",
-			["point"] = "TOPLEFT",
-			["hiddenBags"] = {
-			},
-			["color"] = {
-			},
-			["hiddenRules"] = {
-			},
-			["alpha"] = 1,
-			["broker"] = false,
-			["y"] = -87.3996777116797,
-			["x"] = 105.840263366699,
-			["showBags"] = true,
-			["borderColor"] = {
-			},
-			["reverseSlots"] = true,
-			["scale"] = 1.02,
-			["itemScale"] = 1.51,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -186,8 +167,27 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
+			["reverseBags"] = true,
+			["point"] = "TOPLEFT",
+			["hiddenBags"] = {
+			},
+			["color"] = {
+			},
+			["itemScale"] = 1.51,
+			["hiddenRules"] = {
+			},
+			["scale"] = 1.02,
+			["y"] = -87.3996777116797,
+			["x"] = 105.840263366699,
+			["borderColor"] = {
+			},
+			["showBags"] = true,
+			["reverseSlots"] = true,
+			["broker"] = false,
+			["alpha"] = 1,
+			["brokerObject"] = "AtlasLoot",
 		},
 	},
-	["refrigeColor"] = {
-	},
+	["displayAuction"] = false,
+	["closeVendor"] = true,
 }
