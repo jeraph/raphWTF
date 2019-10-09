@@ -26,6 +26,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Lettuçestock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
+			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -34,9 +37,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
 			},
 		},
 		["Lettucefarm - Grobbulus"] = {
@@ -67,9 +67,6 @@ AtlasLootClassicDB = {
 		["Notraph - Kurinnaxx"] = {
 		},
 		["Odràlaga - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 186.164194858725,
-			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -78,6 +75,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 186.164194858725,
 			},
 		},
 		["Meistar - Grobbulus"] = {

@@ -28,9 +28,6 @@ AtlasLootClassicDB = {
 		["Meistar - Grobbulus"] = {
 		},
 		["Lettuçestock - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
-			},
 			["GUI"] = {
 				["selected"] = {
 					nil, -- [1]
@@ -39,6 +36,9 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
 			},
 		},
 		["Odràlaga - Grobbulus"] = {

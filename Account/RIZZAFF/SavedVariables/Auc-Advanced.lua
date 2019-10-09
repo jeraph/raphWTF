@@ -26,7 +26,7 @@ AucAdvancedConfig = {
 				["priceperitem"] = true,
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:10.2:-19.6",
+				["ahframeanchors"] = "LEFT:LEFT:175.7:32.9",
 			},
 		},
 		["stat"] = {
@@ -104,6 +104,6 @@ AucAdvancedServers = {
 	["Version"] = 1,
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1570562145,
+		["Grobbulus"] = 1570587337,
 	},
 }

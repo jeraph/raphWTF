@@ -208,9 +208,9 @@ DominosDB = {
 					["padW"] = 1,
 					["padH"] = 1,
 					["display"] = {
+						["icon"] = false,
 						["time"] = true,
 						["border"] = true,
-						["icon"] = false,
 					},
 					["showInOverrideUI"] = false,
 					["y"] = 30,
@@ -465,9 +465,9 @@ DominosDB = {
 					["padH"] = 1,
 					["showInOverrideUI"] = false,
 					["display"] = {
+						["border"] = true,
 						["icon"] = false,
 						["time"] = true,
-						["border"] = true,
 					},
 					["texture"] = "blizzard",
 				},
@@ -744,9 +744,9 @@ DominosDB = {
 					["latencyPadding"] = 0,
 					["padH"] = 1,
 					["display"] = {
+						["icon"] = false,
 						["time"] = true,
 						["border"] = true,
-						["icon"] = false,
 					},
 					["padW"] = 1,
 					["h"] = 32,
@@ -1020,9 +1020,9 @@ DominosDB = {
 					["padH"] = 1,
 					["x"] = 0,
 					["display"] = {
+						["time"] = true,
 						["border"] = true,
 						["icon"] = false,
-						["time"] = true,
 					},
 					["texture"] = "blizzard",
 				},

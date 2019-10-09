@@ -36,7 +36,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:10.2:-19.6",
+				["ahframeanchors"] = "LEFT:LEFT:175.7:32.9",
 			},
 		},
 		["configator.top"] = 764.999938964844,
@@ -100,7 +100,7 @@ AucAdvancedServers = {
 	["Timestamp"] = 1568137202,
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1570558305,
+		["Grobbulus"] = 1570580100,
 	},
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",

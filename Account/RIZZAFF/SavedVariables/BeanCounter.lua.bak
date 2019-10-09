@@ -334,7 +334,7 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 560.001586914063,
+	["configator.left"] = 560.001647949219,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 	["columnsortcurSort"] = 1,
 	["Kurinnaxx"] = {
