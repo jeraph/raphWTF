@@ -58,12 +58,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgkd3dwi",
 				}, -- [6]
 				{
-					["sliceToken"] = "ABuehgkd3dwg",
 					["id"] = 6390,
+					["sliceToken"] = "ABuehgkd3dwg",
 				}, -- [7]
 				{
-					["sliceToken"] = "ABuehgGC3xw",
 					["id"] = 8166,
+					["sliceToken"] = "ABuehgGC3xw",
 				}, -- [8]
 				["name"] = "Target Markers",
 				["save"] = true,
@@ -155,16 +155,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgAparQ",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuehgAparm",
 					["id"] = 8052,
+					["sliceToken"] = "ABuehgAparm",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuehgAparn",
 					["id"] = 8045,
+					["sliceToken"] = "ABuehgAparn",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABuehgApar6",
 					["id"] = 8056,
+					["sliceToken"] = "ABuehgApar6",
 				}, -- [6]
 				{
 					["caption"] = "Big Heal to Someone",

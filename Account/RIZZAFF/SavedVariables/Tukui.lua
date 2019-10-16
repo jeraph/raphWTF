@@ -1507,7 +1507,7 @@ TukuiGold = {
 	["Grobbulus"] = {
 		["Lettuçerock"] = 23867,
 		["Meistar"] = 0,
-		["Odràlaga"] = 70465,
+		["Odràlaga"] = 70367,
 		["Lettuçestock"] = 28459,
 		["Lettucefarm"] = 194,
 	},
@@ -1588,10 +1588,8 @@ TukuiSettingsPerCharacter = {
 	},
 }
 LibClassicMobHealth10DB = {
-	["pc"] = {
-	},
 	["revision"] = 1,
-	["pet"] = {
+	["pc"] = {
 	},
 	["npc"] = {
 		nil, -- [1]
@@ -1638,9 +1636,9 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 136.082474226804,
 			["Gnarlpine Defender"] = 188.636363636364,
 			["Elder Crag Boar"] = 136.082474226804,
-			["Large Crag Boar"] = 136.666666666667,
 			["Ice Claw Bear"] = 163.04347826087,
 			["Snow Leopard"] = 136.287367192233,
+			["Large Crag Boar"] = 136.666666666667,
 			["Snow Tracker Wolf"] = 135.443037974684,
 			["Strigid Screecher"] = 136.363636363636,
 		}, -- [7]
@@ -1666,36 +1664,36 @@ LibClassicMobHealth10DB = {
 			["Frostmane Troll"] = 155.090027700831,
 		}, -- [8]
 		{
-			["Leper Gnome"] = 174.109351806037,
-			["Frostmane Shadowcaster"] = 160.27397260274,
 			["Webwood Silkspinner"] = 167.5,
+			["Frostmane Shadowcaster"] = 160.27397260274,
+			["Leper Gnome"] = 174.109351806037,
 			["Gnarlpine Augur"] = 36.8421052631579,
 			["Frostmane Snowstrider"] = 164.645898700134,
 			["Rockjaw Skullthumper"] = 173.972602739726,
 			["Frostmane Headhunter"] = 176.216412490922,
 			["Bloodfeather Sorceress"] = 158.730158730159,
 			["Frostmane Hideskinner"] = 175.531914893617,
-			["Elder Nightsaber"] = 175.806451612903,
+			["Rockjaw Bonesnapper"] = 174.226804123711,
 			["Gnarlpine Avenger"] = 178.571428571429,
 			["Gnarlpine Pathfinder"] = 138.709677419355,
 			["Scarred Crag Boar"] = 174.549968963377,
 			["Bloodfeather Harpy"] = 175.609756097561,
 			["Frostmane Seer"] = 164.933362464496,
-			["Rockjaw Bonesnapper"] = 174.226804123711,
+			["Elder Nightsaber"] = 175.806451612903,
 		}, -- [9]
 		{
 			["Frostmane Shadowcaster"] = 180,
 			["Greenpaw"] = 187.5,
 			["Coyote"] = 196.842105263158,
-			["Frostmane Hideskinner"] = 196.629213483146,
 			["Bloodfeather Fury"] = 197.999603881957,
+			["Young Fleshripper"] = 195.652173913043,
 			["Rockjaw Bonesnapper"] = 196.511627906977,
 			["Leper Gnome"] = 198.503951275875,
 			["Mountain Boar"] = 196.875495638382,
 			["Tunnel Rat Vermin"] = 197.979797979798,
 			["Scarred Crag Boar"] = 196.723259762309,
 			["Forest Lurker"] = 197.439990218216,
-			["Young Fleshripper"] = 195.652173913043,
+			["Frostmane Hideskinner"] = 196.629213483146,
 		}, -- [10]
 		{
 			["Coyote Packleader"] = 220.338983050847,
@@ -1767,10 +1765,10 @@ LibClassicMobHealth10DB = {
 			["Bristleback Water Seeker"] = 346.938775510204,
 		}, -- [17]
 		{
-			["Silithid Protector"] = 408.108108108108,
 			["Hecklefang Snarler"] = 415.492957746479,
-			["Sergeant Brashclaw"] = 415.151515151515,
+			["Silithid Protector"] = 408.108108108108,
 			["Bristleback Hunter"] = 413.333333333333,
+			["Sergeant Brashclaw"] = 415.151515151515,
 		}, -- [18]
 		nil, -- [19]
 		{
@@ -1789,6 +1787,8 @@ LibClassicMobHealth10DB = {
 			["Greater Thunderhawk"] = 541.052631578947,
 			["Hecklefang Stalker"] = 619.191919191919,
 		}, -- [23]
+	},
+	["pet"] = {
 	},
 }
 LibClassicMobHealth10Opt = {

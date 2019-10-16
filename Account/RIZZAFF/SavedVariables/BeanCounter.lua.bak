@@ -336,6 +336,7 @@ BeanCounterDB = {
 BeanCounterDBSettings = {
 	["configator.left"] = 560.001647949219,
 	["configator.top"] = 765.001403808594,
+	["columnsortcurDir"] = 1,
 	["Kurinnaxx"] = {
 		["Notraph"] = {
 			["tasks.sortArray"] = 1568372133,
@@ -346,10 +347,10 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1569814063,
 			["mailbox"] = {
 				{
-					["read"] = 1,
 					["sender"] = "Alliance Auction House",
-					["time"] = 29.6635646820068,
+					["read"] = 1,
 					["subject"] = "Outbid on Greater Magic Essence (7)",
+					["time"] = 29.6635646820068,
 				}, -- [1]
 			},
 		},
@@ -362,10 +363,10 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1570014415,
 			["mailbox"] = {
 				{
-					["read"] = 1,
 					["sender"] = "Alliance Auction House",
-					["time"] = 29.6838188171387,
+					["read"] = 1,
 					["subject"] = "Auction won: Wool Cloth (20)",
+					["time"] = 29.6838188171387,
 				}, -- [1]
 			},
 		},
@@ -380,7 +381,6 @@ BeanCounterDBSettings = {
 			},
 		},
 	},
-	["columnsortcurDir"] = 1,
 	["Grobbulus"] = {
 		["Lettuçerock"] = {
 			["tasks.sortArray"] = 1568494040,
@@ -411,10 +411,10 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1570401420,
 			["mailbox"] = {
 				{
-					["subject"] = "Auction won: Dwarven Hatchet of Power",
-					["read"] = 2,
 					["time"] = 29.9979972839356,
 					["sender"] = "Horde Auction House",
+					["subject"] = "Auction won: Dwarven Hatchet of Power",
+					["read"] = 2,
 				}, -- [1]
 			},
 		},

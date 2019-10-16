@@ -337,50 +337,7 @@ BeanCounterDBSettings = {
 	["configator.left"] = 560.001647949219,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 	["columnsortcurSort"] = 1,
-	["Kurinnaxx"] = {
-		["Notraph"] = {
-			["tasks.sortArray"] = 1568372133,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568372133,
-			["wealth"] = 8624,
-			["tasks.prunePostedDB"] = 1569814063,
-			["mailbox"] = {
-				{
-					["subject"] = "Outbid on Greater Magic Essence (7)",
-					["read"] = 1,
-					["time"] = 29.6635646820068,
-					["sender"] = "Alliance Auction House",
-				}, -- [1]
-			},
-		},
-		["Raph"] = {
-			["tasks.sortArray"] = 1568295854,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568295854,
-			["wealth"] = 12916,
-			["tasks.prunePostedDB"] = 1570014415,
-			["mailbox"] = {
-				{
-					["subject"] = "Auction won: Wool Cloth (20)",
-					["read"] = 1,
-					["time"] = 29.6838188171387,
-					["sender"] = "Alliance Auction House",
-				}, -- [1]
-			},
-		},
-		["Lettuçelock"] = {
-			["tasks.sortArray"] = 1568344366,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568344366,
-			["wealth"] = 13959,
-			["tasks.prunePostedDB"] = 1570100364,
-			["mailbox"] = {
-			},
-		},
-	},
+	["columnsortcurDir"] = 1,
 	["Grobbulus"] = {
 		["Lettuçerock"] = {
 			["tasks.sortArray"] = 1568494040,
@@ -427,19 +384,62 @@ BeanCounterDBSettings = {
 			["version"] = 3.04,
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1568944977,
-			["wealth"] = 70465,
+			["wealth"] = 70367,
 			["tasks.prunePostedDB"] = 1570401420,
 			["mailbox"] = {
 				{
-					["sender"] = "Horde Auction House",
 					["read"] = 2,
-					["subject"] = "Auction won: Dwarven Hatchet of Power",
+					["sender"] = "Horde Auction House",
 					["time"] = 29.9979972839356,
+					["subject"] = "Auction won: Dwarven Hatchet of Power",
 				}, -- [1]
 			},
 		},
 	},
-	["columnsortcurDir"] = 1,
+	["Kurinnaxx"] = {
+		["Notraph"] = {
+			["tasks.sortArray"] = 1568372133,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568372133,
+			["wealth"] = 8624,
+			["tasks.prunePostedDB"] = 1569814063,
+			["mailbox"] = {
+				{
+					["time"] = 29.6635646820068,
+					["sender"] = "Alliance Auction House",
+					["subject"] = "Outbid on Greater Magic Essence (7)",
+					["read"] = 1,
+				}, -- [1]
+			},
+		},
+		["Raph"] = {
+			["tasks.sortArray"] = 1568295854,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568295854,
+			["wealth"] = 12916,
+			["tasks.prunePostedDB"] = 1570014415,
+			["mailbox"] = {
+				{
+					["time"] = 29.6838188171387,
+					["sender"] = "Alliance Auction House",
+					["subject"] = "Auction won: Wool Cloth (20)",
+					["read"] = 1,
+				}, -- [1]
+			},
+		},
+		["Lettuçelock"] = {
+			["tasks.sortArray"] = 1568344366,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1568344366,
+			["wealth"] = 13959,
+			["tasks.prunePostedDB"] = 1570100364,
+			["mailbox"] = {
+			},
+		},
+	},
 	["configator.top"] = 765.001403808594,
 }
 BeanCounterDBNames = {
