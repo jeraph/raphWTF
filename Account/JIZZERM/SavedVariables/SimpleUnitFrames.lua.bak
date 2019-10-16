@@ -39,10 +39,6 @@ SimpleUnitFramesDB = {
 		},
 		["Lettucefârm - Grobbulus"] = {
 		},
-		["Lettuceroçk - Grobbulus"] = {
-		},
-		["Odrálaga - Grobbulus"] = {
-		},
 		["Jemz - Grobbulus"] = {
 		},
 		["main"] = {
@@ -70,6 +66,10 @@ SimpleUnitFramesDB = {
 				["rhp"] = "HPnone",
 				["mmp"] = "MPnone",
 			},
+		},
+		["Lettuceroçk - Grobbulus"] = {
+		},
+		["Odrálaga - Grobbulus"] = {
 		},
 		["Iettuce - Kurinnaxx"] = {
 			["player"] = {

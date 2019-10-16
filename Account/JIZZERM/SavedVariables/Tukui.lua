@@ -363,77 +363,84 @@ TukuiData = {
 				},
 			},
 		},
-		["Lettuceloçk"] = {
+		["Jemz"] = {
 			["Move"] = {
 				["TukuiTargetCastBar"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-223.000152587891, -- [4]
-					-138.499816894531, -- [5]
+					-246.000396728516, -- [4]
+					-138.500076293945, -- [5]
 				},
 				["TukuiTargetFrame"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-344.000274658203, -- [4]
-					-91.5000991821289, -- [5]
+					-332.000732421875, -- [4]
+					-94.5003814697266, -- [5]
 				},
 				["TukuiTooltipAnchor"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					3.99911069869995, -- [4]
-					60.5004844665527, -- [5]
+					-20.9998931884766, -- [4]
+					118.500267028809, -- [5]
 				},
 				["TukuiPlayerCastBar"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-294.000762939453, -- [4]
-					2.50037980079651, -- [5]
+					-299.999633789063, -- [4]
+					-6.50001573562622, -- [5]
 				},
 				["TukuiTargetTargetFrame"] = {
 					"LEFT", -- [1]
 					"UIParent", -- [2]
 					"LEFT", -- [3]
-					352.499786376953, -- [4]
-					-80.9999847412109, -- [5]
+					368.498962402344, -- [4]
+					-104.999641418457, -- [5]
 				},
 				["TukuiPetFrame"] = {
 					"LEFT", -- [1]
 					"UIParent", -- [2]
 					"LEFT", -- [3]
-					307.500366210938, -- [4]
-					57.0000648498535, -- [5]
+					316.5, -- [4]
+					27.0001697540283, -- [5]
 				},
 				["TukuiBag"] = {
-					"TOP", -- [1]
+					"RIGHT", -- [1]
 					"UIParent", -- [2]
-					"TOP", -- [3]
-					9.99948406219482, -- [4]
-					-121.500190734863, -- [5]
+					"RIGHT", -- [3]
+					-352.000946044922, -- [4]
+					-22.5000686645508, -- [5]
 				},
 				["TukuiLootFrame"] = {
-					"CENTER", -- [1]
+					"RIGHT", -- [1]
 					"UIParent", -- [2]
-					"CENTER", -- [3]
-					312.000823974609, -- [4]
-					230.000106811523, -- [5]
+					"RIGHT", -- [3]
+					-263.998962402344, -- [4]
+					134.00032043457, -- [5]
+				},
+				["TukuiObjectiveTracker"] = {
+					"RIGHT", -- [1]
+					"UIParent", -- [2]
+					"RIGHT", -- [3]
+					-180.999908447266, -- [4]
+					191.999816894531, -- [5]
 				},
 				["TukuiParty"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					381.000274658203, -- [4]
-					-11.4500589370728, -- [5]
+					314.000183105469, -- [4]
+					-47.9505271911621, -- [5]
 				},
 				["TukuiPlayerFrame"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-389.000030517578, -- [4]
-					47.5001907348633, -- [5]
+					-386.000213623047, -- [4]
+					37.5001182556152, -- [5]
 				},
 			},
 			["InstallDone"] = true,
@@ -448,12 +455,12 @@ TukuiData = {
 					108, -- [6]
 				},
 				["Frame5"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
+					"BOTTOMLEFT", -- [1]
+					"BOTTOMLEFT", -- [2]
+					100, -- [3]
+					100, -- [4]
 					370, -- [5]
-					115.000015258789, -- [6]
+					108, -- [6]
 				},
 				["Frame6"] = {
 					"BOTTOMLEFT", -- [1]
@@ -472,12 +479,12 @@ TukuiData = {
 					108, -- [6]
 				},
 				["Frame4"] = {
-					"TOPLEFT", -- [1]
-					"TOPLEFT", -- [2]
-					0, -- [3]
-					0, -- [4]
+					"BOTTOMRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [2]
+					-34, -- [3]
+					50, -- [4]
 					370, -- [5]
-					115.000015258789, -- [6]
+					108, -- [6]
 				},
 				["Frame9"] = {
 					"BOTTOMLEFT", -- [1]
@@ -501,7 +508,7 @@ TukuiData = {
 					0, -- [3]
 					0, -- [4]
 					370, -- [5]
-					115.000015258789, -- [6]
+					108, -- [6]
 				},
 				["Frame2"] = {
 					"TOPLEFT", -- [1]
@@ -920,84 +927,77 @@ TukuiData = {
 				},
 			},
 		},
-		["Jemz"] = {
+		["Lettuceloçk"] = {
 			["Move"] = {
 				["TukuiTargetCastBar"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-246.000396728516, -- [4]
-					-138.500076293945, -- [5]
+					-223.000152587891, -- [4]
+					-138.499816894531, -- [5]
 				},
 				["TukuiTargetFrame"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-332.000732421875, -- [4]
-					-94.5003814697266, -- [5]
+					-344.000274658203, -- [4]
+					-91.5000991821289, -- [5]
 				},
 				["TukuiTooltipAnchor"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-20.9998931884766, -- [4]
-					118.500267028809, -- [5]
+					3.99911069869995, -- [4]
+					60.5004844665527, -- [5]
 				},
 				["TukuiPlayerCastBar"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-299.999633789063, -- [4]
-					-6.50001573562622, -- [5]
+					-294.000762939453, -- [4]
+					2.50037980079651, -- [5]
 				},
 				["TukuiTargetTargetFrame"] = {
 					"LEFT", -- [1]
 					"UIParent", -- [2]
 					"LEFT", -- [3]
-					368.498962402344, -- [4]
-					-104.999641418457, -- [5]
+					352.499786376953, -- [4]
+					-80.9999847412109, -- [5]
 				},
 				["TukuiPetFrame"] = {
 					"LEFT", -- [1]
 					"UIParent", -- [2]
 					"LEFT", -- [3]
-					316.5, -- [4]
-					27.0001697540283, -- [5]
+					307.500366210938, -- [4]
+					57.0000648498535, -- [5]
 				},
 				["TukuiBag"] = {
-					"RIGHT", -- [1]
+					"TOP", -- [1]
 					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-352.000946044922, -- [4]
-					-22.5000686645508, -- [5]
+					"TOP", -- [3]
+					9.99948406219482, -- [4]
+					-121.500190734863, -- [5]
 				},
 				["TukuiLootFrame"] = {
-					"RIGHT", -- [1]
+					"CENTER", -- [1]
 					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-263.998962402344, -- [4]
-					134.00032043457, -- [5]
-				},
-				["TukuiObjectiveTracker"] = {
-					"RIGHT", -- [1]
-					"UIParent", -- [2]
-					"RIGHT", -- [3]
-					-180.999908447266, -- [4]
-					191.999816894531, -- [5]
+					"CENTER", -- [3]
+					312.000823974609, -- [4]
+					230.000106811523, -- [5]
 				},
 				["TukuiParty"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					314.000183105469, -- [4]
-					-47.9505271911621, -- [5]
+					381.000274658203, -- [4]
+					-11.4500589370728, -- [5]
 				},
 				["TukuiPlayerFrame"] = {
 					"CENTER", -- [1]
 					"UIParent", -- [2]
 					"CENTER", -- [3]
-					-386.000213623047, -- [4]
-					37.5001182556152, -- [5]
+					-389.000030517578, -- [4]
+					47.5001907348633, -- [5]
 				},
 			},
 			["InstallDone"] = true,
@@ -1012,12 +1012,12 @@ TukuiData = {
 					108, -- [6]
 				},
 				["Frame5"] = {
-					"BOTTOMLEFT", -- [1]
-					"BOTTOMLEFT", -- [2]
-					100, -- [3]
-					100, -- [4]
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
 					370, -- [5]
-					108, -- [6]
+					115.000015258789, -- [6]
 				},
 				["Frame6"] = {
 					"BOTTOMLEFT", -- [1]
@@ -1036,12 +1036,12 @@ TukuiData = {
 					108, -- [6]
 				},
 				["Frame4"] = {
-					"BOTTOMRIGHT", -- [1]
-					"BOTTOMRIGHT", -- [2]
-					-34, -- [3]
-					50, -- [4]
+					"TOPLEFT", -- [1]
+					"TOPLEFT", -- [2]
+					0, -- [3]
+					0, -- [4]
 					370, -- [5]
-					108, -- [6]
+					115.000015258789, -- [6]
 				},
 				["Frame9"] = {
 					"BOTTOMLEFT", -- [1]
@@ -1065,7 +1065,7 @@ TukuiData = {
 					0, -- [3]
 					0, -- [4]
 					370, -- [5]
-					108, -- [6]
+					115.000015258789, -- [6]
 				},
 				["Frame2"] = {
 					"TOPLEFT", -- [1]
@@ -2496,17 +2496,17 @@ TukuiGold = {
 	["Kurinnaxx"] = {
 		["Iettuce"] = 9357,
 		["Cuivre"] = 440,
-		["Lettuceloçk"] = 18166,
+		["Jemz"] = 935,
 		["Jermz"] = 1415,
 		["Sneéki"] = 35,
-		["Jemz"] = 935,
+		["Lettuceloçk"] = 18166,
 	},
 	["Grobbulus"] = {
 		["Jermz"] = 12,
 		["Lettucestoçk"] = 5421,
 		["Jemz"] = 0,
 		["Lettucefârm"] = 252,
-		["Odrálaga"] = 54011,
+		["Odrálaga"] = 54024,
 		["Lettuceroçk"] = 1850,
 		["Gaismunënas"] = 0,
 	},
@@ -2615,7 +2615,7 @@ TukuiSettingsPerCharacter = {
 				["Battleground"] = false,
 			},
 		},
-		["Lettuceloçk"] = {
+		["Jemz"] = {
 			["General"] = {
 				["UseGlobal"] = true,
 			},
@@ -2634,7 +2634,7 @@ TukuiSettingsPerCharacter = {
 				["UseGlobal"] = true,
 			},
 		},
-		["Jemz"] = {
+		["Lettuceloçk"] = {
 			["General"] = {
 				["UseGlobal"] = true,
 			},
@@ -2718,16 +2718,11 @@ TukuiSettingsPerCharacter = {
 	},
 }
 LibClassicMobHealth10DB = {
+	["revision"] = 1,
 	["pc"] = {
 		[-1] = {
 			["Snickelfritz"] = 1511.57894736842,
 			["Ronas"] = 1278.57142857143,
-		},
-	},
-	["revision"] = 1,
-	["pet"] = {
-		[-1] = {
-			["Meatball"] = 1853.84615384615,
 		},
 	},
 	["npc"] = {
@@ -2790,16 +2785,16 @@ LibClassicMobHealth10DB = {
 		{
 			["Defias Thug"] = 86.046511627907,
 			["Battleboar"] = 85.2272727272727,
-			["Grellkin"] = 75.6476683937824,
-			["Mangy Duskbat"] = 85.8695652173913,
+			["Felstalker"] = 71.6666666666667,
+			["Frostmane Troll Whelp"] = 79.664145542146,
 			["Bristleback Battleboar"] = 85.4166666666667,
 			["Night Web Spider"] = 85.3658536585366,
 			["Kobold Laborer"] = 85.3658536585366,
 			["Bristleback Quilboar"] = 79.961874859834,
-			["Felstalker"] = 71.6666666666667,
+			["Grellkin"] = 75.6476683937824,
 			["Sarkoth"] = 85.1063829787234,
 			["Rockjaw Raider"] = 83.1066972400955,
-			["Frostmane Troll Whelp"] = 79.664145542146,
+			["Mangy Duskbat"] = 85.8695652173913,
 			["Scarlet Initiate"] = 80.8080808080808,
 			["Frostmane Novice"] = 82.7586206896552,
 			["Vile Familiar"] = 75.7752073432113,
@@ -2818,20 +2813,20 @@ LibClassicMobHealth10DB = {
 			["Webwood Lurker"] = 101.190343525044,
 			["Prairie Wolf"] = 101.572848496412,
 			["Tirisfal Farmhand"] = 101.052631578947,
-			["Defias Cutpurse"] = 92.8248990258969,
-			["Young Wendigo"] = 67.6767676767677,
-			["Kul Tiras Sailor"] = 101.273798531416,
-			["Wiry Swoop"] = 101.054018445323,
-			["Decrepit Darkhound"] = 101.137810143314,
+			["Nightsaber"] = 100.307054728461,
 			["Palemane Tanner"] = 133.333333333333,
 			["Crag Boar"] = 101.388785133777,
+			["Wiry Swoop"] = 101.054018445323,
+			["Decrepit Darkhound"] = 101.137810143314,
+			["Young Wendigo"] = 67.6767676767677,
+			["Clattering Scorpid"] = 101.199688598947,
 			["Rotting Dead"] = 82.0512820512821,
 			["Chief Sharptusk Thornmantle"] = 101.098901098901,
 			["Bogling"] = 47.5280558083106,
 			["Gnarlpine Gardener"] = 68.9655172413793,
 			["Samuel Fipps"] = 101.010101010101,
-			["Clattering Scorpid"] = 101.199688598947,
-			["Nightsaber"] = 100.307054728461,
+			["Kul Tiras Sailor"] = 101.273798531416,
+			["Defias Cutpurse"] = 92.8248990258969,
 			["Yarrog Baneshadow"] = 97.7272727272727,
 			["Meven Korgal"] = 101.030927835052,
 			["Shadow Sprite"] = 92.3076923076923,
@@ -2867,15 +2862,15 @@ LibClassicMobHealth10DB = {
 			["Rot Hide Graverobber"] = 119.191919191919,
 			["Lost Soul"] = 119.767441860465,
 			["Mangy Wolf"] = 119.587628865979,
-			["Kul Tiras Marine"] = 119.06809609681,
-			["Palemane Skinner"] = 117.1875,
-			["Crag Boar"] = 119.286090271431,
 			["Palemane Tanner"] = 114.816880461052,
+			["Palemane Skinner"] = 117.1875,
 			["Kul Tiras Sailor"] = 119.829434749893,
+			["Gnarlpine Ambusher"] = 119.105806780755,
+			["Crag Boar"] = 119.286090271431,
 			["Gnarlpine Gardener"] = 74.4186046511628,
 			["Wendigo"] = 119.40648184303,
 			["Webwood Lurker"] = 104.560671752374,
-			["Gnarlpine Ambusher"] = 119.105806780755,
+			["Kul Tiras Marine"] = 119.06809609681,
 			["Nightsaber"] = 119.832185353492,
 			["Dark Sprite"] = 120,
 			["Kobold Miner"] = 116.666666666667,
@@ -2904,31 +2899,31 @@ LibClassicMobHealth10DB = {
 			["Kobold Miner"] = 137.209302325581,
 			["Uruson"] = 119.230769230769,
 			["Dustwind Pillager"] = 135.897435897436,
-			["Gnarlpine Warrior"] = 136.68540200756,
+			["Rattlecage Soldier"] = 134.210526315789,
 			["Dire Mottled Boar"] = 136.331580512143,
 			["Ravaged Corpse"] = 136.734693877551,
 			["Dustwind Harpy"] = 135.714285714286,
 			["Venture Co. Laborer"] = 136.263736263736,
 			["Scarlet Warrior"] = 136.433566433566,
 			["Prairie Stalker"] = 136.676798378926,
-			["Swoop"] = 135.802469135803,
+			["Palemane Skinner"] = 125.449004733191,
 			["Razormane Scout"] = 136.463536463536,
 			["Wendigo"] = 135.926773455377,
 			["Gnarlpine Mystic"] = 130.073461891644,
 			["Flatland Cougar"] = 130.598218712037,
-			["Palemane Skinner"] = 125.449004733191,
+			["Swoop"] = 135.802469135803,
 			["Cursed Darkhound"] = 130.094987818565,
 			["Bael'dun Digger"] = 136.363636363636,
 			["Nightsaber Stalker"] = 136.923076923077,
 			["Razormane Quilboar"] = 136.268855368234,
-			["Kul Tiras Marine"] = 137.89898989899,
-			["Scarlet Missionary"] = 136.082474226804,
 			["Gnarlpine Ambusher"] = 136.778795416855,
+			["Scarlet Missionary"] = 136.082474226804,
+			["Kul Tiras Marine"] = 137.89898989899,
 			["Razormane Wolf"] = 136.412776412776,
 			["Gnarlpine Shaman"] = 130.813172043011,
 			["Gnarlpine Defender"] = 136.681390435952,
 			["Snow Leopard"] = 134.24931663157,
-			["Rattlecage Soldier"] = 134.210526315789,
+			["Gnarlpine Warrior"] = 136.68540200756,
 			["Large Crag Boar"] = 136.259638086301,
 			["Wiry Swoop"] = 124.242424242424,
 			["Snow Tracker Wolf"] = 136.775519334173,
@@ -3073,8 +3068,8 @@ LibClassicMobHealth10DB = {
 			["Timber"] = 197.826086956522,
 			["Wandering Spirit"] = 197.872340425532,
 			["Bloodfeather Wind Witch"] = 196.969696969697,
-			["Giant Webwood Spider"] = 192.634372926344,
 			["Morgan the Collector"] = 191.666666666667,
+			["Giant Webwood Spider"] = 192.634372926344,
 			["Vile Sprite"] = 198.160135736616,
 			["Rockjaw Ambusher"] = 197.310109139015,
 			["Razormane Water Seeker"] = 196.83426443203,
@@ -3213,34 +3208,34 @@ LibClassicMobHealth10DB = {
 			["Goretusk"] = 298.958767180341,
 			["Kolkar Stormer"] = 276.643990929705,
 			["Raging Moonkin"] = 292.631578947368,
-			["Savannah Prowler"] = 297.959183673469,
+			["Venture Co. Peon"] = 271.90436705362,
 			["Venture Co. Drudger"] = 183.893902105551,
 			["Defias Looter"] = 298.781139919348,
-			["Moonstalker"] = 300,
+			["Darkshore Thresher"] = 300,
 			["Blackwood Windtalker"] = 305.882352941176,
-			["Venture Co. Peon"] = 271.90436705362,
+			["Savannah Prowler"] = 297.959183673469,
 			["Razormane Mystic"] = 275,
-			["Fleshripper"] = 298.955371213575,
 			["Searing Blade Enforcer"] = 900,
+			["Fleshripper"] = 298.955371213575,
 			["Kolkar Pack Runner"] = 300,
-			["Riverpaw Herbalist"] = 298.979591836735,
+			["Witchwing Harpy"] = 276.580100125157,
 			["Tunnel Rat Surveyor"] = 295.087719298246,
 			["Zhevra Runner"] = 300.448082690365,
-			["Riverpaw Mongrel"] = 298.857142857143,
+			["Lost Barrens Kodo"] = 300,
 			["Grizzled Black Bear"] = 356.09756097561,
-			["Witchwing Harpy"] = 276.580100125157,
+			["Riverpaw Herbalist"] = 298.979591836735,
 			["Ragefire Trogg"] = 901.818181818182,
-			["Kolkar Bloodcharger"] = 232.5,
+			["Mangy Mountain Boar"] = 298.984771573604,
 			["Stonesplinter Seer"] = 276.335877862595,
 			["Harvest Watcher"] = 300,
 			["Greymist Netter"] = 265.51724137931,
 			["Searing Blade Cultist"] = 736.111111111111,
 			["Stonesplinter Skullthumper"] = 296.009842574728,
 			["Defias Pillager"] = 262.414319054708,
-			["Mangy Mountain Boar"] = 298.984771573604,
-			["Lost Barrens Kodo"] = 300,
+			["Kolkar Bloodcharger"] = 232.5,
+			["Riverpaw Mongrel"] = 298.857142857143,
 			["Sunscale Screecher"] = 297.575536210135,
-			["Darkshore Thresher"] = 300,
+			["Moonstalker"] = 300,
 			["Rabid Thistle Bear"] = 370.922355393434,
 		}, -- [14]
 		{
@@ -3289,26 +3284,26 @@ LibClassicMobHealth10DB = {
 			["Riverpaw Brute"] = 358.585858585859,
 			["Tinkerer Sniggles"] = 413.04347826087,
 			["Kolkar Stormseer"] = 323.157894736842,
-			["Devouring Ectoplasm"] = 1051.61290322581,
+			["Hecklefang Hyena"] = 358.990775022784,
 			["Jergosh the Invoker"] = 1115.30612244898,
 			["Riverpaw Bandit"] = 354.255319148936,
 			["Sunscale Scytheclaw"] = 487.355623100304,
 			["Venture Co. Mercenary"] = 355.555555555556,
-			["Hecklefang Hyena"] = 358.990775022784,
+			["Devouring Ectoplasm"] = 1051.61290322581,
 			["Bazzalan"] = 1514.28571428571,
-			["Barrens Giraffe"] = 356.115629694866,
+			["Barak Kodobane"] = 245.833333333333,
 			["Defias Pathstalker"] = 193.939393939394,
 			["Witchwing Roguefeather"] = 355.172413793104,
 			["Echeyakee"] = 351.515151515152,
-			["Taragaman the Hungerer"] = 3022.22222222222,
-			["Oggleflint"] = 1421.68674698795,
-			["Stonesplinter Bonesnapper"] = 353.763440860215,
 			["Venture Co. Enforcer"] = 353.846153846154,
+			["Taragaman the Hungerer"] = 3022.22222222222,
+			["Stonesplinter Bonesnapper"] = 353.763440860215,
+			["Oggleflint"] = 1421.68674698795,
 			["Ornery Plainstrider"] = 348.453608247423,
 			["Dark Strand Fanatic"] = 354.838709677419,
 			["Oasis Snapjaw"] = 354.666666666667,
 			["Witchwing Slayer"] = 353.249263622975,
-			["Barak Kodobane"] = 245.833333333333,
+			["Barrens Giraffe"] = 356.115629694866,
 			["Stonesplinter Shaman"] = 319.903414970679,
 		}, -- [16]
 		{
@@ -3328,10 +3323,10 @@ LibClassicMobHealth10DB = {
 			["Bristleback Hunter"] = 383.072796934866,
 			["Venture Co. Overseer"] = 392,
 			["Kolkar Invader"] = 383.333333333333,
-			["Venture Co. Enforcer"] = 375.384615384615,
+			["Delmanis the Hated"] = 326.436781609195,
 			["Evolving Ectoplasm"] = 1003.81016042781,
 			["Ornery Plainstrider"] = 386.305466685214,
-			["Delmanis the Hated"] = 326.436781609195,
+			["Venture Co. Enforcer"] = 375.384615384615,
 			["Witchwing Slayer"] = 384.548044548045,
 			["Witchwing Windcaller"] = 349.236192714454,
 			["Bristleback Water Seeker"] = 345.560333923603,
@@ -3378,19 +3373,19 @@ LibClassicMobHealth10DB = {
 		{
 			["Deviate Dreadfang"] = 1463.63636363636,
 			["Deviate Shambler"] = 1294.23076923077,
-			["Deviate Lasher"] = 144.444444444444,
 			["Berserk Trogg"] = 481.176470588235,
-			["Deviate Venomwing"] = 1440,
+			["Silithid Grub"] = 483.928571428571,
+			["Warlord Krom'zar"] = 1085.71428571429,
 			["Ol' Sooty"] = 1437.37373737374,
 			["Mo'grosh Brute"] = 1454.73684210526,
 			["Druid of the Fang"] = 1305.88235294118,
-			["Warlord Krom'zar"] = 1085.71428571429,
+			["Deviate Venomwing"] = 1440,
 			["Mo'grosh Mystic"] = 1292.85714285714,
 			["Nightmare Ectoplasm"] = 490.243902439024,
 			["Deviate Moccasin"] = 1400,
 			["Lord Cobrahn"] = 2132.69230769231,
 			["Bristleback Geomancer"] = 401.162790697674,
-			["Silithid Grub"] = 483.928571428571,
+			["Deviate Lasher"] = 144.444444444444,
 		}, -- [20]
 		{
 			["Deviate Dreadfang"] = 1548.38709677419,
@@ -3404,6 +3399,11 @@ LibClassicMobHealth10DB = {
 		{
 			["Mutanus the Devourer"] = 4434.26395939086,
 		}, -- [22]
+	},
+	["pet"] = {
+		[-1] = {
+			["Meatball"] = 1853.84615384615,
+		},
 	},
 }
 LibClassicMobHealth10Opt = {

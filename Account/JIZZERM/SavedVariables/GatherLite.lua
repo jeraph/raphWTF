@@ -464,10 +464,6 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "silverleaf",
 				["loot"] = {
-					["|cffffffff|Hitem:765::::::::13:::::::|h[Silverleaf]|h|r"] = {
-						["name"] = "Silverleaf",
-						["count"] = 1,
-					},
 					["|cffffffff|Hitem:765::::::::11:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 1,
@@ -475,6 +471,10 @@ GatherLiteGlobalSettings = {
 					["|cffffffff|Hitem:765::::::::9:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 3,
+					},
+					["|cffffffff|Hitem:765::::::::13:::::::|h[Silverleaf]|h|r"] = {
+						["name"] = "Silverleaf",
+						["count"] = 1,
 					},
 				},
 				["icon"] = 134190,
@@ -8604,6 +8604,32 @@ GatherLiteGlobalSettings = {
 				["icon"] = "134579",
 				["spellID"] = 2576,
 			}, -- [77]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "mining",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 32,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 57,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "tin vein",
+				["position"] = {
+					["y"] = 0.41903002931787,
+					["mapID"] = 1442,
+					["x"] = 0.54178839431246,
+				},
+				["target"] = "tin vein",
+				["loot"] = {
+				},
+				["icon"] = "134579",
+				["spellID"] = 2576,
+			}, -- [78]
 		},
 		["treasure"] = {
 			{
@@ -11250,6 +11276,136 @@ GatherLiteGlobalSettings = {
 				["icon"] = "132594",
 				["spellID"] = 6478,
 			}, -- [90]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 10,
+					["min"] = 23,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 26,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.46445038571035,
+					["mapID"] = 1442,
+					["x"] = 0.49022525473221,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [91]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 28,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 28,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.43530642209291,
+					["mapID"] = 1442,
+					["x"] = 0.45760409546332,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [92]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 29,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 57,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.44537937450361,
+					["mapID"] = 1442,
+					["x"] = 0.48068259721807,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [93]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 33,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 57,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.42735251674608,
+					["mapID"] = 1442,
+					["x"] = 0.5400068342713,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [94]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 39,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 4,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.40459624704566,
+					["mapID"] = 1442,
+					["x"] = 0.50707849525544,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [95]
 		},
 		["fish"] = {
 			{

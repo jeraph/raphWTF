@@ -19,6 +19,7 @@ OneRing_Config = {
 				["RaidSymbols"] = "SHIFT-F6",
 				["TrinketSlots"] = "CTRL-F6",
 				["CommonTrades"] = "F6",
+				["Buffs"] = "ALT-F6",
 				["asdf"] = "F6",
 			},
 			["SelectedSliceBind"] = "SHIFT-D",
@@ -58,12 +59,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgkd3dwi",
 				}, -- [6]
 				{
-					["id"] = 6390,
 					["sliceToken"] = "ABuehgkd3dwg",
+					["id"] = 6390,
 				}, -- [7]
 				{
-					["id"] = 8166,
 					["sliceToken"] = "ABuehgGC3xw",
+					["id"] = 8166,
 				}, -- [8]
 				["name"] = "Target Markers",
 				["save"] = true,
@@ -133,9 +134,6 @@ OneRing_Config = {
 				["name"] = "Trinkets",
 				["save"] = true,
 			},
-			["OPieFlagStore"] = {
-				["StoreVersion"] = 2,
-			},
 			["CommonTrades"] = {
 				{
 					"macro", -- [1]
@@ -155,16 +153,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgAparQ",
 				}, -- [3]
 				{
-					["id"] = 8052,
 					["sliceToken"] = "ABuehgAparm",
+					["id"] = 8052,
 				}, -- [4]
 				{
-					["id"] = 8045,
 					["sliceToken"] = "ABuehgAparn",
+					["id"] = 8045,
 				}, -- [5]
 				{
-					["id"] = 8056,
 					["sliceToken"] = "ABuehgApar6",
+					["id"] = 8056,
 				}, -- [6]
 				{
 					["caption"] = "Big Heal to Someone",
@@ -179,6 +177,27 @@ OneRing_Config = {
 				["name"] = "Trade Skills",
 				["save"] = true,
 				["hotkey"] = "ALT-T",
+			},
+			["Buffs"] = {
+				{
+					"macro", -- [1]
+					"GW", -- [2]
+					["sliceToken"] = "ABuehklJ9dy",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuehklJ9dt",
+					["id"] = 325,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuehklJ9d1",
+					["id"] = 8027,
+				}, -- [3]
+				["limit"] = "Odràlaga-Grobbulus",
+				["save"] = true,
+				["name"] = "Buffs",
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
 			},
 			["asdf"] = {
 				["save"] = true,

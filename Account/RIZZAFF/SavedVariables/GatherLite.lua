@@ -1822,10 +1822,6 @@ GatherLiteGlobalSettings = {
 						["name"] = "Blood Shard",
 						["count"] = 2,
 					},
-					["|cff1eff00|Hitem:1206::::::::14:::::::|h[Moss Agate]|h|r"] = {
-						["name"] = "Moss Agate",
-						["count"] = 1,
-					},
 					["|cffffffff|Hitem:2836::::::::14:::::::|h[Coarse Stone]|h|r"] = {
 						["name"] = "Coarse Stone",
 						["count"] = 4,
@@ -1833,6 +1829,10 @@ GatherLiteGlobalSettings = {
 					["|cffffffff|Hitem:2771::::::::14:::::::|h[Tin Ore]|h|r"] = {
 						["name"] = "Tin Ore",
 						["count"] = 3,
+					},
+					["|cff1eff00|Hitem:1206::::::::14:::::::|h[Moss Agate]|h|r"] = {
+						["name"] = "Moss Agate",
+						["count"] = 1,
 					},
 				},
 				["icon"] = 134579,
@@ -2816,6 +2816,44 @@ GatherLiteGlobalSettings = {
 				["icon"] = 134579,
 				["spellID"] = 2576,
 			}, -- [87]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "mining",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 33,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 8,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Tin Vein",
+				["position"] = {
+					["y"] = 0.419030029317871,
+					["mapID"] = 1442,
+					["x"] = 0.541788394312456,
+				},
+				["target"] = "tin vein",
+				["loot"] = {
+					["|cffffffff|Hitem:2771::::::::22:::::::|h[Tin Ore]|h|r"] = {
+						["name"] = "Tin Ore",
+						["count"] = 3,
+					},
+					["|cffffffff|Hitem:2836::::::::22:::::::|h[Coarse Stone]|h|r"] = {
+						["name"] = "Coarse Stone",
+						["count"] = 4,
+					},
+					["|cff1eff00|Hitem:1210::::::::22:::::::|h[Shadowgem]|h|r"] = {
+						["name"] = "Shadowgem",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 134579,
+				["spellID"] = 2576,
+			}, -- [88]
 		},
 		["treasure"] = {
 			{
@@ -5814,6 +5852,196 @@ GatherLiteGlobalSettings = {
 				["icon"] = 132594,
 				["spellID"] = 6477,
 			}, -- [100]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 10,
+					["min"] = 23,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 26,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.464450385710352,
+					["mapID"] = 1442,
+					["x"] = 0.490225254732214,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 2,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [101]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 28,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 27,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.435306422092912,
+					["mapID"] = 1442,
+					["x"] = 0.457604095463321,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 4,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [102]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 29,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 56,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.445379374503612,
+					["mapID"] = 1442,
+					["x"] = 0.480682597218072,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 4,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [103]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 33,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 57,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.42735251674608,
+					["mapID"] = 1442,
+					["x"] = 0.540006834271296,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 2,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [104]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 12,
+					["min"] = 39,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 3,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.404596247045664,
+					["mapID"] = 1442,
+					["x"] = 0.507078495255443,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 3,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [105]
 		},
 	},
 }

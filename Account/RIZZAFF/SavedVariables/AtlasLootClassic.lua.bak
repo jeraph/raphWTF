@@ -3,12 +3,12 @@ AtlasLootClassicDB = {
 	["profileKeys"] = {
 		["Lettuçelock - Kurinnaxx"] = "Lettuçelock - Kurinnaxx",
 		["Meistar - Grobbulus"] = "Meistar - Grobbulus",
-		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
+		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
 		["Odràlaga - Grobbulus"] = "Odràlaga - Grobbulus",
 		["Raph - Kurinnaxx"] = "Raph - Kurinnaxx",
 		["Notraph - Kurinnaxx"] = "Notraph - Kurinnaxx",
 		["Lettuçerock - Grobbulus"] = "Lettuçerock - Grobbulus",
-		["Lettucefarm - Grobbulus"] = "Lettucefarm - Grobbulus",
+		["Lettuçestock - Grobbulus"] = "Lettuçestock - Grobbulus",
 	},
 	["global"] = {
 		["__addonrevision"] = 99999999,
@@ -27,19 +27,7 @@ AtlasLootClassicDB = {
 		},
 		["Meistar - Grobbulus"] = {
 		},
-		["Lettuçestock - Grobbulus"] = {
-			["minimap"] = {
-				["minimapPos"] = 183.652226495687,
-			},
-			["GUI"] = {
-				["selected"] = {
-					nil, -- [1]
-					"Ragefire", -- [2]
-					nil, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
+		["Lettucefarm - Grobbulus"] = {
 		},
 		["Odràlaga - Grobbulus"] = {
 			["minimap"] = {
@@ -80,7 +68,19 @@ AtlasLootClassicDB = {
 				["minimapPos"] = 210.480219753921,
 			},
 		},
-		["Lettucefarm - Grobbulus"] = {
+		["Lettuçestock - Grobbulus"] = {
+			["minimap"] = {
+				["minimapPos"] = 183.652226495687,
+			},
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"Ragefire", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 	},
 }

@@ -334,18 +334,61 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 560.001647949219,
+	["configator.left"] = 560.001953125,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 	["columnsortcurSort"] = 1,
-	["columnsortcurDir"] = 1,
+	["Kurinnaxx"] = {
+		["Notraph"] = {
+			["tasks.sortArray"] = 1571470703,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1571470703,
+			["wealth"] = 8624,
+			["tasks.prunePostedDB"] = 1571470703,
+			["mailbox"] = {
+				{
+					["subject"] = "Outbid on Greater Magic Essence (7)",
+					["read"] = 1,
+					["time"] = 29.6635646820068,
+					["sender"] = "Alliance Auction House",
+				}, -- [1]
+			},
+		},
+		["Raph"] = {
+			["tasks.sortArray"] = 1571396039,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1571396039,
+			["wealth"] = 12916,
+			["tasks.prunePostedDB"] = 1570014415,
+			["mailbox"] = {
+				{
+					["subject"] = "Auction won: Wool Cloth (20)",
+					["read"] = 1,
+					["time"] = 29.6838188171387,
+					["sender"] = "Alliance Auction House",
+				}, -- [1]
+			},
+		},
+		["Lettuçelock"] = {
+			["tasks.sortArray"] = 1571669425,
+			["version"] = 3.04,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1571669425,
+			["wealth"] = 13959,
+			["tasks.prunePostedDB"] = 1570100364,
+			["mailbox"] = {
+			},
+		},
+	},
 	["Grobbulus"] = {
 		["Lettuçerock"] = {
-			["tasks.sortArray"] = 1568494040,
+			["tasks.sortArray"] = 1571361830,
 			["version"] = 3.04,
 			["faction"] = "Horde",
-			["tasks.compactDB"] = 1568494040,
+			["tasks.compactDB"] = 1571361830,
 			["wealth"] = 23867,
-			["tasks.prunePostedDB"] = 1569946153,
+			["tasks.prunePostedDB"] = 1571361830,
 			["mailbox"] = {
 			},
 		},
@@ -360,20 +403,20 @@ BeanCounterDBSettings = {
 			},
 		},
 		["Lettucefarm"] = {
-			["tasks.sortArray"] = 1568446964,
+			["tasks.sortArray"] = 1571441371,
 			["version"] = 3.04,
 			["faction"] = "Horde",
-			["tasks.compactDB"] = 1568446964,
+			["tasks.compactDB"] = 1571441371,
 			["wealth"] = 194,
-			["tasks.prunePostedDB"] = 1569867395,
+			["tasks.prunePostedDB"] = 1571441371,
 			["mailbox"] = {
 			},
 		},
 		["Lettuçestock"] = {
-			["tasks.sortArray"] = 1568535192,
+			["tasks.sortArray"] = 1571664868,
 			["version"] = 3.04,
 			["faction"] = "Horde",
-			["tasks.compactDB"] = 1568535192,
+			["tasks.compactDB"] = 1571664868,
 			["wealth"] = 28459,
 			["tasks.prunePostedDB"] = 1570105454,
 			["mailbox"] = {
@@ -388,59 +431,16 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1570401420,
 			["mailbox"] = {
 				{
-					["read"] = 2,
 					["sender"] = "Horde Auction House",
-					["time"] = 29.9979972839356,
+					["read"] = 2,
 					["subject"] = "Auction won: Dwarven Hatchet of Power",
+					["time"] = 29.9979972839356,
 				}, -- [1]
 			},
 		},
 	},
-	["Kurinnaxx"] = {
-		["Notraph"] = {
-			["tasks.sortArray"] = 1568372133,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568372133,
-			["wealth"] = 8624,
-			["tasks.prunePostedDB"] = 1569814063,
-			["mailbox"] = {
-				{
-					["time"] = 29.6635646820068,
-					["sender"] = "Alliance Auction House",
-					["subject"] = "Outbid on Greater Magic Essence (7)",
-					["read"] = 1,
-				}, -- [1]
-			},
-		},
-		["Raph"] = {
-			["tasks.sortArray"] = 1568295854,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568295854,
-			["wealth"] = 12916,
-			["tasks.prunePostedDB"] = 1570014415,
-			["mailbox"] = {
-				{
-					["time"] = 29.6838188171387,
-					["sender"] = "Alliance Auction House",
-					["subject"] = "Auction won: Wool Cloth (20)",
-					["read"] = 1,
-				}, -- [1]
-			},
-		},
-		["Lettuçelock"] = {
-			["tasks.sortArray"] = 1568344366,
-			["version"] = 3.04,
-			["faction"] = "Alliance",
-			["tasks.compactDB"] = 1568344366,
-			["wealth"] = 13959,
-			["tasks.prunePostedDB"] = 1570100364,
-			["mailbox"] = {
-			},
-		},
-	},
-	["configator.top"] = 765.001403808594,
+	["columnsortcurDir"] = 1,
+	["configator.top"] = 765.001525878906,
 }
 BeanCounterDBNames = {
 	["10940:"] = "cffffffff;Strange Dust",

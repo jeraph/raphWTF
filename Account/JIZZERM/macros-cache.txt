@@ -1,7 +1,3 @@
-VER 3 0000000000000017 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/castsequence reset=target/6 Seal of the Crusader, Judgement, Seal of Righteousness
-END
 VER 3 0000000000000010 " " "132152"
 #showtooltip Attack
 /petattack
@@ -20,6 +16,10 @@ VER 3 0000000000000008 " " "136081"
 #showtooltip Rejuvenation
 /stopcasting
 /cast Rejuvenation
+END
+VER 3 0000000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=target/6 Seal of the Crusader, Judgement, Seal of Righteousness
 END
 VER 3 000000000000000D " /follow" "132144"
 /target party1

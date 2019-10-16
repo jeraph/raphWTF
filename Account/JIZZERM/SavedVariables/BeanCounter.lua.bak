@@ -30,20 +30,20 @@ BeanCounterDB = {
 	},
 }
 BeanCounterDBSettings = {
-	["configator.left"] = 423.813415527344,
+	["configator.left"] = 423.813781738281,
 	["Grobbulus"] = {
 		["Odrálaga"] = {
 			["tasks.sortArray"] = 1570293185,
 			["version"] = 3.04,
 			["faction"] = "Horde",
 			["tasks.compactDB"] = 1570293185,
-			["wealth"] = 58239,
+			["wealth"] = 54024,
 			["tasks.prunePostedDB"] = 1570293185,
 			["mailbox"] = {
 			},
 		},
 	},
-	["configator.top"] = 661.363647460938,
+	["configator.top"] = 661.364135742188,
 	["util.beancounter.ButtonuseDateCheck"] = false,
 }
 BeanCounterDBNames = {

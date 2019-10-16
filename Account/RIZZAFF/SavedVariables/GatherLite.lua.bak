@@ -1822,10 +1822,6 @@ GatherLiteGlobalSettings = {
 						["name"] = "Blood Shard",
 						["count"] = 2,
 					},
-					["|cffffffff|Hitem:2836::::::::14:::::::|h[Coarse Stone]|h|r"] = {
-						["name"] = "Coarse Stone",
-						["count"] = 4,
-					},
 					["|cffffffff|Hitem:2771::::::::14:::::::|h[Tin Ore]|h|r"] = {
 						["name"] = "Tin Ore",
 						["count"] = 3,
@@ -1833,6 +1829,10 @@ GatherLiteGlobalSettings = {
 					["|cff1eff00|Hitem:1206::::::::14:::::::|h[Moss Agate]|h|r"] = {
 						["name"] = "Moss Agate",
 						["count"] = 1,
+					},
+					["|cffffffff|Hitem:2836::::::::14:::::::|h[Coarse Stone]|h|r"] = {
+						["name"] = "Coarse Stone",
+						["count"] = 4,
 					},
 				},
 				["icon"] = 134579,
@@ -5814,6 +5814,44 @@ GatherLiteGlobalSettings = {
 				["icon"] = 132594,
 				["spellID"] = 6477,
 			}, -- [100]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 10,
+					["min"] = 23,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 26,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "Deepmoss Eggs",
+				["position"] = {
+					["y"] = 0.464450385710352,
+					["mapID"] = 1442,
+					["x"] = 0.490225254732214,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+					["|cffffffff|Hitem:5570::::::::22:::::::|h[Deepmoss Egg]|h|r"] = {
+						["name"] = "Deepmoss Egg",
+						["count"] = 2,
+					},
+					["|cff9d9d9d|Hitem:5602::::::::22:::::::|h[Sticky Spider Webbing]|h|r"] = {
+						["name"] = "Sticky Spider Webbing",
+						["count"] = 1,
+					},
+					["|cff9d9d9d|Hitem:5601::::::::22:::::::|h[Hatched Egg Sac]|h|r"] = {
+						["name"] = "Hatched Egg Sac",
+						["count"] = 1,
+					},
+				},
+				["icon"] = 132594,
+				["spellID"] = 6478,
+			}, -- [101]
 		},
 	},
 }

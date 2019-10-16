@@ -39,6 +39,8 @@ SimpleUnitFramesDB = {
 		},
 		["Gaismunënas - Grobbulus"] = {
 		},
+		["Odrálaga - Grobbulus"] = {
+		},
 		["main"] = {
 			["party"] = {
 				["rhp"] = "HPnone",
@@ -65,11 +67,9 @@ SimpleUnitFramesDB = {
 				["rhp"] = "HPnone",
 			},
 		},
-		["Odrálaga - Grobbulus"] = {
+		["Jemz - Grobbulus"] = {
 		},
 		["Lettuceroçk - Grobbulus"] = {
-		},
-		["Jemz - Grobbulus"] = {
 		},
 		["Iettuce - Kurinnaxx"] = {
 			["player"] = {

@@ -19,6 +19,7 @@ OneRing_Config = {
 				["RaidSymbols"] = "SHIFT-F6",
 				["TrinketSlots"] = "CTRL-F6",
 				["CommonTrades"] = "F6",
+				["Buffs"] = "ALT-F6",
 				["asdf"] = "F6",
 			},
 			["SelectedSliceBind"] = "SHIFT-D",
@@ -58,12 +59,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgkd3dwi",
 				}, -- [6]
 				{
-					["id"] = 6390,
 					["sliceToken"] = "ABuehgkd3dwg",
+					["id"] = 6390,
 				}, -- [7]
 				{
-					["id"] = 8166,
 					["sliceToken"] = "ABuehgGC3xw",
+					["id"] = 8166,
 				}, -- [8]
 				["name"] = "Target Markers",
 				["save"] = true,
@@ -73,62 +74,62 @@ OneRing_Config = {
 				{
 					"macro", -- [1]
 					"cheer", -- [2]
-					["caption"] = "cheer",
 					["sliceToken"] = "ABuehgkd3d=",
+					["caption"] = "cheer",
 				}, -- [1]
 				{
 					"macro", -- [1]
 					"clap", -- [2]
-					["caption"] = "Clap",
 					["sliceToken"] = "ABuehgkd3dL",
+					["caption"] = "Clap",
 				}, -- [2]
 				{
 					"macro", -- [1]
 					"dance", -- [2]
-					["caption"] = "Dance",
 					["sliceToken"] = "ABuehgkd3dK",
+					["caption"] = "Dance",
 				}, -- [3]
 				{
 					"macro", -- [1]
 					"lol", -- [2]
-					["caption"] = "Lol",
 					["sliceToken"] = "ABuehgkd3dJ",
+					["caption"] = "Lol",
 				}, -- [4]
 				{
 					"macro", -- [1]
 					"love", -- [2]
-					["caption"] = "Love",
 					["sliceToken"] = "ABuehgkd3dH",
+					["caption"] = "Love",
 				}, -- [5]
 				{
 					"macro", -- [1]
 					"train", -- [2]
-					["caption"] = "Train",
 					["sliceToken"] = "ABuehgkd3dG",
+					["caption"] = "Train",
 				}, -- [6]
 				{
 					"macro", -- [1]
 					"thanks", -- [2]
-					["caption"] = "Thanks",
 					["sliceToken"] = "ABuehgkd3d0",
+					["caption"] = "Thanks",
 				}, -- [7]
 				{
 					"macro", -- [1]
 					"wait", -- [2]
-					["caption"] = "Wait",
 					["sliceToken"] = "ABuehgkd3dF",
+					["caption"] = "Wait",
 				}, -- [8]
 				{
 					"macro", -- [1]
 					"yes", -- [2]
-					["caption"] = "Yes",
 					["sliceToken"] = "ABuehgkd3dD",
+					["caption"] = "Yes",
 				}, -- [9]
 				{
 					"macro", -- [1]
 					"no", -- [2]
-					["caption"] = "No",
 					["sliceToken"] = "ABuehgkd3dwd",
+					["caption"] = "No",
 				}, -- [10]
 				["name"] = "Trinkets",
 				["save"] = true,
@@ -155,30 +156,48 @@ OneRing_Config = {
 					["sliceToken"] = "ABuehgAparQ",
 				}, -- [3]
 				{
-					["id"] = 8052,
 					["sliceToken"] = "ABuehgAparm",
+					["id"] = 8052,
 				}, -- [4]
 				{
-					["id"] = 8045,
 					["sliceToken"] = "ABuehgAparn",
+					["id"] = 8045,
 				}, -- [5]
 				{
-					["id"] = 8056,
 					["sliceToken"] = "ABuehgApar6",
+					["id"] = 8056,
 				}, -- [6]
 				{
-					["caption"] = "Big Heal to Someone",
 					["sliceToken"] = "ABuehgAparW",
 					["id"] = 913,
+					["caption"] = "Big Heal to Someone",
 				}, -- [7]
 				{
-					["caption"] = "Small Heal to someone",
 					["sliceToken"] = "ABuehgAparE",
 					["id"] = 8004,
+					["caption"] = "Small Heal to someone",
 				}, -- [8]
 				["name"] = "Trade Skills",
 				["save"] = true,
 				["hotkey"] = "ALT-T",
+			},
+			["Buffs"] = {
+				{
+					"macro", -- [1]
+					"GW", -- [2]
+					["sliceToken"] = "ABuehklJ9dy",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuehklJ9dt",
+					["id"] = 325,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuehklJ9d1",
+					["id"] = 8027,
+				}, -- [3]
+				["limit"] = "Odràlaga-Grobbulus",
+				["save"] = true,
+				["name"] = "Buffs",
 			},
 			["asdf"] = {
 				["save"] = true,

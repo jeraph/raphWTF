@@ -464,15 +464,15 @@ GatherLiteGlobalSettings = {
 				},
 				["target"] = "silverleaf",
 				["loot"] = {
-					["|cffffffff|Hitem:765::::::::11:::::::|h[Silverleaf]|h|r"] = {
-						["name"] = "Silverleaf",
-						["count"] = 1,
-					},
 					["|cffffffff|Hitem:765::::::::9:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 3,
 					},
 					["|cffffffff|Hitem:765::::::::13:::::::|h[Silverleaf]|h|r"] = {
+						["name"] = "Silverleaf",
+						["count"] = 1,
+					},
+					["|cffffffff|Hitem:765::::::::11:::::::|h[Silverleaf]|h|r"] = {
 						["name"] = "Silverleaf",
 						["count"] = 1,
 					},
@@ -11576,6 +11576,32 @@ GatherLiteGlobalSettings = {
 				["icon"] = "132594",
 				["spellID"] = 6478,
 			}, -- [90]
+			{
+				["GUID"] = "Player-4647-00C3745B",
+				["type"] = "treasure",
+				["date"] = {
+					["hour"] = 10,
+					["min"] = 23,
+					["wday"] = 4,
+					["day"] = 16,
+					["month"] = 10,
+					["year"] = 2019,
+					["sec"] = 26,
+					["yday"] = 289,
+					["isdst"] = true,
+				},
+				["name"] = "deepmoss eggs",
+				["position"] = {
+					["y"] = 0.46445038571035,
+					["mapID"] = 1442,
+					["x"] = 0.49022525473221,
+				},
+				["target"] = "deepmoss eggs",
+				["loot"] = {
+				},
+				["icon"] = "132594",
+				["spellID"] = 6478,
+			}, -- [91]
 		},
 	},
 }

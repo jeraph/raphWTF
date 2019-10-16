@@ -50,7 +50,7 @@ W: 128
 H: 64
 Frame: WorldMapFrame
 FrameLevel: 1
-Anchor: CENTER
+Anchor: BOTTOM
 X: 0
 Y: 0
 W: 1024

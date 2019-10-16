@@ -23,12 +23,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
-	["Version"] = 1,
-	["Timestamp"] = 1569958941,
 	["KnownServerKeys"] = {
-		["Grobbulus"] = 1570551747,
+		["Grobbulus"] = 1571253905,
 	},
 	["KnownRealms"] = {
 		["Grobbulus"] = "Grobbulus",
 	},
+	["Version"] = 1,
+	["Timestamp"] = 1569958941,
 }

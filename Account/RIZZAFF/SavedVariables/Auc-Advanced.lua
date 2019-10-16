@@ -66,8 +66,8 @@ AucAdvancedData = {
 				},
 			},
 			["columnsortcurDir"] = 1,
-			["enchantmats.PriceAdjust.22446"] = 99,
 			["snatch.columnsortcurDir"] = 1,
+			["enchantmats.PriceAdjust.22446"] = 99,
 			["snatch.columnsortcurSort"] = 1,
 		},
 		["Version"] = 1,
@@ -87,23 +87,23 @@ AucAdvancedData = {
 						["link"] = "|cff1eff00|Hitem:10939::::::::19:::::::|h[Greater Magic Essence]|h|r",
 					},
 				},
-				["resale.allow.bid"] = false,
-				["snatch.columnsortcurDir"] = 1,
 				["columnsortcurDir"] = -1,
+				["snatch.columnsortcurDir"] = 1,
+				["resale.allow.bid"] = false,
 				["resale.profit.min"] = 5101,
 			},
 		},
 	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1568137202,
 	["KnownServerKeys"] = {
 		["Kurinnaxx"] = 1568331100,
-		["Grobbulus"] = 1570771231,
+		["Grobbulus"] = 1571253898,
 	},
 	["KnownRealms"] = {
 		["Kurinnaxx"] = "Kurinnaxx",
 		["Grobbulus"] = "Grobbulus",
 	},
-	["Version"] = 1,
-	["Timestamp"] = 1568137202,
 }
